@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="contact .html changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/WhatsApp Image 2021-11-05 at 09.22.14.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,8 @@
       <workItem from="1637308359935" duration="8731000" />
       <workItem from="1637339761908" duration="7647000" />
       <workItem from="1637389185017" duration="2509000" />
-      <workItem from="1637433428934" duration="2411000" />
+      <workItem from="1637433428934" duration="2554000" />
+      <workItem from="1637582168154" duration="1103000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -104,6 +107,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="contact .html changes" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1637582431704">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1637582431704" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1637038591878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
