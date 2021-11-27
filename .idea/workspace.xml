@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="contact .html changes">
-      <change afterPath="$PROJECT_DIR$/assests/resources/CV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutMe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <workItem from="1637433428934" duration="2554000" />
       <workItem from="1637582168154" duration="5187000" />
       <workItem from="1637893882884" duration="5288000" />
-      <workItem from="1638000443820" duration="2133000" />
+      <workItem from="1638000443820" duration="3048000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
