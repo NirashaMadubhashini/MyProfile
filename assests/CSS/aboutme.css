@@ -1,0 +1,34 @@
+.html{
+    background-color: #000000;
+}
+
+.header-nav-h2{
+    alignment: center;
+    color: #e5e5e5;
+    font-size: 55px;
+    font-family: Roboto;
+}
+.header-nav-h2-span{
+    color: #0085FF;
+}
+
+.section{
+    color: #0085FF;
+}
+.main-section{
+    align-content: center;
+    color: #e5e5e5;
+    font-size: 40px;
+    font-family: Roboto;
+}
+.main-section-span{
+    font-size: 42px;
+    font-family: Roboto;
+}
+.main-p{
+    align-content: center;
+    color: #e5e5e5;
+    background-color: #0085FF;
+    font-size: 36px;
+    font-family: Roboto;
+}
