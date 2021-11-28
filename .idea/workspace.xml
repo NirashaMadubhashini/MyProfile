@@ -12,16 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="contact .html changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/aboutme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assests/CSS/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/skills.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <workItem from="1637582168154" duration="5187000" />
       <workItem from="1637893882884" duration="5288000" />
       <workItem from="1638000443820" duration="16419000" />
-      <workItem from="1638116348118" duration="4314000" />
+      <workItem from="1638116348118" duration="4947000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>

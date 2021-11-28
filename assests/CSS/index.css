@@ -1,6 +1,9 @@
 .html{
     background-color: #000000;
 }
+.title{
+    color: #e5e5e5;
+}
 .header-nav-h4{
     color: #e5e5e5;
     font-size: 24px;
@@ -15,5 +18,10 @@
 .main-p{
     color: #e5e5e5;
     font-size: 50px;
+    font-family: Roboto;
+}
+.main-p-span{
+    color: #0085FF;
+font-size: 50px;
     font-family: Roboto;
 }
