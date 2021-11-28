@@ -1,4 +1,9 @@
-
+.html{
+    background-color: #000000;
+}
+.title{
+    color: #e5e5e5;
+}
 .header-nav-h2 {
     align-content: center;
     display: contents;
