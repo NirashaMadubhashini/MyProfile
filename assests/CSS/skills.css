@@ -11,6 +11,7 @@
     font-family: Roboto;
 
 }
+
 .main-section-h2-span{
     color: #0085FF;
 }
@@ -18,6 +19,9 @@
     font-size: 32px;
     color: #e5e5e5;
     font-family: Roboto;
+}
+dd:hover{
+    color: dodgerblue;
 }
 .footer{
 

@@ -15,10 +15,16 @@
 .header-nav-h4-u-span{
     color: #e5e5e5;
 }
+span:hover{
+    color: #0085FF;
+}
 .main-p{
     color: #e5e5e5;
     font-size: 50px;
     font-family: Roboto;
+}
+p:hover{
+color: #0085FF;
 }
 .main-p-span{
     color: #0085FF;

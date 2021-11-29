@@ -34,3 +34,6 @@
     font-size: 36px;
     font-family: Roboto;
 }
+a:hover{
+    color: darkblue;
+}

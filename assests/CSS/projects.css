@@ -19,6 +19,9 @@
     font-size: 36px;
     font-family: Roboto;
 }
+span:hover{
+    color: #0085FF;
+}
 .main-section-h4-span{
     color: #0085FF;
 }

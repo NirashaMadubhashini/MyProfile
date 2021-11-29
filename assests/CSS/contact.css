@@ -32,6 +32,9 @@
 
 }
 
+figcaption:hover{
+    color: #0085FF;
+}
 
 .footer {
     padding: 10px 20px 150px 80px;
