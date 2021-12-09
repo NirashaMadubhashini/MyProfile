@@ -12,12 +12,15 @@
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="contact .html changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/aboutme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +55,14 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkArea\MyProfile\assests" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile" />
       <recent name="D:\WorkArea\MyProfile\assests\resources" />
       <recent name="D:\WorkArea\MyProfile\assests\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\pages" />
+      <recent name="D:\WorkArea\MyProfile\assests" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -90,7 +94,13 @@
       <workItem from="1638000443820" duration="16419000" />
       <workItem from="1638116348118" duration="6262000" />
       <workItem from="1638152641751" duration="6969000" />
-      <workItem from="1638254751691" duration="1734000" />
+      <workItem from="1638254751691" duration="2807000" />
+      <workItem from="1638433694192" duration="1326000" />
+      <workItem from="1638523103144" duration="798000" />
+      <workItem from="1638602224615" duration="664000" />
+      <workItem from="1638688033579" duration="1359000" />
+      <workItem from="1638862289154" duration="3914000" />
+      <workItem from="1639074839408" duration="2231000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>

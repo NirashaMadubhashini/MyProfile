@@ -7,6 +7,7 @@
 .header-nav-h4{
     color: #e5e5e5;
     font-size: 24px;
+    margin-left: 650px;
 }
 .header-nav-h4-u{
     color: #0085FF ;
@@ -14,6 +15,7 @@
 }
 .header-nav-h4-u-span{
     color: #e5e5e5;
+    margin-left: 45px;
 }
 span:hover{
     color: #0085FF;
