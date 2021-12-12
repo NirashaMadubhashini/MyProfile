@@ -5,7 +5,9 @@
     color: #e5e5e5;
 }
 .main-section-h2{
-    margin-left: 700px;
+    width: 300px;
+    position: relative;
+    left: 700px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
@@ -16,7 +18,9 @@
     color: #0085FF;
 }
 .main-section-dl{
-    margin-left: 400px;
+    width: 300px;
+    position: relative;
+    left: 400px;
     font-size: 32px;
     color: #e5e5e5;
     font-family: Roboto;

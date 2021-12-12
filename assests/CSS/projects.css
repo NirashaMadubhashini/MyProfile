@@ -5,7 +5,9 @@
     color:#e5e5e5;
 }
 .header-nav-h2{
-    margin-left: 650px;
+    width: 300px;
+    position: relative;
+    left: 650px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
@@ -28,4 +30,17 @@ span:hover{
 }
 .main-section-h4-span{
     color: #0085FF;
+}
+.img1{
+    position: relative;
+    left: 90px;
+}
+.img2{
+    position: relative;
+
+
+}
+.img3{
+    position: relative;
+
 }

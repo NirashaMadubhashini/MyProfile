@@ -9,15 +9,22 @@
     display: contents;
     font-size: 55px;
     color: white;
-    margin-left: 580px;
+    width: 300px;
+    position: relative;
+    left: 580px;
 }
 .header-nav-h2-span{
     color: #0085FF;
 }
 .main-section-figure1{
-    margin-top: 100px;
+    position: relative;
+    top: 135px;
+    left: 58px;
 }
 .main-section{
+    position: relative;
+    top: 160px;
+    left: 50px;
     color: #e5e5e5;
     font-size: 30px;
 }
@@ -25,19 +32,25 @@
     margin-left: 650px;
 }
 .main-section-figure {
-    margin-left: 500px;
+    position: relative;
+    left: 500px;
+    top: 10px;
     color: #e5e5e5;
     font-size: 30px;
 
 
 }
 .main-section-figure3{
-   margin-left: 1150px;
+    position: relative;
+    bottom: 135px;
+    left: 1150px;
 }
 .main-section-figure-figcaption{
     color: #e5e5e5;
     font-size: 30px;
-    margin-left: 1150px;
+    position: relative;
+    bottom: 130px;
+    left: 1150px;
 }
 
 figcaption:hover{

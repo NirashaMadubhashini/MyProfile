@@ -5,7 +5,9 @@
     color: #e5e5e5;
 }
 .header-nav-h2{
-    margin-left: 650px;
+    width: 300px;
+    position: relative;
+    left: 650px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
@@ -16,12 +18,18 @@
 }
 
 .section{
-    margin: 100px;
+    width: 300px;
+    position: relative;
+    left: 200px;
+    top: 10px;
     color: #0085FF;
 
 }
 .main-section{
-    align-content: center;
+    width: 300px;
+    position: relative;
+    bottom: 450px;
+    left: 80px;
     color: #e5e5e5;
     font-size: 40px;
     font-family: Roboto;
@@ -31,7 +39,10 @@
     font-family: Roboto;
 }
 .main-p{
-    align-content: center;
+    width: 300px;
+    position: relative;
+    bottom: 550px;
+    left: 200px;
     color: #e5e5e5;
     background-color: #0085FF;
     font-size: 36px;

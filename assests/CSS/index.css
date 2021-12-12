@@ -21,6 +21,10 @@ span:hover{
     color: #0085FF;
 }
 .main-p{
+
+    position: relative;
+    bottom: 650px;
+    left: 400px;
     color: #e5e5e5;
     font-size: 50px;
     font-family: Roboto;
@@ -32,4 +36,12 @@ color: #0085FF;
     color: #0085FF;
 font-size: 50px;
     font-family: Roboto;
+}
+.span{
+    position: relative;
+    right: 100px;
+}
+.span1{
+    position: relative;
+    right: 160px;
 }

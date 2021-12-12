@@ -5,7 +5,9 @@
     color: #e5e5e5;
 }
 .header-nav-h2{
-    margin-left: 650px;
+    width: 300px;
+    position: relative;
+    left: 650px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
@@ -23,4 +25,29 @@ color: #e5e5e5;
     color: #e5e5e5;
     font-size: 36px;
     font-family: Roboto;
+}
+.figure1{
+    position: relative;
+    top: 450px;
+left: 50px;
+}
+.figure2{
+    position: relative;
+    bottom: 200px;
+    right: 100px;
+}
+.figure3{
+   position: relative;
+    bottom: 850px;
+    right: 200px;
+}
+.figure4{
+    position: relative;
+    bottom: 1250px;
+    left: 1300px;
+}
+.figure5{
+    position: relative;
+    bottom: 1255px;
+    left: 1335px;
 }
