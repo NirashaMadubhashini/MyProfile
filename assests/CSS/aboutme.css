@@ -1,8 +1,9 @@
-.html{
-    background-color: #000000;
-}
+
 .title{
     color: #e5e5e5;
+}
+.body{
+    background-color: #000000;
 }
 .header-nav-h2{
     width: 300px;
@@ -23,6 +24,10 @@
     left: 200px;
     top: 10px;
     color: #0085FF;
+    border-top:6px solid#0085FF;
+    border-right: 6px solid#0085FF;
+    border-bottom: 6px solid#0085FF;
+    border-left: 6px solid#0085FF;
 
 }
 .main-section{

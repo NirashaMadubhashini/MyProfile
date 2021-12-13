@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="contact .html changes">
+      <change afterPath="$PROJECT_DIR$/myprojects/CSS/01.Assignment/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assests/CSS/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/aboutme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assests/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/contact.css" afterDir="false" />
@@ -20,8 +21,10 @@
       <change beforePath="$PROJECT_DIR$/assests/CSS/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS/skills.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/education.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Assignment-01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/01.Assignment" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -101,7 +104,7 @@
       <workItem from="1638602224615" duration="664000" />
       <workItem from="1638688033579" duration="1359000" />
       <workItem from="1638862289154" duration="3914000" />
-      <workItem from="1639074839408" duration="10757000" />
+      <workItem from="1639074839408" duration="18874000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -133,10 +136,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="contact .html changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1637582431704">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639370289667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1637582431704" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1639370289667" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1639307975845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,8 +1,9 @@
-.html{
-    background-color: #000000;
-}
+
 .title{
     color: #e5e5e5;
+}
+.body{
+    background-color: #000000;
 }
 .header-nav-h4{
     color: #e5e5e5;

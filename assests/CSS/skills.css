@@ -1,8 +1,9 @@
-.html{
-    background-color: #000000;
-}
+
 .title{
     color: #e5e5e5;
+}
+.body{
+    background-color: #000000;
 }
 .main-section-h2{
     width: 300px;
@@ -31,7 +32,7 @@ dd:hover{
 .footer{
 
     background-color: #201B1B;
-    padding: 10px 20px 150px 80px;
+    padding: 30px 10px 100px 60px;
 }
 .footer-h2{
     alignment: center;
