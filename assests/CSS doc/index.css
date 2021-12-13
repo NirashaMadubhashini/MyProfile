@@ -19,10 +19,10 @@
     margin-left: 45px;
 }
 span:hover{
+    cursor: pointer;
     color: #0085FF;
 }
 .main-p{
-
     position: relative;
     bottom: 650px;
     left: 400px;
@@ -31,11 +31,12 @@ span:hover{
     font-family: Roboto;
 }
 p:hover{
-color: #0085FF;
+    cursor: pointer;
+    color: #0085FF;
 }
 .main-p-span{
     color: #0085FF;
-font-size: 50px;
+    font-size: 50px;
     font-family: Roboto;
 }
 .span{

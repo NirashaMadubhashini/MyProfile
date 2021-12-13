@@ -27,6 +27,7 @@
     font-family: Roboto;
 }
 span:hover{
+    cursor: pointer;
     color: #0085FF;
 }
 .main-section-h4-span{

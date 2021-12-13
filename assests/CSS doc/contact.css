@@ -55,6 +55,7 @@
 }
 
 figcaption:hover{
+    cursor: pointer;
     color: #0085FF;
 }
 

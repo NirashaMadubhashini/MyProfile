@@ -27,7 +27,8 @@
     font-family: Roboto;
 }
 dd:hover{
-    color: dodgerblue;
+    cursor: pointer;
+    color: #0085FF;
 }
 .footer{
 

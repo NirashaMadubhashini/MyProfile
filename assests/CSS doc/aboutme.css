@@ -54,5 +54,6 @@
     font-family: Roboto;
 }
 a:hover{
+    cursor: pointer;
     color: darkblue;
 }
