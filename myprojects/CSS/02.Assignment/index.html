@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Simple Web Layout - Case 2</title>
@@ -12,18 +13,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <style>
-        header{
+        header {
             position: relative;
             height: 80px;
             box-shadow: -2px 6px 9px -4px #917a7a;
         }
 
-        header>img{
+        header > img {
             width: 213px;
             margin: 21px;
         }
 
-        header>ul{
+        header > ul {
             position: absolute;
             right: 30px;
             bottom: 0;
@@ -32,15 +33,52 @@
             list-style: none;
             color: #4a3a3a;
         }
-        header>ul>li{
+
+        header > ul > li {
             padding: 0 10px 0 10px;
             display: inline-block;
         }
-        header>ul>li:hover{
+
+        header > ul > li:hover {
             cursor: pointer;
             color: red;
         }
 
+        section > div {
+            top: 80px;
+            background:#4C0182;
+            left: 0;
+            bottom: 40px;
+            width: 250px;
+            height: 950px;
+        }
+
+        section > div > li {
+            list-style: none;
+            color: white;
+            position: relative;
+            left: 30px;
+            top: 30px;
+        }
+        section>img{
+            position: relative;
+            left: 260px;
+            bottom: 2845px;
+        }
+        section>p{
+            position: relative;
+            left: 260px;
+            bottom: 2850px;
+        }
+        footer>p{
+            text-align: center;
+            color: white;
+            background-color: #808080;
+            width: 1750px;
+            height: 30px;
+            position: relative;
+            bottom: 2840px;
+        }
     </style>
 </head>
 <body>
@@ -58,19 +96,27 @@
 
 <main>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>Service</li>
-            <li>Contacts</li>
-            <li>About Us</li>
-        </ul>
+        <!--        <ul>-->
+        <!--            <li>Home</li>-->
+        <!--            <li>Service</li>-->
+        <!--            <li>Contacts</li>-->
+        <!--            <li>About Us</li>-->
+        <!--        </ul>-->
     </nav>
     <section>
         <section>
-            <div></div>
+            <div>
+                <li>Home</li>
+                <li>Service</li>
+                <li>Contacts</li>
+                <li>About Us</li>
+            </div>
             <div></div>
             <div></div>
         </section>
+        <img class="Blog-1-768x432.jpg" src="assests/images/Blog-1-768x432.jpg" alt="" width="380">
+        <img class="1-11-768x432.jpg" src="assests/images/1-11-768x432.jpg" alt="" width="380">
+        <img class="Blog-768x432.jpg" src="assests/images/Blog-768x432.jpg" alt="" width="380">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci cumque debitis dignissimos dolorem
             dolores esse et in magni minus molestiae necessitatibus recusandae, sapiente tempora ullam! Cumque
             exercitationem necessitatibus quas.</p>
