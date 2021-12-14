@@ -12,18 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="contact .html changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/aboutme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/education.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS doc/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assests/CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/01.Assignment/assets/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -63,11 +53,11 @@
       <recent name="D:\WorkArea\MyProfile\assests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\01.Assignment\assets\css" />
       <recent name="D:\WorkArea\MyProfile\assests\CSS" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\01.Assignment" />
       <recent name="D:\WorkArea\MyProfile" />
       <recent name="D:\WorkArea\MyProfile\assests\resources" />
-      <recent name="D:\WorkArea\MyProfile\assests\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -105,7 +95,7 @@
       <workItem from="1638602224615" duration="664000" />
       <workItem from="1638688033579" duration="1359000" />
       <workItem from="1638862289154" duration="3914000" />
-      <workItem from="1639074839408" duration="25922000" />
+      <workItem from="1639074839408" duration="32695000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
