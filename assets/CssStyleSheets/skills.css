@@ -26,6 +26,9 @@
     color: #e5e5e5;
     font-family: Roboto;
 }
+.main-section-dl-dd{
+    padding-bottom: 35px;
+}
 dd:hover{
     cursor: pointer;
     color: #0085FF;

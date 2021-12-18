@@ -12,11 +12,49 @@
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="contact .html changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS doc/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/assignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/CSS doc/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/CSS doc/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS doc/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS doc/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS doc/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS doc/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS doc/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS doc/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS doc/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/CSS/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CSS/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 11.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 12.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 13(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 13(1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 13(2).png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 13(2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 14.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 18.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 19.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 20.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 21.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 22.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 23.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 24.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 25.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 26.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/images/img 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/img 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/resources/CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/resources/CV.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/02.Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/02.Assignment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutMe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assignment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +85,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/02.Assignment/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/02.Assignment/assests/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css\fonts" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\css" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\images" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\01.Assignment\assets\css" />
-      <recent name="D:\WorkArea\MyProfile\assests\CSS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
@@ -106,7 +144,7 @@
       <workItem from="1639479783474" duration="2449000" />
       <workItem from="1639565509647" duration="898000" />
       <workItem from="1639711330960" duration="6926000" />
-      <workItem from="1639816709725" duration="1913000" />
+      <workItem from="1639816709725" duration="5044000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>

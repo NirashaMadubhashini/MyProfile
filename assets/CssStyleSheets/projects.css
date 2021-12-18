@@ -7,8 +7,7 @@
 }
 .header-nav-h2{
     width: 300px;
-    position: relative;
-    left: 650px;
+    padding-left: 680px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
@@ -21,7 +20,7 @@
 
 }
 .main-section-h4{
-    margin-left: 150px;
+    padding-left: 200px;
     color: #e5e5e5;
     font-size: 36px;
     font-family: Roboto;
@@ -33,16 +32,6 @@ span:hover{
 .main-section-h4-span{
     color: #0085FF;
 }
-.img1{
-    position: relative;
-    left: 90px;
-}
-.img2{
-    position: relative;
-
-
-}
-.img3{
-    position: relative;
-
+.span-image{
+    padding-left: 325px;
 }

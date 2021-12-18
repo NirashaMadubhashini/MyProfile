@@ -11,7 +11,7 @@
     text-decoration: none;
     color: #e5e5e5;
     font-size: 24px;
-    margin-left: 500px;
+    padding-left: 500px;
 }
 .header-nav-h4-u{
     color: #0085FF ;
@@ -20,7 +20,7 @@
 .header-nav-h4-u-span{
     text-decoration: none;
     color: #e5e5e5;
-    margin-left: 45px;
+    padding-left: 45px;
 }
 a:hover{
     cursor: pointer;
@@ -28,8 +28,8 @@ a:hover{
 }
 .main-p{
     position: relative;
-    bottom: 650px;
-    left: 400px;
+    bottom: 600px;
+    padding-left: 850px;
     color: #e5e5e5;
     font-size: 50px;
     font-family: Roboto;
@@ -44,10 +44,8 @@ p:hover{
     font-family: Roboto;
 }
 .span{
-    position: relative;
-    right: 100px;
+    padding-right: 200px;
 }
 .span1{
-    position: relative;
-    right: 160px;
+   padding-right: 320px;
 }
