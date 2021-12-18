@@ -42,6 +42,10 @@ position: absolute;
 }
 
 .main-section-h4{
+    position: relative;
+    left: 10px;
+    top: 110px;
+    text-decoration: none;
     margin-left: 90px;
     margin-top: 110px;
     color:  #000000;
@@ -49,7 +53,7 @@ position: absolute;
     font-family: Roboto;
 }
 
-h4:hover{
+a:hover{
     cursor: pointer;
     color: #0085FF;
 }
@@ -65,7 +69,7 @@ h4:hover{
 .span1{
     position: relative;
     left: 430px;
-    bottom: 95px;
+    top: 70px;
     color: #C4C4C4;
     font-style:normal;
     font-size: 36px;

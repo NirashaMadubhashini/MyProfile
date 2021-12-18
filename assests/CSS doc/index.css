@@ -8,6 +8,7 @@
     background-color: #000000;
 }
 .header-nav-h4{
+    text-decoration: none;
     color: #e5e5e5;
     font-size: 24px;
     margin-left: 500px;
@@ -17,10 +18,11 @@
     font-family: Roboto;
 }
 .header-nav-h4-u-span{
+    text-decoration: none;
     color: #e5e5e5;
     margin-left: 45px;
 }
-span:hover{
+a:hover{
     cursor: pointer;
     color: #0085FF;
 }
