@@ -1,54 +1,64 @@
 
-.title{
+.title {
     color: #e5e5e5;
 }
-.body{
+
+.body {
     background-color: #000000;
 }
-.header-nav-h2{
-    width: 300px;
-    position: relative;
+
+.header-nav-h2 {
+    /*width: 300px;*/
+    position: absolute;
+    top: 1px;
     left: 650px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
 }
-.header-nav-h2-span{
+
+.header-nav-h2-span {
     color: #0085FF;
 }
 
-.main-section-figure{
-color: #e5e5e5;
+.main-section-figure {
+    color: #e5e5e5;
     font-size: 30px;
     font-family: Roboto;
 }
-.main-section-figure-figcaption{
+
+.main-section-figure-figcaption {
     color: #e5e5e5;
     font-size: 36px;
     font-family: Roboto;
 }
-.figure1{
-    position: relative;
-    top: 450px;
-left: 50px;
+
+.figure1 {
+    position:absolute;
+    padding-top: 550px;
+    left: 50px;
 }
-.figure2{
-    position: relative;
+
+.figure2 {
+    position: absolute;
+    top: 250px;
+    right: 650px;
+}
+
+.figure3 {
+    position: absolute;
     bottom: 200px;
-    right: 100px;
-}
-.figure3{
-   position: relative;
-    bottom: 850px;
     right: 200px;
 }
-.figure4{
-    position: relative;
-    bottom: 1250px;
+
+.figure4 {
+    position:absolute;
+    bottom: 500px;
     left: 1300px;
 }
-.figure5{
-    position: relative;
-    bottom: 1255px;
+
+.figure5 {
+    position:absolute;
+    bottom: 400px;
     left: 1335px;
 }

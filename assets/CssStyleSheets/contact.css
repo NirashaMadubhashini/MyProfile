@@ -10,48 +10,49 @@
     display: contents;
     font-size: 55px;
     color: white;
-    width: 300px;
-    position: relative;
+    position: absolute;
     left: 580px;
 }
 .header-nav-h2-span{
     color: #0085FF;
 }
 .main-section-figure1{
-    position: relative;
+    position: absolute;
     top: 135px;
     left: 58px;
 }
 .main-section{
-    position: relative;
-    top: 160px;
+    position:absolute;
+    top: 250px;
     left: 50px;
     color: #e5e5e5;
     font-size: 30px;
 }
 .main-section-figure2{
     margin-left: 650px;
+    margin-top: 65px;
 }
 .main-section-figure {
-    position: relative;
-    left: 500px;
-    top: 10px;
+    position: absolute;
+    left: 550px;
+    top: 250px;
     color: #e5e5e5;
     font-size: 30px;
 
 
 }
 .main-section-figure3{
-    position: relative;
-    bottom: 135px;
-    left: 1150px;
+    position: absolute;
+    bottom: 470px;
+    left: 1230px;
 }
 .main-section-figure-figcaption{
+    width: 250px;
+    position:relative;
     color: #e5e5e5;
     font-size: 30px;
-    position: relative;
-    bottom: 130px;
-    left: 1150px;
+    bottom: 10px;
+    left: 1200px;
 }
 
 figcaption:hover{
@@ -72,6 +73,32 @@ figcaption:hover{
 
 .footer-h3-span{
     color: #0085FF;
+}
+.footer-image1{
+    position: absolute;
+    right:1250px;
+}
+.footer-image2{
+    position:absolute;
+    right:1050px;
+}
+.footer-image3{
+    position:absolute;
+    right:850px;
+}
+.footer-image4{
+    position:absolute;
+    right:650px;
+}
+
+.footer-image5{
+    position:absolute;
+    right: 450px;
+}
+
+.footer-image6{
+    position:absolute;
+    right:250px;
 }
 
 

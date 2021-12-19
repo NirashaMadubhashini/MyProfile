@@ -47,3 +47,33 @@ dd:hover{
 .footer-h2-span{
     color: #0085FF;
 }
+.footer-image1{
+   position: relative;
+    right:325px;
+}
+.footer-image2{
+    position: relative;
+    right:225px;
+}
+.footer-image3{
+    position: relative;
+    right:125px;
+}
+.footer-image4{
+    position: relative;
+    right:25px;
+}
+
+.footer-image5{
+    position: relative;
+    left:100px;
+}
+
+.footer-image6{
+    position: relative;
+    left:200px;
+}
+.footer-image7{
+    position: relative;
+    left:300px;
+}

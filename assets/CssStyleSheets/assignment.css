@@ -22,31 +22,38 @@
 .section1{
     position: absolute;
     background: #C4C4C4;
-    width: 400px;
+    width: 300px;
     height: 300px;
-    left:100px;
+    left:50px;
 }
 .section2{
-position: absolute;
+    position: absolute;
     background: #C4C4C4;
-    width: 400px;
+    width: 300px;
     height: 300px;
-    right:560px;
+    left:425px;
 }
 .section3{
+    position: absolute;
+    background: #C4C4C4;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+}
+.section4{
 position: absolute;
     background: #C4C4C4;
-    width: 400px;
+    width: 300px;
     height: 300px;
-    right:85px;
+    right:55px;
 }
 
 .main-section-h4{
     position: relative;
-    left: 10px;
+    /*left: 10px;*/
     top: 110px;
     text-decoration: none;
-    margin-left: 90px;
+    margin-left: 40px;
     margin-top: 110px;
     color:  #000000;
     font-size: 36px;
@@ -59,7 +66,7 @@ a:hover{
 }
 .span{
     position: relative;
-    left: 30px;
+    left: 15px;
     top: 150px;
     color: #C4C4C4;
     font-style:normal;
@@ -68,7 +75,7 @@ a:hover{
 }
 .span1{
     position: relative;
-    left: 430px;
+    left: 325px;
     top: 70px;
     color: #C4C4C4;
     font-style:normal;

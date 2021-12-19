@@ -3,7 +3,6 @@
     color: #e5e5e5;
 }
 .body{
-    width: 100vw;
     height: 100vh;
     background-color: #000000;
 }
@@ -27,8 +26,8 @@ a:hover{
     color: #0085FF;
 }
 .main-p{
-    position: relative;
-    bottom: 600px;
+    position:absolute;
+    bottom: 180px;
     padding-left: 850px;
     color: #e5e5e5;
     font-size: 50px;
