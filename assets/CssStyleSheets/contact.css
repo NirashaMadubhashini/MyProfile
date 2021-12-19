@@ -19,12 +19,12 @@
 .main-section-figure1{
     position: absolute;
     top: 135px;
-    left: 58px;
+    left: 120px;
 }
 .main-section{
     position:absolute;
     top: 250px;
-    left: 50px;
+    left: 100px;
     color: #e5e5e5;
     font-size: 30px;
 }
@@ -51,7 +51,7 @@
     position:relative;
     color: #e5e5e5;
     font-size: 30px;
-    bottom: 10px;
+    bottom: 5px;
     left: 1200px;
 }
 
