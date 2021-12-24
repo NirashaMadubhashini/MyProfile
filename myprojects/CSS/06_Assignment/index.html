@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-06 transition</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/fonts/css/all.css" rel="stylesheet">
+    <style>
+        h1{
+            background-color: cornflowerblue;
+            height: 50px;
+            width: 1535px;
+            position: absolute;
+            right: 5px;
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+        h1:hover{
+            background-color: darkblue;
+            transform:skewX(500deg);
+        }
+        section {
+            width: 228px;
+            height: 492px;
+            top: 60px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            right: 172px;
+        }
+
+        section > div {
+            left: 0;
+            height: 40px;
+            position: relative;
+            background: #1d33ab;
+            color: white;
+            box-shadow: 1px 2px 3px 2px #3a483b;
+            transition: all 2s;
+        }
+
+        section > div > h3 {
+            margin: 0;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        section > div > i {
+            position: absolute;
+            right: 10px;
+            top: 7px;
+            font-size: 28px;
+        }
+
+        section > div:hover {
+            background: green;
+            left: 170px;
+            cursor: pointer;
+            transition: all 2s;
+        }
+        section>img{
+            position: absolute;
+            left: 400px;
+            padding-bottom: 550px;
+
+        }
+        img:hover{
+            transition: all 2s;
+            transform:translate(100px);
+        }
+
+    </style>
+</head>
+<body>
+<h1>Hospital System</h1>
+<section>
+    <div>
+        <h3>Menu One</h3>
+        <i class="fas fa-address-book"></i>
+    </div>
+    <div>
+        <h3>Menu Two</h3>
+        <i class="fas fa-ambulance"></i>
+    </div>
+    <div>
+        <h3>Menu Three</h3>
+        <i class="fas fa-book-medical"></i>
+    </div>
+    <div>
+        <h3>Menu Four</h3>
+        <i class="fas fa-layer-group"></i>
+    </div>
+    <div>
+        <h3>Menu Five</h3>
+        <i class="fas fa-cart-plus"></i>
+    </div>
+
+</section>
+<section><img src="assets/images/hospital.jpg"alt="" width="1200"></section>
+</body>
+</html>
