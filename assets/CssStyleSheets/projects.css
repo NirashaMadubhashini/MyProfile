@@ -32,6 +32,20 @@ span:hover{
 .main-section-h4-span{
     color: #0085FF;
 }
-.span-image{
-    padding-left: 325px;
+.span-image1{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 400px;
+    opacity:40%;
+
+}
+.span-image2{
+    padding-left: 600px;
+    filter: brightness(150%);
+}
+.span-image3{
+    position: absolute;
+    padding-top: 60px;
+    right: 380px;
+    opacity:40%;
 }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment03</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <style>
+        section {
+            position: absolute;
+            left: 700px;
+            top: 300px;
+            height: 150px;
+            width: 150px;
+            background-color: #B68E85;
+            border-radius: 50%;
+        }
+        section > span:nth-child(1) {
+            position: absolute;
+            left: 13px;
+            top: 12px;
+            height: 125px;
+            width: 125px;
+            background-color: #F80100;
+            border-radius: 50%;
+        }
+
+        section > span:nth-child(2) {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #8F2E7E;
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            animation-name: testOne;
+            animation-duration: 5s;
+            animation-iteration-count:1;
+        }
+
+        section > span:nth-child(3) {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #1C98BD;
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            animation-name: testOne;
+            animation-duration: 10s;
+            animation-iteration-count:1;
+
+        }
+
+        section > span:nth-child(4) {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: #FF6452;
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            animation-name: testOne;
+            animation-duration: 20s;
+            animation-iteration-count:1;
+        }
+
+        section > span:nth-child(2) > p {
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            color: white;
+        }
+
+        section > span:nth-child(3) > p {
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            color: white;
+        }
+
+        section > span:nth-child(4) > p {
+            position: absolute;
+            top: 1px;
+            left: 20px;
+            color: white;
+        }
+
+        @keyframes testOne {
+            from {
+                transform: translateY(300px);
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <span></span>
+    <span><p>Hello</p></span>
+    <span><p>Welcome To</p></span>
+    <span><p>Institute <br>of <br>Software Engineering </p></span>
+</section>
+
+</body>
+</html>
