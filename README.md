@@ -1,6 +1,9 @@
-This is my very first project make by using CSS.
-I am able to add projects and assignments done by me for this project.[Project Index Photo](assets/pictures/index.png)
+
+[Project Index Photo](assets/pictures/index.png)<br>
+This is my very first project made by using CSS.<br>
+I am able to add projects and assignments done by me for this project.<br>
 There some links that I use to make this project.
+
 Site map = https://www.gloomaps.com/PN2RMrifKk
 
 Wire frame = https://wireframe.cc/u7da7I
