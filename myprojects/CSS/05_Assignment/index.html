@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-05 Transition</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/fonts/css/all.css" rel="stylesheet">
+
+    <style>
+        html{
+            background-color: black;
+        }
+        section {
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            background-color: #1b57a3;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+
+        section > h2 {
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: max-content;
+            height: max-content;
+            color: white;
+            font-size: 30px;
+            font-family: Ubuntu;
+            z-index: 3;
+        }
+
+
+        section::after {
+            content: " ";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border: 20px solid #eeeeee;
+            border-top: 20px solid #ff253a;
+            border-radius: 100%;
+        }
+
+        section:hover::after{
+            transform: rotate(360deg);
+            transition: all 5s;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <h2>RWAD</h2>
+</section>
+
+</body>
+</html>

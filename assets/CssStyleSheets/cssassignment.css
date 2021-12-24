@@ -48,7 +48,23 @@
     top:300px;
     width: 300px;
     height: 300px;
-    right:55px;
+    left:1170px;
+}
+.section5{
+    position: absolute;
+    background: #487eb0;
+    top:500px;
+    width: 300px;
+    height: 300px;
+    left:50px;
+}
+.section6{
+    position: absolute;
+    background: #487eb0;
+    top:650px;
+    width: 300px;
+    height: 300px;
+    left: 425px;
 }
 
 .main-section1{
@@ -56,7 +72,6 @@
     top: 110px;
     text-decoration: none;
     margin-left:25px;
-    margin-top: 110px;
     color:white;
     font-size: 36px;
     font-family: Roboto;
@@ -66,7 +81,6 @@
     top: 110px;
     text-decoration: none;
     margin-left: 40px;
-    margin-top: 110px;
     color:white;
     font-size: 36px;
     font-family: Roboto;
@@ -76,7 +90,6 @@
     top: 110px;
     text-decoration: none;
     margin-left: 40px;
-    margin-top: 110px;
     color:white;
     font-size: 36px;
     font-family: Roboto;
@@ -86,7 +99,24 @@
     top: 110px;
     text-decoration: none;
     margin-left: 40px;
-    margin-top: 110px;
+    color:white;
+    font-size: 36px;
+    font-family: Roboto;
+}
+.main-section5{
+    position: relative;
+    top:130px;
+    text-decoration: none;
+    margin-left:25px;
+    color:white;
+    font-size: 36px;
+    font-family: Roboto;
+}
+.main-section6{
+    position: relative;
+    top: 150px;
+    text-decoration: none;
+    margin-left: 40px;
     color:white;
     font-size: 36px;
     font-family: Roboto;
