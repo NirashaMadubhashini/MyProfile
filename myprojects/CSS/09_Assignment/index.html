@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-09 Animation</title>
+    <style>
+        body {
+            background-color: white;
+            overflow: hidden;
+        }
+
+        div {
+            margin: 175px auto;
+        }
+
+        .drop:before {
+            position: absolute;
+            height: 230px;
+            width: 200px;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 30px solid rgba(255,255,255,1);
+
+        }
+
+        .wave {
+            position: relative;
+            opacity: 0;
+            top: 0;
+            width: 12px;
+            height: 1px;
+            border: red 5px solid;
+            border-radius: 300px / 150px;
+            animation-name: ripple;
+            animation-delay: 2s;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .wave:after {
+            position: absolute;
+            opacity: 0;
+            top: -5px;
+            left: -5px;
+            width: 2px;
+            height: 1px;
+            border: red 5px solid;
+            border-radius: 300px / 150px;
+            animation-name: ripple-2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes ripple {
+            from {
+                opacity: 1;
+
+            }
+            to {
+                width: 600px;
+                height: 300px;
+                border-width: 1px;
+                top: -100px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes ripple-2 {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                width: 200px;
+                height: 200px;
+                border-width: 1px;
+                top: 100px;
+                left: 200px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="drop"></div>
+<div class="wave"></div>
+</body>
+</html>
