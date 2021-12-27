@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Case 2</title>
+    <style>
+        body{
+            background-color: #2e3136;
+            overflow: hidden;
+        }
+        main{
+            height: 700px;
+            border: 2px solid black;
+        }
+        main>section{
+            height: 700px;
+            width: 400%;
+            display: flex;
+            animation-name: slideme;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        main>section>div{
+            width: 100%;
+        }
+        section>div:nth-child(1){
+            background-color:white;
+            background-size: cover;
+            background-position: center;
+        }
+        div:nth-child(1)>h1{
+                position: relative;
+                bottom: 21px;
+                height: 55px;
+                color: white;
+            background-color: #FE351F;
+        }
+        div:nth-child(1)>p{
+            color: black;
+            font-size: 100px;
+            position: absolute;
+            left: 650px;
+            top: 200px;
+            font-weight: bold;
+        }
+        section>div:nth-child(2){
+            background-color: #5CB6FE;
+            background-size: cover;
+            background-position: center;
+        }
+        div:nth-child(2)>h1{
+            position: relative;
+            bottom: 21px;
+            height: 55px;
+            color: white;
+            background-color: #00427D;
+        }
+        div:nth-child(2)>p{
+            color: black;
+            font-size: 100px;
+            position: absolute;
+            left: 2150px;
+            top: 200px;
+            font-weight: bold;
+        }
+        section>div:nth-child(3){
+            background-color: #58534B;
+            background-size: cover;
+            background-position: center;
+        }
+        div:nth-child(3)>h1{
+            position: relative;
+            bottom: 21px;
+            height: 55px;
+            color: white;
+            background-color: #292925;
+        }
+        div:nth-child(3)>p{
+            color: black;
+            font-size: 100px;
+            position: absolute;
+            left: 3750px;
+            top: 200px;
+            font-weight: bold;
+        }
+        section>div:nth-child(4){
+            background-color: #EB3C28;
+            background-size: cover;
+            background-position: center;
+        }
+        div:nth-child(4)>h1{
+            position: relative;
+            bottom: 21px;
+            height: 55px;
+            color: white;
+            background-color: #7C322A;
+        }
+        div:nth-child(4)>p{
+            color: black;
+            font-size: 100px;
+            position: absolute;
+            left: 5250px;
+            top: 200px;
+            font-weight: bold;
+        }
+        @keyframes slideme {
+            0%,15%{
+                transform: translateX(0);
+            }
+            25%,40%{
+                transform: translateX(-25%);
+            }
+            50%,70%{
+                transform: translateX(-50%);
+            }
+
+            80%,100%{
+                transform: translateX(-75%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <section>
+        <div>
+            <h1>Card 1</h1>
+            <p>Hello</p>
+        </div>
+
+        <div>
+            <h1>Card 2</h1>
+            <p>How</p>
+        </div>
+        <div>
+            <h1>Card 3</h1>
+            <p>Are</p>
+        </div>
+        <div>
+            <h1>Card 4</h1>
+            <p>You..?</p>
+        </div>
+    </section>
+</main>
+</body>
+</html>
