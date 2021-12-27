@@ -10,8 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add assignment-07">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add assignment-08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CSSAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSAssignments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +44,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/07_Assignment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/08_Assignment" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\08_Assignment" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\07_Assignment" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\04_Assignment" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\06_Assignment" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\05_Assignment" />
-      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
@@ -114,7 +116,7 @@
       <workItem from="1640368512487" duration="552000" />
       <workItem from="1640371444970" duration="3605000" />
       <workItem from="1640572336962" duration="7585000" />
-      <workItem from="1640626595843" duration="1121000" />
+      <workItem from="1640626595843" duration="2067000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -151,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640626914773</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add assignment-08">
+      <created>1640629576402</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640629576409</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +184,8 @@
     <MESSAGE value="add animation to assignment" />
     <MESSAGE value="add animation to project" />
     <MESSAGE value="add assignment-07" />
-    <option name="LAST_COMMIT_MESSAGE" value="add assignment-07" />
+    <MESSAGE value="add assignment-08" />
+    <option name="LAST_COMMIT_MESSAGE" value="add assignment-08" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639916417690">

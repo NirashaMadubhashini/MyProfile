@@ -33,7 +33,7 @@
 }
 .section2{
     position: absolute;
-    background:#487eb0;
+    background:#00427D;
     top:300px;
     width: 300px;
     height: 300px;
@@ -56,7 +56,7 @@
 }
 .section4{
     position: absolute;
-    background: #487eb0;
+    background:#00427D;
     top:300px;
     width: 300px;
     height: 300px;
@@ -80,8 +80,56 @@
 }
 .section6{
     position: absolute;
-    background: #487eb0;
+    background:#00427D;
     top:650px;
+    width: 300px;
+    height: 300px;
+    left: 425px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
+}
+.section7{
+    position: absolute;
+    background: #487eb0;
+    top:500px;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
+}
+.section8{
+    position: absolute;
+    background:#00427D;
+    top:650px;
+    width: 300px;
+    height: 300px;
+    left: 1170px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
+}
+.section9{
+    position: absolute;
+    background: #487eb0;
+    top:850px;
+    width: 300px;
+    height: 300px;
+    left:50px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
+}
+.section10{
+    position: absolute;
+    background:#00427D;
+    top:1000px;
     width: 300px;
     height: 300px;
     left: 425px;
@@ -137,6 +185,42 @@
     font-family: Roboto;
 }
 .main-section6{
+    position: relative;
+    top: 150px;
+    text-decoration: none;
+    margin-left: 40px;
+    color:white;
+    font-size: 36px;
+    font-family: Roboto;
+}
+.main-section7{
+    position: relative;
+    top: 120px;
+    text-decoration: none;
+    margin-left: 50px;
+    color:white;
+    font-size: 36px;
+    font-family: Roboto;
+}
+.main-section8{
+    position: relative;
+    top: 115px;
+    text-decoration: none;
+    margin-left: 50px;
+    color:white;
+    font-size: 36px;
+    font-family: Roboto;
+}
+.main-section9{
+    position: relative;
+    top:130px;
+    text-decoration: none;
+    margin-left:25px;
+    color:white;
+    font-size: 36px;
+    font-family: Roboto;
+}
+.main-section10{
     position: relative;
     top: 150px;
     text-decoration: none;
