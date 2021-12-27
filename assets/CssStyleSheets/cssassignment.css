@@ -26,6 +26,10 @@
     width: 300px;
     height: 300px;
     left:50px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
 }
 .section2{
     position: absolute;
@@ -34,6 +38,10 @@
     width: 300px;
     height: 300px;
     left:425px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
 }
 .section3{
     position: absolute;
@@ -41,6 +49,10 @@
     width: 300px;
     height: 300px;
     left: 800px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
 }
 .section4{
     position: absolute;
@@ -49,6 +61,10 @@
     width: 300px;
     height: 300px;
     left:1170px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
 }
 .section5{
     position: absolute;
@@ -57,6 +73,10 @@
     width: 300px;
     height: 300px;
     left:50px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
 }
 .section6{
     position: absolute;
@@ -65,6 +85,10 @@
     width: 300px;
     height: 300px;
     left: 425px;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
 }
 
 .main-section1{
@@ -126,4 +150,8 @@ a:hover{
     cursor: pointer;
     color: darkblue;
 }
-
+@keyframes test {
+    from{
+        transform:rotate(240deg);
+    }
+}

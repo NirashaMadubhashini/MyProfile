@@ -10,12 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add stand alone project file">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add animation to project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assignment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <workItem from="1640336897918" duration="6881000" />
       <workItem from="1640368512487" duration="552000" />
       <workItem from="1640371444970" duration="3605000" />
-      <workItem from="1640572336962" duration="6660000" />
+      <workItem from="1640572336962" duration="7269000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -133,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640351053257</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add animation to assignment">
+      <created>1640605037946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640605037947</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add animation to project">
+      <created>1640605070658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640605070658</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +168,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="contact .html changes" />
     <MESSAGE value="add stand alone project file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add stand alone project file" />
+    <MESSAGE value="add animation to assignment" />
+    <MESSAGE value="add animation to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add animation to project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639916417690">
@@ -169,10 +185,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1637390052871" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637390783207">
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1640604995450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1637390783207" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1640604995450" />
     <state x="478" y="147" width="579" height="530" key="find.popup" timestamp="1640350762281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
