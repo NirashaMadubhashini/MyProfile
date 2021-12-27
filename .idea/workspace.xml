@@ -10,11 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="contact .html changes">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add stand alone project file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSSAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSAssignments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/CSS/06_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/06_Assignment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,16 +46,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/pictures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/06_Assignment" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\06_Assignment" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\05_Assignment" />
       <recent name="D:\WorkArea\MyProfile\assets\pictures" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\04_Assignment" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\03_Assignment" />
-      <recent name="D:\WorkArea\MyProfile\assets\resources" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
@@ -113,7 +114,10 @@
       <workItem from="1640001764338" duration="2735000" />
       <workItem from="1640006725931" duration="785000" />
       <workItem from="1640069516758" duration="1892000" />
-      <workItem from="1640336897918" duration="2373000" />
+      <workItem from="1640336897918" duration="6881000" />
+      <workItem from="1640368512487" duration="552000" />
+      <workItem from="1640371444970" duration="3605000" />
+      <workItem from="1640572336962" duration="4430000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -122,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637390098265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add stand alone project file">
+      <created>1640351053256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640351053257</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="contact .html changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact .html changes" />
+    <MESSAGE value="add stand alone project file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stand alone project file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639916417690">
@@ -161,10 +173,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1637390783207" />
-    <state x="209" y="33" key="new project wizard" timestamp="1640098391740">
+    <state x="478" y="147" width="579" height="530" key="find.popup" timestamp="1640350762281">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1640098391740" />
+    <state x="478" y="147" width="579" height="530" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1640350762281" />
+    <state x="209" y="33" key="new project wizard" timestamp="1640346624753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1640346624753" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1637312596869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
