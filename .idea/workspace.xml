@@ -12,6 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add stand alone project file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,23 +46,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/06_Assignment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/04_Assignment" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\06_Assignment" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\05_Assignment" />
-      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\04_Assignment" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\03_Assignment" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\css" />
       <recent name="D:\WorkArea\MyProfile\pages" />
       <recent name="D:\WorkArea\MyProfile\assests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\04_Assignment" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\06_Assignment" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\05_Assignment" />
+      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\03_Assignment" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -113,7 +117,7 @@
       <workItem from="1640336897918" duration="6881000" />
       <workItem from="1640368512487" duration="552000" />
       <workItem from="1640371444970" duration="3605000" />
-      <workItem from="1640572336962" duration="5887000" />
+      <workItem from="1640572336962" duration="6660000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
