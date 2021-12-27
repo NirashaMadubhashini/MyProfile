@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-08 Animation</title>
+    <style>
+        body{
+            background-color: black;
+            overflow: hidden;
+        }
+        main{
+            width: 700px;
+            height: 400px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 100px;
+            margin:auto;
+            overflow: hidden;
+            border: 5px solid #d7c6c6d6;;
+        }
+        main>section{
+            width: 400%;
+            height: 100%;
+            display: flex;
+            animation-name: slideme;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        main>section>div{
+            width: 100%;
+        }
+        section>div:nth-child(1){
+            background: url("assets/images/img3.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>div:nth-child(2){
+            background: url("assets/images/img4.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>div:nth-child(3){
+            background: url("assets/images/img2.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        section>div:nth-child(4){
+            background: url("assets/images/img1.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        body>section{
+            position: absolute;
+            width: 100%;
+            height: max-content;
+            text-align: center;
+            color: #e7e1e1;
+            font-family: Ubuntu;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        @keyframes slideme {
+            0%,15%{
+                transform: translateX(0);
+            }
+            25%,40%{
+                transform: translateX(-25%);
+            }
+            50%,70%{
+                transform: translateX(-50%);
+            }
+
+            80%,100%{
+                transform: translateX(-75%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+<section>
+    <h1>CSS SLIDER</h1>
+</section>
+
+
+</body>
+</html>
