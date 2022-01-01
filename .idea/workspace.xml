@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update ass.04">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update CSSAssignments.html page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/CSSAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSAssignments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +118,7 @@
       <workItem from="1640572336962" duration="7585000" />
       <workItem from="1640626595843" duration="4284000" />
       <workItem from="1640671026330" duration="3222000" />
-      <workItem from="1641060386839" duration="1381000" />
+      <workItem from="1641060386839" duration="2903000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -196,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641061409135</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update CSSAssignments.html page">
+      <created>1641061988508</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641061988510</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +234,8 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="update ass.03" />
     <MESSAGE value="update ass.04" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ass.04" />
+    <MESSAGE value="update CSSAssignments.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update CSSAssignments.html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1639916417690">

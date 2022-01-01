@@ -175,6 +175,10 @@
     font-size: 36px;
     font-family: Roboto;
 }
+.main-section4-span{
+    color: black;
+}
+
 .main-section5{
     position: relative;
     top:130px;
@@ -183,6 +187,9 @@
     color:white;
     font-size: 36px;
     font-family: Roboto;
+}
+.main-section5-span{
+    color: black;
 }
 .main-section6{
     position: relative;
@@ -193,6 +200,9 @@
     font-size: 36px;
     font-family: Roboto;
 }
+.main-section6-span{
+    color: red;
+}
 .main-section7{
     position: relative;
     top: 120px;
@@ -201,6 +211,9 @@
     color:white;
     font-size: 36px;
     font-family: Roboto;
+}
+.main-section7-span{
+    color: red;
 }
 .main-section8{
     position: relative;
@@ -211,6 +224,9 @@
     font-size: 36px;
     font-family: Roboto;
 }
+.main-section8-span{
+    color: red;
+}
 .main-section9{
     position: relative;
     top:130px;
@@ -219,6 +235,9 @@
     color:white;
     font-size: 36px;
     font-family: Roboto;
+}
+.main-section9-span{
+    color: red;
 }
 .main-section10{
     position: relative;
@@ -229,7 +248,9 @@
     font-size: 36px;
     font-family: Roboto;
 }
-
+.main-section10-span{
+    color: red;
+}
 a:hover{
     cursor: pointer;
     color: darkblue;
