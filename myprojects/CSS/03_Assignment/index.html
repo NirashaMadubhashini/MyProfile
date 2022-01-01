@@ -5,9 +5,10 @@
     <title>Assignment 03</title>
     <link href="assets/css/normalize.css" rel="stylesheet">
     <style>
-html{
-    background-color: black;
-}
+        html {
+            background-color: black;
+        }
+
         section {
             position: relative;
             height: 100vh;
@@ -27,7 +28,7 @@ html{
         }
 
         body > div {
-            position:fixed;
+            position: fixed;
             height: 202px;
             width: 202px;
             border: 15px solid red;
@@ -35,7 +36,7 @@ html{
         }
 
         body > div > div {
-            position:fixed;
+            position: fixed;
             height: 230px;
             width: 230px;
             border: 15px solid grey;
@@ -52,27 +53,18 @@ html{
         body > section:nth-child(2) > div {
             background: #8F2E7E;
             position: absolute;
-            animation-name: testOne;
-            animation-duration: 2s;
-            animation-iteration-count:1;
         }
 
         body > section:nth-child(3) > div {
             background: #1C98BD;
-            animation-name: testOne;
-            animation-duration: 2s;
-            animation-iteration-count:infinite;
         }
 
         body > section:nth-child(4) > div {
             background: #FF6452;
-            animation-name: testOne;
-            animation-duration: 2s;
-            animation-iteration-count:infinite;
         }
 
 
-        body>section>div>p{
+        body > section > div > p {
             text-align: center;
             padding-top: 50px;
             color: white;
@@ -80,11 +72,6 @@ html{
             font-size: 25px;
             font-weight: bold;
 
-        }
-        @keyframes testOne {
-            from {
-                transform: translateY(300px);
-            }
         }
     </style>
 </head>
