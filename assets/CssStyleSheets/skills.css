@@ -27,25 +27,102 @@
     font-family: Roboto;
 }
 .section-div{
-    width: 228px;
-    padding-left:500px;
-    height: 40px;
     position: relative;
     bottom: 30px;
-    background: #1d33ab;
-    color: white;
-    box-shadow: 1px 2px 3px 2px #3a483b;
-    transition: all 2s;
+    left: 35px;
+    width: 850px;
+    height: 30px;
+    background: #0085FF;
+    transition-duration: 5s, 2s, 10s;
+}
+div:hover{
+    cursor: pointer;
+    width: 90%;
+    transition-duration: 5s, 2s, 10s;
+}
+.section-div2{
+    position: relative;
+    bottom:30px;
+    left: 35px;
+    width: 800px;
+    height: 30px;
+    background: #0085FF;
+    transition-duration: 5s, 2s, 10s;
+}
+div2:hover{
+    cursor: pointer;
+    width: 750px;
+    transition-property: width;
+}
+.section-div3{
+    position: relative;
+    bottom: 30px;
+    left: 35px;
+    width: 750px;
+    height: 30px;
+    background: #0085FF;
+    transition-duration: 5s, 2s, 10s;
+}
+div3:hover{
+    cursor: pointer;
+    width: 650px;
+}
+.section-div4{
+    position: relative;
+    bottom: 30px;
+    left: 35px;
+    width: 650px;
+    height: 30px;
+    background: #0085FF;
+    transition-duration: 5s, 2s, 10s;
+}
+div4:hover{
+    cursor: pointer;
+    width: 550px;
+}
+.section-div5{
+    position: relative;
+    bottom: 30px;
+    left: 35px;
+    width: 550px;
+    height: 30px;
+    background: #0085FF;
+    transition-duration: 5s, 2s, 10s;
+}
+div5:hover{
+    cursor: pointer;
+    width: 450px;
+}
+.section-div6{
+    position: relative;
+    bottom: 30px;
+    left: 35px;
+    width: 450px;
+    height: 30px;
+    background: #0085FF;
+    transition-duration: 5s, 2s, 10s;
+}
+div6:hover{
+    cursor: pointer;
+    width: 350px;
+}
+.section-div7{
+    position: relative;
+    bottom: 30px;
+    left: 35px;
+    width: 350px;
+    height: 30px;
+    background: #0085FF;
+    transition-duration: 5s, 2s, 10s;
+}
+div7:hover{
+    cursor: pointer;
+    width: 300px;
 }
 .main-section-dl-dd{
     padding-bottom: 35px;
 }
-dd:hover{
-    cursor: pointer;
-    color: #0085FF;
-}
 .footer{
-
     background-color: #201B1B;
     padding: 30px 10px 100px 60px;
 }
