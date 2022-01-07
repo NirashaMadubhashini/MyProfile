@@ -10,11 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add assignment10">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add assignment 09">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/09_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/09_Assignment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSSAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSAssignments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Stand-alone Projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Stand-alone Projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
       <workItem from="1641450779862" duration="1794000" />
       <workItem from="1641459802024" duration="4693000" />
       <workItem from="1641536127080" duration="3263000" />
-      <workItem from="1641581671512" duration="1322000" />
+      <workItem from="1641581671512" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -286,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641582196878</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add assignment 09">
+      <created>1641583167929</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1641583167929</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +333,8 @@
     <MESSAGE value="update contact.html page" />
     <MESSAGE value="update ass08.html page" />
     <MESSAGE value="add assignment10" />
-    <option name="LAST_COMMIT_MESSAGE" value="add assignment10" />
+    <MESSAGE value="add assignment 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="add assignment 09" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
