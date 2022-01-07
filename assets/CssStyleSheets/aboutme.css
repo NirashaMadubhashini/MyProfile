@@ -54,3 +54,42 @@ a:hover{
     cursor: pointer;
     color: darkblue;
 }
+
+/*@media all and (max-width: 425px)and (max-height: 248px) {*/
+/*.header-nav-h2 {*/
+/*    width: 300px;*/
+/*    !*position: relative;*!*/
+/*    left: 205px;*/
+/*    color: #e5e5e5;*/
+/*    font-size: 25px;*/
+/*    font-family: Roboto;*/
+/*}*/
+/*.section {*/
+/*    width: 108px;*/
+/*    !*position: relative;*!*/
+/*    left: 44px;*/
+/*    top: -1px;*/
+/*    color: #0085FF;*/
+/*    box-shadow: 14px 13px 3px 0px #0085ff;*/
+/*}*/
+/*.main-section {*/
+/*    width: 135px;*/
+/*    !*position: relative;*!*/
+/*    bottom: 151px;*/
+/*    left: 12px;*/
+/*    color: #e5e5e5;*/
+/*    font-size: 13px;*/
+/*    font-family: Roboto;*/
+/*}*/
+/*.main-p {*/
+/*    width: 300px;*/
+/*    !*position: relative;*!*/
+/*    bottom: 184px;*/
+/*    left: 76px;*/
+/*    color: #e5e5e5;*/
+/*    background-color: #0085FF;*/
+/*    font-size: 15px;*/
+/*    font-family: Roboto;*/
+/*}*/
+
+/*}*/
