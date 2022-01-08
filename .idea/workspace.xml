@@ -10,18 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add standAlone.css stylesheet">
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/Blue Ocean Hotel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/GoldenFresh SuperMarket(Layered).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/GoldenFresh SuperMarket(Layered-loging).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/GoldenFresh SuperMarket(loging).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/GoldenFresh SuperMarket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/Parking System.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/Sell-X (loging).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/Sell-X.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/Sipsewana Institute(Loging).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/projectImg/Sipsewana Institute.png" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="Code in Stand-alone Projects.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Stand-alone Projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Stand-alone Projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +123,7 @@
       <workItem from="1641459802024" duration="4693000" />
       <workItem from="1641536127080" duration="3263000" />
       <workItem from="1641581671512" duration="3332000" />
-      <workItem from="1641626209468" duration="14776000" />
+      <workItem from="1641626209468" duration="15321000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -358,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641638496713</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Code in Stand-alone Projects.html">
+      <created>1641643822787</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1641643822787</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +375,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update CssAssignment page" />
     <MESSAGE value="add assignment-09" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="update ass.03" />
@@ -402,7 +399,8 @@
     <MESSAGE value="update projects.html" />
     <MESSAGE value="update aboutme" />
     <MESSAGE value="add standAlone.css stylesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="add standAlone.css stylesheet" />
+    <MESSAGE value="Code in Stand-alone Projects.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code in Stand-alone Projects.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">

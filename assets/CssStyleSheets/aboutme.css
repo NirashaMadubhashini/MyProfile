@@ -34,6 +34,10 @@
     color: #e5e5e5;
     font-size: 40px;
     font-family: Roboto;
+    animation-name: test;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count:1;
 }
 .main-section-span{
     font-size: 42px;
@@ -53,6 +57,11 @@
 a:hover{
     cursor: pointer;
     color: darkblue;
+}
+@keyframes test {
+    from{
+        transform: translate(300px);
+    }
 }
 
 /*@media all and (max-width: 425px)and (max-height: 248px) {*/
