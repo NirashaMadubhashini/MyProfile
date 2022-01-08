@@ -35,19 +35,19 @@ span:hover{
 .span-image1{
     position: absolute;
     padding-top: 60px;
-    padding-left: 400px;
+    padding-left: 350px;
     opacity:40%;
 
 }
 .span-image2{
     padding-left: 600px;
-    filter: brightness(150%);
+    filter: brightness(180%);
 }
 .span-image3{
     position: absolute;
     padding-top: 60px;
-    right: 380px;
-    opacity:40%;
+    right: 320px;
+    opacity:20%;
 }
 .link1{
     text-decoration: none;
