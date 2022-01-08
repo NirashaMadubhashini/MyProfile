@@ -10,14 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update education.css and education.html">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update CSSAssignments.html and cssassignment.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSSAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSAssignments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assignment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,7 @@
       <workItem from="1641459802024" duration="4693000" />
       <workItem from="1641536127080" duration="3263000" />
       <workItem from="1641581671512" duration="3332000" />
-      <workItem from="1641626209468" duration="2268000" />
+      <workItem from="1641626209468" duration="6981000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -325,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641626824271</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update CSSAssignments.html and cssassignment.css">
+      <created>1641628872344</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1641628872344</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +349,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add animation to assignment" />
     <MESSAGE value="add animation to project" />
     <MESSAGE value="add assignment-07" />
     <MESSAGE value="add assignment-08" />
@@ -369,7 +373,8 @@
     <MESSAGE value="add index.css" />
     <MESSAGE value="add Stand-alone Projects.html page" />
     <MESSAGE value="update education.css and education.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update education.css and education.html" />
+    <MESSAGE value="update CSSAssignments.html and cssassignment.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update CSSAssignments.html and cssassignment.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">

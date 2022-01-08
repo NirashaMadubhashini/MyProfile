@@ -8,7 +8,7 @@
 .img{
     position: relative;
     top:30px;
-    bottom: 0;
+
 }
 .header-nav-h4{
     position: relative;
@@ -50,6 +50,7 @@ a:hover{
 p:hover{
     cursor: pointer;
     color: #0085FF;
+
 }
 .main-p-span{
     color: #0085FF;
@@ -60,13 +61,14 @@ p:hover{
     padding-right: 200px;
 }
 .span1{
-   padding-right: 320px;
+    padding-right: 320px;
 }
 @keyframes test {
     from{
         transform:rotate(90deg);
         color: #0085FF;
     }
+
 }
 @keyframes testOne {
     from{
