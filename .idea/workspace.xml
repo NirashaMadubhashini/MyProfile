@@ -10,9 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update aboutme">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add standAlone.css stylesheet">
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/Blue Ocean Hotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/GoldenFresh SuperMarket(Layered).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/GoldenFresh SuperMarket(Layered-loging).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/GoldenFresh SuperMarket(loging).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/GoldenFresh SuperMarket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/Parking System.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/Sell-X (loging).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/Sell-X.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/Sipsewana Institute(Loging).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/projectImg/Sipsewana Institute.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Stand-alone Projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Stand-alone Projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS/10_Assignment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/projectImg" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -56,11 +65,11 @@
       <recent name="D:\WorkArea\MyProfile\assests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\assets\projectImg" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\10_Assignment" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\08_Assignment\assets\images" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\09_Assignment" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\08_Assignment" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\07_Assignment" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -123,7 +132,7 @@
       <workItem from="1641459802024" duration="4693000" />
       <workItem from="1641536127080" duration="3263000" />
       <workItem from="1641581671512" duration="3332000" />
-      <workItem from="1641626209468" duration="10982000" />
+      <workItem from="1641626209468" duration="14776000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -342,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641637118166</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add standAlone.css stylesheet">
+      <created>1641638496713</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1641638496713</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +377,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add assignment-08" />
     <MESSAGE value="update CssAssignment page" />
     <MESSAGE value="add assignment-09" />
     <MESSAGE value="update README.md" />
@@ -386,7 +401,8 @@
     <MESSAGE value="update CSSAssignments.html and cssassignment.css" />
     <MESSAGE value="update projects.html" />
     <MESSAGE value="update aboutme" />
-    <option name="LAST_COMMIT_MESSAGE" value="update aboutme" />
+    <MESSAGE value="add standAlone.css stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="add standAlone.css stylesheet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
