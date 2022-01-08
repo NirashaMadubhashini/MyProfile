@@ -8,21 +8,20 @@
 .header-nav-h2{
     width: 300px;
     position: relative;
-    left: 650px;
+    left: 750px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
 }
 .header-nav-h2-span{
     color: #0085FF;
-
 }
 
 .section{
     width: 300px;
     position: relative;
     left: 200px;
-    top: 10px;
+    top: -50px;
     color: #0085FF;
     box-shadow:22px 18px 0px 0px #0085FF;
 
@@ -30,7 +29,7 @@
 .main-section{
     width: 300px;
     position: relative;
-    bottom: 450px;
+   top: -450px;
     left: 80px;
     color: #e5e5e5;
     font-size: 40px;
@@ -43,7 +42,7 @@
 .main-p{
     width: 300px;
     position: relative;
-    bottom: 550px;
+    top:-550px;
     left: 200px;
     color: #e5e5e5;
     background-color: #0085FF;

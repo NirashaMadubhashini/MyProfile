@@ -166,9 +166,7 @@
     font-size: 36px;
     font-family: Roboto;
 }
-.main-section3-span{
-    color: black;
-}
+
 .main-section4{
     position: relative;
     top: 110px;
@@ -178,9 +176,7 @@
     font-size: 36px;
     font-family: Roboto;
 }
-.main-section4-span{
-    color: black;
-}
+
 
 .main-section5{
     position: relative;
@@ -204,7 +200,7 @@
     font-family: Roboto;
 }
 .main-section6-span{
-    color: red;
+    color: black;
 }
 .main-section7{
     position: relative;

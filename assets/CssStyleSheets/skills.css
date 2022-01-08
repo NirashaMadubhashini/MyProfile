@@ -31,7 +31,7 @@
     bottom: 30px;
     left: 35px;
     width: 850px;
-    height: 30px;
+    height: 25px;
     background: #0085FF;
     transition-duration: 5s, 2s, 10s;
 }
@@ -45,7 +45,7 @@ div:hover{
     bottom:30px;
     left: 35px;
     width: 800px;
-    height: 30px;
+    height: 25px;
     background: #0085FF;
     transition-duration: 5s, 2s, 10s;
 }
@@ -59,7 +59,7 @@ div2:hover{
     bottom: 30px;
     left: 35px;
     width: 750px;
-    height: 30px;
+    height: 25px;
     background: #0085FF;
     transition-duration: 5s, 2s, 10s;
 }
@@ -72,7 +72,7 @@ div3:hover{
     bottom: 30px;
     left: 35px;
     width: 650px;
-    height: 30px;
+    height: 25px;
     background: #0085FF;
     transition-duration: 5s, 2s, 10s;
 }
@@ -85,7 +85,7 @@ div4:hover{
     bottom: 30px;
     left: 35px;
     width: 550px;
-    height: 30px;
+    height: 25px;
     background: #0085FF;
     transition-duration: 5s, 2s, 10s;
 }
@@ -98,7 +98,7 @@ div5:hover{
     bottom: 30px;
     left: 35px;
     width: 450px;
-    height: 30px;
+    height: 25px;
     background: #0085FF;
     transition-duration: 5s, 2s, 10s;
 }
@@ -111,7 +111,7 @@ div6:hover{
     bottom: 30px;
     left: 35px;
     width: 350px;
-    height: 30px;
+    height: 25px;
     background: #0085FF;
     transition-duration: 5s, 2s, 10s;
 }
