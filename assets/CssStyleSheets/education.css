@@ -35,13 +35,13 @@
 
 .figure1 {
     position:absolute;
-    padding-top: 550px;
+    padding-top: 300px;
     left: 50px;
 }
 
 .figure2 {
     position: absolute;
-    top: 250px;
+    top: 150px;
     right: 650px;
 }
 
@@ -53,12 +53,12 @@
 
 .figure4 {
     position:absolute;
-    bottom: 500px;
-    left: 1300px;
+    bottom: 550px;
+    left: 1350px;
 }
 
 .figure5 {
     position:absolute;
-    bottom: 400px;
-    left: 1335px;
+    bottom: 450px;
+    left: 1370px;
 }

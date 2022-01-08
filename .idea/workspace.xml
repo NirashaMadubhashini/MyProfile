@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add assignment 09">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add Stand-alone Projects.html page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Stand-alone Projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Stand-alone Projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,8 @@
       <workItem from="1641450779862" duration="1794000" />
       <workItem from="1641459802024" duration="4693000" />
       <workItem from="1641536127080" duration="3263000" />
-      <workItem from="1641581671512" duration="3010000" />
+      <workItem from="1641581671512" duration="3332000" />
+      <workItem from="1641626209468" duration="374000" />
     </task>
     <task id="LOCAL-00001" summary="contact .html changes">
       <created>1637390098265</created>
@@ -293,7 +292,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641583167929</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add index.">
+      <created>1641585000769</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1641585000769</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add index.css">
+      <created>1641585012111</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1641585012111</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add Stand-alone Projects.html page">
+      <created>1641585030230</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1641585030230</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +332,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contact .html changes" />
     <MESSAGE value="add stand alone project file" />
     <MESSAGE value="add animation to assignment" />
     <MESSAGE value="add animation to project" />
@@ -334,7 +353,11 @@
     <MESSAGE value="update ass08.html page" />
     <MESSAGE value="add assignment10" />
     <MESSAGE value="add assignment 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="add assignment 09" />
+    <MESSAGE value="add index" />
+    <MESSAGE value="add index." />
+    <MESSAGE value="add index.css" />
+    <MESSAGE value="add Stand-alone Projects.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Stand-alone Projects.html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
