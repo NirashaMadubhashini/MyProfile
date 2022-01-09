@@ -164,3 +164,49 @@ a:hover {
         text-decoration: none;
     }
 }
+@media all and (min-width: 425px) and (max-width: 768px) {
+    .header-nav-h2 {
+        width: 300px;
+        position: relative;
+        top: -20px;
+        left: 127px;
+        color: #e5e5e5;
+        font-size: 33px;
+        font-family: Roboto;
+    }
+
+    .section {
+        width: 152px;
+        position: relative;
+        left: 118px;
+        top: -34px;
+        color: #0085FF;
+        box-shadow: 17px 13px 8px 0px #0085ff;
+    }
+
+    .main-section {
+        width: 300px;
+        position: relative;
+        top: -27px;
+        left: -223px;
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+    }
+
+    .main-p {
+        width: 300px;
+        position: relative;
+        top: -67px;
+        left: -17px;
+        color: #e5e5e5;
+        background-color: #0085FF;
+        font-size: 22px;
+        font-family: Roboto;
+        text-decoration: none;
+    }
+}

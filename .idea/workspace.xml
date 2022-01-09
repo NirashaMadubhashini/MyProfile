@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add social media links for contact.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add respond 375px to aboutme.html">
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,21 +122,7 @@
       <workItem from="1641536127080" duration="3263000" />
       <workItem from="1641581671512" duration="3332000" />
       <workItem from="1641626209468" duration="19910000" />
-      <workItem from="1641707566094" duration="10706000" />
-    </task>
-    <task id="LOCAL-00001" summary="contact .html changes">
-      <created>1637390098265</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1637390098265</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add stand alone project file">
-      <created>1640351053256</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1640351053257</updated>
+      <workItem from="1641707566094" duration="11034000" />
     </task>
     <task id="LOCAL-00003" summary="add animation to assignment">
       <created>1640605037946</created>
@@ -468,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641719193913</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add respond 320px to aboutme.html">
+      <created>1641720211250</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1641720211254</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add respond 375px to aboutme.html">
+      <created>1641720337640</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1641720337640</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,8 +486,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add index" />
-    <MESSAGE value="add index." />
     <MESSAGE value="add index.css" />
     <MESSAGE value="add Stand-alone Projects.html page" />
     <MESSAGE value="update education.css and education.html" />
@@ -512,7 +509,9 @@
     <MESSAGE value="Response 1024px index.html" />
     <MESSAGE value="add projects in github to the Stand-alone Projects.html" />
     <MESSAGE value="add social media links for contact.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add social media links for contact.html" />
+    <MESSAGE value="add respond 320px to aboutme.html" />
+    <MESSAGE value="add respond 375px to aboutme.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add respond 375px to aboutme.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
