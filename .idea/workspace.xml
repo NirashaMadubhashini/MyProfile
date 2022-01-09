@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add respond 425px to education.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add respond 768px to education.html">
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,14 +122,7 @@
       <workItem from="1641536127080" duration="3263000" />
       <workItem from="1641581671512" duration="3332000" />
       <workItem from="1641626209468" duration="19910000" />
-      <workItem from="1641707566094" duration="21241000" />
-    </task>
-    <task id="LOCAL-00014" summary="update CSSAssignments.html page">
-      <created>1641577641127</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1641577641127</updated>
+      <workItem from="1641707566094" duration="21554000" />
     </task>
     <task id="LOCAL-00015" summary="update Assignments.html page">
       <created>1641577666707</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641732077629</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="add respond 768px to education.html">
+      <created>1641740410724</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1641740410725</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +486,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update skills.css" />
     <MESSAGE value="update background colour of ass.09" />
     <MESSAGE value="update background colour of ass.07" />
     <MESSAGE value="update background colour of ass.06" />
@@ -512,7 +510,8 @@
     <MESSAGE value="add respond 320px to education.html" />
     <MESSAGE value="add respond 375px to education.html" />
     <MESSAGE value="add respond 425px to education.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add respond 425px to education.html" />
+    <MESSAGE value="add respond 768px to education.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add respond 768px to education.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">

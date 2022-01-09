@@ -269,3 +269,54 @@
         width: 87px;
     }
 }
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    .header-nav-h2 {
+        position: absolute;
+        top: -10px;
+        left: 400px;
+        color: #e5e5e5;
+        font-size: 50px;
+        font-family: Roboto;
+    }
+    .figure1 {
+        position: absolute;
+        padding-top: 110px;
+        left: 24px;
+    }
+    .main-section-figure {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    .main-section-figure-figcaption {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    img {
+        border-style: none;
+        width: 160px;
+    }
+    .figure2 {
+        position: absolute;
+        top: 96px;
+        right: 393px;
+    }
+    .figure3 {
+        position: absolute;
+        bottom: 208px;
+        right: 46px;
+    }
+    .figure4 {
+        position: absolute;
+        bottom: 107px;
+        left: 724px;
+        width: 125px;
+    }
+    .figure5 {
+        position: absolute;
+        bottom: 97px;
+        left: 854px;
+        width: 87px;
+    }
+}
