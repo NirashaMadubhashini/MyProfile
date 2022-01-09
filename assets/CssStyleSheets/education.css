@@ -166,3 +166,55 @@
         width: 87px;
     }
 }
+@media all and (min-width: 425px) and (max-width: 768px){
+    .header-nav-h2 {
+        /* width: 300px; */
+        position: absolute;
+        top: -10px;
+        left: 128px;
+        color: #e5e5e5;
+        font-size: 30px;
+        font-family: Roboto;
+    }
+    .figure1 {
+        position: absolute;
+        padding-top: 66px;
+        left: 81px;
+    }
+    .main-section-figure {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    .main-section-figure-figcaption {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    img {
+        border-style: none;
+        width: 160px;
+    }
+    .figure2 {
+        position: absolute;
+        top: 377px;
+        right: 78px;
+    }
+    .figure3 {
+        position: absolute;
+        bottom: -377px;
+        right: 103px;
+    }
+    .figure4 {
+        position: absolute;
+        bottom: -459px;
+        left: 93px;
+        width: 125px;
+    }
+    .figure5 {
+        position: absolute;
+        bottom: -477px;
+        left: 232px;
+        width: 87px;
+    }
+}
