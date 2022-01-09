@@ -62,3 +62,55 @@
     bottom: 450px;
     left: 1370px;
 }
+@media all and (min-width: 320px) and (max-width: 375px) {
+    .header-nav-h2 {
+        /* width: 300px; */
+        position: absolute;
+        top: -10px;
+        left: 94px;
+        color: #e5e5e5;
+        font-size: 30px;
+        font-family: Roboto;
+    }
+    .figure1 {
+        position: absolute;
+        padding-top: 66px;
+        left: 30px;
+    }
+    .main-section-figure {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    .main-section-figure-figcaption {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+    }
+    img {
+        border-style: none;
+        width: 160px;
+    }
+    .figure2 {
+        position: absolute;
+        top: 377px;
+        right: 31px;
+    }
+    .figure3 {
+        position: absolute;
+        bottom: -377px;
+        right: 47px;
+    }
+    .figure4 {
+        position: absolute;
+        bottom: -444px;
+        left: 25px;
+        width: 125px;
+    }
+    .figure5 {
+        position: absolute;
+        bottom: -477px;
+        left: 154px;
+        width: 87px;
+    }
+}
