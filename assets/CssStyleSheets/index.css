@@ -157,8 +157,8 @@ p:hover {
             bottom: 500px;
             text-decoration: none;
             color: #e5e5e5;
-            font-size: 10px;
-            left: -27px;
+            font-size: 9px;
+            left: -34px;
             padding-left: 0px;
             animation-name: testOne;
             animation-duration: 2s;
@@ -169,7 +169,7 @@ p:hover {
         .main-p {
             position: absolute;
             bottom: 204px;
-            padding-left: 46px;
+            padding-left: 32px;
             color: #e5e5e5;
             font-size: 26px;
             font-family: Roboto;
