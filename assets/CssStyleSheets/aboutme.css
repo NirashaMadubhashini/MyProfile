@@ -1,11 +1,13 @@
 
-.title{
+.title {
     color: #e5e5e5;
 }
-.body{
+
+.body {
     background-color: #000000;
 }
-.header-nav-h2{
+
+.header-nav-h2 {
     width: 300px;
     position: relative;
     left: 750px;
@@ -13,20 +15,22 @@
     font-size: 55px;
     font-family: Roboto;
 }
-.header-nav-h2-span{
+
+.header-nav-h2-span {
     color: #0085FF;
 }
 
-.section{
+.section {
     width: 300px;
     position: relative;
     left: 200px;
     top: -50px;
     color: #0085FF;
-    box-shadow:22px 18px 10px 0px #0085FF;
+    box-shadow: 22px 18px 10px 0px #0085FF;
 
 }
-.main-section{
+
+.main-section {
     width: 300px;
     position: relative;
     top: -450px;
@@ -37,16 +41,18 @@
     animation-name: test;
     animation-duration: 2s;
     animation-direction: alternate;
-    animation-iteration-count:1;
+    animation-iteration-count: 1;
 }
-.main-section-span{
+
+.main-section-span {
     font-size: 42px;
     font-family: Roboto;
 }
-.main-p{
+
+.main-p {
     width: 300px;
     position: relative;
-    top:-550px;
+    top: -550px;
     left: 200px;
     color: #e5e5e5;
     background-color: #0085FF;
@@ -54,51 +60,107 @@
     font-family: Roboto;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     cursor: pointer;
     color: darkblue;
 }
+
 @keyframes test {
-    from{
+    from {
         transform: translate(300px);
     }
 }
 
-/*@media all and (max-width: 425px)and (max-height: 248px) {*/
-/*.header-nav-h2 {*/
-/*    width: 300px;*/
-/*    !*position: relative;*!*/
-/*    left: 205px;*/
-/*    color: #e5e5e5;*/
-/*    font-size: 25px;*/
-/*    font-family: Roboto;*/
-/*}*/
-/*.section {*/
-/*    width: 108px;*/
-/*    !*position: relative;*!*/
-/*    left: 44px;*/
-/*    top: -1px;*/
-/*    color: #0085FF;*/
-/*    box-shadow: 14px 13px 3px 0px #0085ff;*/
-/*}*/
-/*.main-section {*/
-/*    width: 135px;*/
-/*    !*position: relative;*!*/
-/*    bottom: 151px;*/
-/*    left: 12px;*/
-/*    color: #e5e5e5;*/
-/*    font-size: 13px;*/
-/*    font-family: Roboto;*/
-/*}*/
-/*.main-p {*/
-/*    width: 300px;*/
-/*    !*position: relative;*!*/
-/*    bottom: 184px;*/
-/*    left: 76px;*/
-/*    color: #e5e5e5;*/
-/*    background-color: #0085FF;*/
-/*    font-size: 15px;*/
-/*    font-family: Roboto;*/
-/*}*/
+@media all and (min-width: 320px) and (max-width: 375px) {
+    .header-nav-h2 {
+        width: 300px;
+        position: relative;
+        top: -23px;
+        left: 92px;
+        color: #e5e5e5;
+        font-size: 33px;
+        font-family: Roboto;
+    }
 
-/*}*/
+    .section {
+        width: 150px;
+        position: relative;
+        left: 90px;
+        top: -34px;
+        color: #0085FF;
+        box-shadow: 17px 13px 8px 0px #0085ff;
+    }
+
+    .main-section {
+        width: 300px;
+        position: relative;
+        top: -19px;
+        left: -183px;
+        color: #e5e5e5;
+        font-size: 16px;
+        font-family: Roboto;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+    }
+
+    .main-p {
+        width: 300px;
+        position: relative;
+        top: -50px;
+        left: 5px;
+        color: #e5e5e5;
+        background-color: #0085FF;
+        font-size: 19px;
+        font-family: Roboto;
+        text-decoration: none;
+    }
+}
+@media all and (min-width: 375px) and (max-width: 425px) {
+    .header-nav-h2 {
+        width: 300px;
+        position: relative;
+        top: -23px;
+        left: 92px;
+        color: #e5e5e5;
+        font-size: 33px;
+        font-family: Roboto;
+    }
+
+    .section {
+        width: 150px;
+        position: relative;
+        left: 90px;
+        top: -34px;
+        color: #0085FF;
+        box-shadow: 17px 13px 8px 0px #0085ff;
+    }
+
+    .main-section {
+        width: 300px;
+        position: relative;
+        top: -19px;
+        left: -183px;
+        color: #e5e5e5;
+        font-size: 16px;
+        font-family: Roboto;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+    }
+
+    .main-p {
+        width: 300px;
+        position: relative;
+        top: -50px;
+        left: 5px;
+        color: #e5e5e5;
+        background-color: #0085FF;
+        font-size: 19px;
+        font-family: Roboto;
+        text-decoration: none;
+    }
+}
