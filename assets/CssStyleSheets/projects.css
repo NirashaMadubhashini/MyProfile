@@ -15,6 +15,9 @@
 .span{
     margin-left: 80px;
 }
+.span1{
+    margin-left: 80px;
+}
 .header-nav-h2-span{
     color: #0085FF;
 
@@ -60,4 +63,72 @@ span:hover{
 .link3{
     text-decoration: none;
     color: white;
+}
+
+@media all and (min-width: 320px) and (max-width: 375px) {
+    .header-nav-h2 {
+        width: 300px;
+        padding-left: 108px;
+        top: -5px;
+        color: #e5e5e5;
+        font-size: 30px;
+        font-family: Roboto;
+        position: relative;
+    }
+    .main-section-h4 {
+        padding-left: 201px;
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+        position: relative;
+        left: -161px;
+    }
+    .link1 {
+        text-decoration: none;
+        color: white;
+        position: relative;
+        left: 53px;
+        top: 25px;
+        font-size: 25px;
+    }
+    .span {
+        margin-left: -151px;
+        position: relative;
+        left: 70px;
+        top: 97px;
+        font-size: 25px;
+    }
+    .span1 {
+        margin-left: -28px;
+        position: relative;
+        top: 148px;
+        left: 70px;
+        font-size: 25px;
+    }
+    .span-image1 {
+        position: relative;
+        padding-top: 177px;
+        padding-left: 17px;
+        opacity: 40%;
+        width: 145px;
+        height: 168px;
+    }
+    .span-image2 {
+        position: relative;
+        padding-left: 66px;
+        padding-top: -99px;
+        top: -195px;
+        filter: brightness(180%);
+        width: 177px;
+        height: 213px;
+    }
+    .span-image3 {
+        position: relative;
+        padding-top: -69px;
+        top: -451px;
+        right: -139px;
+        opacity: 20%;
+        width: 159px;
+        height: 183px;
+    }
 }
