@@ -256,3 +256,48 @@ a:hover {
         text-decoration: none;
     }
 }
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    .header-nav-h2 {
+        width: 300px;
+        position: relative;
+        top: -15px;
+        left: 431px;
+        color: #e5e5e5;
+        font-size: 44px;
+        font-family: Roboto;
+    }
+    .section {
+        width: 212px;
+        position: relative;
+        left: 80px;
+        top: 7px;
+        color: #0085FF;
+        box-shadow: 24px 18px 8px 0px #0085ff;
+    }
+
+    .main-section {
+        width: 300px;
+        position: relative;
+        top: -318px;
+        left: -59px;
+        color: #e5e5e5;
+        font-size: 32px;
+        font-family: Roboto;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+    }
+
+    .main-p {
+        width: 300px;
+        position: relative;
+        top: -381px;
+        left: 95px;
+        color: #e5e5e5;
+        background-color: #0085FF;
+        font-size: 37px;
+        font-family: Roboto;
+        text-decoration: none;
+    }
+}
