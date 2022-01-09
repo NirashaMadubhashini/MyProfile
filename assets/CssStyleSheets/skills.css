@@ -298,3 +298,136 @@ div7:hover{
         top: -96px;
     }
 }
+@media all and (min-width: 375px) and (max-width: 425px) {
+    .main-section-h2 {
+        width: 300px;
+        position: relative;
+        left: 120px;
+        top: -22px;
+        color: #e5e5e5;
+        font-size: 33px;
+        font-family: Roboto;
+    }
+    .main-section-dl {
+        width: 300px;
+        position: relative;
+        left: 7px;
+        font-size: 15px;
+        color: #e5e5e5;
+        font-family: Roboto;
+    }
+    .main-section-dl-dd {
+        padding-bottom: 30px;
+    }
+    .section-div {
+        position: relative;
+        bottom: 30px;
+        left: 35px;
+        width: 150px;
+        height: 10px;
+        background: #0085FF;
+        transition-duration: 5s, 2s, 10s;
+    }
+    .section-div2 {
+        position: relative;
+        bottom: 30px;
+        left: 35px;
+        width: 250px;
+        height: 10px;
+        background: #0085FF;
+        transition-duration: 5s, 2s, 10s;
+    }
+    .section-div3 {
+        position: relative;
+        bottom: 30px;
+        left: 35px;
+        width: 225px;
+        height: 10px;
+        background: #0085FF;
+        transition-duration: 5s, 2s, 10s;
+    }
+    .section-div4 {
+        position: relative;
+        bottom: 30px;
+        left: 35px;
+        width: 200px;
+        height: 10px;
+        background: #0085FF;
+        transition-duration: 5s, 2s, 10s;
+    }
+    .section-div5 {
+        position: relative;
+        bottom: 30px;
+        left: 35px;
+        width: 175px;
+        height: 10px;
+        background: #0085FF;
+        transition-duration: 5s, 2s, 10s;
+    }
+    .section-div6 {
+        position: relative;
+        bottom: 30px;
+        left: 35px;
+        width: 150px;
+        height: 10px;
+        background: #0085FF;
+        transition-duration: 5s, 2s, 10s;
+    }
+    .section-div7 {
+        position: relative;
+        bottom: 30px;
+        left: 35px;
+        width: 100px;
+        height: 10px;
+        background: #0085FF;
+        transition-duration: 5s, 2s, 10s;
+    }
+    .footer {
+        background-color: #000000;
+        padding: -230px 0px 0px 0px;
+    }
+    .footer-h2 {
+        alignment: center;
+        position: relative;
+        left: -45px;
+        top: -193px;
+        color: #e5e5e5;
+        font-size: 36px;
+        font-family: Roboto;
+    }
+    .footer-image1 {
+        position: relative;
+        right: 64px;
+        top: -206px;
+    }
+    .footer-image2 {
+        position: relative;
+        right: 45px;
+        top: -205px;
+    }
+    .footer-image3 {
+        position: relative;
+        right: 17px;
+        top: -203px;
+    }
+    .footer-image4 {
+        position: relative;
+        right: 59px;
+        top: -197px;
+    }
+    .footer-image5 {
+        position: relative;
+        left: -55px;
+        top: -211px;
+    }
+    .footer-image6 {
+        position: relative;
+        left: -30px;
+        top: -210px;
+    }
+    .footer-image7 {
+        position: relative;
+        left: -44px;
+        top: -187px;
+    }
+}
