@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add respond 1024px to skills.html">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add respond 425px to education.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" afterDir="false" />
     </list>
@@ -123,28 +123,7 @@
       <workItem from="1641536127080" duration="3263000" />
       <workItem from="1641581671512" duration="3332000" />
       <workItem from="1641626209468" duration="19910000" />
-      <workItem from="1641707566094" duration="19806000" />
-    </task>
-    <task id="LOCAL-00011" summary="update ass.04">
-      <created>1641061409135</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1641061409135</updated>
-    </task>
-    <task id="LOCAL-00012" summary="update CSSAssignments.html page">
-      <created>1641061988508</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1641061988510</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update CSSAssignments.html page">
-      <created>1641064022997</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1641064022997</updated>
+      <workItem from="1641707566094" duration="21241000" />
     </task>
     <task id="LOCAL-00014" summary="update CSSAssignments.html page">
       <created>1641577641127</created>
@@ -468,7 +447,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641729184345</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="add respond 320px to education.html">
+      <created>1641731683642</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1641731683643</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add respond 375px to education.html">
+      <created>1641731819928</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1641731819928</updated>
+    </task>
+    <task id="LOCAL-00062" summary="add respond 425px to education.html">
+      <created>1641732077629</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1641732077629</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,9 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add animations to aboutme.css" />
-    <MESSAGE value="add animations to Stand-alone Projects.html" />
-    <MESSAGE value="update projects.css" />
     <MESSAGE value="update skills.css" />
     <MESSAGE value="update background colour of ass.09" />
     <MESSAGE value="update background colour of ass.07" />
@@ -512,7 +509,10 @@
     <MESSAGE value="add respond 425px to skills.html" />
     <MESSAGE value="add respond 768px to skills.html" />
     <MESSAGE value="add respond 1024px to skills.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add respond 1024px to skills.html" />
+    <MESSAGE value="add respond 320px to education.html" />
+    <MESSAGE value="add respond 375px to education.html" />
+    <MESSAGE value="add respond 425px to education.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add respond 425px to education.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
