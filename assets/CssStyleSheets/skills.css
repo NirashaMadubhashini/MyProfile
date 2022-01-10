@@ -568,16 +568,16 @@ div7:hover{
     .main-section-h2 {
         width: 300px;
         position: relative;
-        left: 281px;
+        left: 225px;
         top: -22px;
         color: #e5e5e5;
-        font-size: 47px;
+        font-size: 44px;
         font-family: Roboto;
     }
     .main-section-dl {
         width: 300px;
         position: relative;
-        left: 122px;
+        left: 65px;
         font-size: 22px;
         color: #e5e5e5;
         font-family: Roboto;
@@ -652,45 +652,45 @@ div7:hover{
     .footer-h2 {
         alignment: center;
         position: relative;
-        left: -45px;
+        left: -110px;
         top: -193px;
         color: #e5e5e5;
-        font-size: 45px;
+        font-size: 44px;
         font-family: Roboto;
     }
     .footer-image1 {
         position: relative;
-        right: 32px;
+        right: 74px;
         top: -206px;
     }
     .footer-image2 {
         position: relative;
-        right: -37px;
+        right: 5px;
         top: -205px;
     }
     .footer-image3 {
         position: relative;
-        right: -144px;
+        right: -65px;
         top: -203px;
     }
     .footer-image4 {
         position: relative;
-        right: -241px;
+        right: -110px;
         top: -197px;
     }
     .footer-image5 {
         position: relative;
-        left: -323px;
+        left: -365px;
         top: -106px;
     }
     .footer-image6 {
         position: relative;
-        left: -228px;
+        left: -285px;
         top: -104px;
     }
     .footer-image7 {
         position: relative;
-        left: -122px;
+        left: -225px;
         top: -100px;
     }
 }
