@@ -524,3 +524,107 @@ a:hover{
         font-family: Roboto;
     }
 }
+
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    .header-nav-h2 {
+        width: 300px;
+        position: relative;
+        left: 345px;
+        top: -12px;
+        color: #e5e5e5;
+        font-size: 30px;
+        font-family: Roboto;
+    }
+    .section1 {
+        position: absolute;
+        background: #C4C4C4;
+        width: 200px;
+        height: 120px;
+        left: 141px;
+        top: 72px;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+    }
+    .section2 {
+        position: absolute;
+        background: #C4C4C4;
+        width: 200px;
+        height: 120px;
+        left: 503px;
+        top: 73px;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+    }
+    .section3 {
+        position: absolute;
+        background: #C4C4C4;
+        width: 200px;
+        height: 120px;
+        left: 140px;
+        top: 250px;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+    }
+    .section4 {
+        position: absolute;
+        background: #C4C4C4;
+        width: 200px;
+        height: 120px;
+        right: 320px;
+        top: 250px;
+        animation-name: test;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+    }
+    .main-section1 {
+        position: relative;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-top: 130px;
+        left: 22px;
+        top: 32px;
+        color: #000000;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+    .main-section2 {
+        position: relative;
+        text-decoration: none;
+        margin-left: 40px;
+        margin-top: 120px;
+        top: 40px;
+        left: 0px;
+        color: #000000;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+    .main-section3 {
+        position: relative;
+        top: 40px;
+        left: -7px;
+        text-decoration: none;
+        margin-left: 46px;
+        margin-top: 110px;
+        color: #000000;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+    .main-section4 {
+        position: relative;
+        top: 40px;
+        left: 0px;
+        text-decoration: none;
+        margin-left: 40px;
+        margin-top: 110px;
+        color: #000000;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+}
