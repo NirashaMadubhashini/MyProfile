@@ -698,7 +698,7 @@ div7:hover{
     .main-section-h2 {
         width: 300px;
         position: relative;
-        left: 236px;
+        left: 350px;
         top: -22px;
         color: #e5e5e5;
         font-size: 37px;
@@ -707,7 +707,7 @@ div7:hover{
     .main-section-dl {
         width: 300px;
         position: relative;
-        left: 112px;
+        left: 160px;
         font-size: 28px;
         color: #e5e5e5;
         font-family: Roboto;
@@ -786,7 +786,7 @@ div7:hover{
     .footer-h2 {
         alignment: center;
         position: relative;
-        left: -227px;
+        left: -160px;
         top: -190px;
         color: #e5e5e5;
         font-size: 42px;
@@ -794,37 +794,37 @@ div7:hover{
     }
     .footer-image1 {
         position: relative;
-        right: 184px;
+        right: 200px;
         top: -232px;
     }
     .footer-image2 {
         position: relative;
-        right: 147px;
+        right: 180px;
         top: -227px;
     }
     .footer-image3 {
         position: relative;
-        right: 96px;
+        right: 145px;
         top: -222px;
     }
     .footer-image4 {
         position: relative;
-        right: 30px;
+        right: 120px;
         top: -205px;
     }
     .footer-image5 {
         position: relative;
-        left: -481px;
-        top: -121px;
+        left: -95px;
+        top: -223px;
     }
     .footer-image6 {
         position: relative;
-        left: -405px;
-        top: -116px;
+        left: -76px;
+        top: -220px;
     }
     .footer-image7 {
         position: relative;
-        left: -328px;
-        top: -114px;
+        left: -72px;
+        top: -215px;
     }
 }
