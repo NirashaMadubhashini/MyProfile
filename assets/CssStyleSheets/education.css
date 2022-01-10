@@ -127,7 +127,7 @@
     .figure1 {
         position: absolute;
         padding-top: 66px;
-        left: 81px;
+        left: 63px;
     }
     .main-section-figure {
         color: #e5e5e5;
@@ -146,23 +146,23 @@
     .figure2 {
         position: absolute;
         top: 377px;
-        right: 31px;
+        right: 60px;
     }
     .figure3 {
         position: absolute;
         bottom: -377px;
-        right: 47px;
+        right: 80px;
     }
     .figure4 {
         position: absolute;
-        bottom: -444px;
-        left: 25px;
+        bottom: -449px;
+        left: 64px;
         width: 125px;
     }
     .figure5 {
         position: absolute;
-        bottom: -477px;
-        left: 154px;
+        bottom: -455px;
+        left: 200px;
         width: 87px;
     }
 }
