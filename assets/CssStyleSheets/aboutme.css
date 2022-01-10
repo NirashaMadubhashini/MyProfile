@@ -224,7 +224,7 @@ a:hover {
     .section {
         width: 160px;
         position: relative;
-        left: 80px;
+        left: 43px;
         top: 7px;
         color: #0085FF;
         box-shadow: 17px 13px 8px 0px #0085ff;
@@ -234,9 +234,9 @@ a:hover {
         width: 300px;
         position: relative;
         top: -228px;
-        left: -16px;
+        left: -44px;
         color: #e5e5e5;
-        font-size: 23px;
+        font-size: 21px;
         font-family: Roboto;
         animation-name: test;
         animation-duration: 2s;
@@ -247,11 +247,11 @@ a:hover {
     .main-p {
         width: 300px;
         position: relative;
-        top: -261px;
-        left: 77px;
+        top: -264px;
+        left: 30px;
         color: #e5e5e5;
         background-color: #0085FF;
-        font-size: 29px;
+        font-size: 25px;
         font-family: Roboto;
         text-decoration: none;
     }
