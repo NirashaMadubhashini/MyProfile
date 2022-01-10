@@ -401,4 +401,104 @@ figcaption:hover{
     }
 }
 
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .header-nav-h2 {
+        align-content: center;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        left: -220px;
+        top: -14px;
+        display: block;
+    }
+    .main-section-figure1 {
+        position: absolute;
+        top: 52px;
+        left: 25px;
+        width: 30px;
+    }
+    .main-section {
+        position: absolute;
+        top: 85px;
+        left: 18px;
+        color: #e5e5e5;
+        font-size: 10px;
+    }
+    .main-section-figure2 {
+        margin-left: 665px;
+        margin-top: -2px;
+        width: 30px;
+        position: relative;
+        left: -561px;
+    }
+    .main-section-figure {
+        position: absolute;
+        left: 94px;
+        top: 85px;
+        color: #e5e5e5;
+        font-size: 10px;
+    }
+    .main-section-figure3 {
+        position: absolute;
+        bottom: 500px;
+        left: 270px;
+        width: 30px;
+    }
+    .main-section-figure-figcaption {
+        width: 236px;
+        position: relative;
+        color: #e5e5e5;
+        font-size: 10px;
+        bottom: 18px;
+        left: 223px;
+    }
+    .footer {
+        padding: 0px 0px 0px 0px;
+        background-color: #000000;
+    }
+    .footer-h3 {
+        font-size: 20px;
+        color: #e5e5e5;
+        position: relative;
+        top: -23px;
+        left: -212px;
+    }
+    .footer-image1 {
+        position: absolute;
+        right: 711px;
+        top: 187px;
+        width: 25px;
+    }
+    .footer-image2 {
+        position: absolute;
+        right: 670px;
+        top: 188px;
+        width: 25px;
+    }
+    .footer-image3 {
+        position: absolute;
+        right: 627px;
+        top: 189px;
+        width: 25px;
+    }
+    .footer-image4 {
+        position: absolute;
+        right: 577px;
+        top: 190px;
+        width: 25px;
+    }
+    .footer-image5 {
+        position: absolute;
+        right: 530px;
+        top: 190px;
+        width: 25px;
+    }
+    .footer-image6 {
+        position: absolute;
+        right: 482px;
+        top: 190px;
+        width: 25px;
+    }
+}
+
 
