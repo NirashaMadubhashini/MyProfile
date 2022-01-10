@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update index.html page">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add responsive 320px,375px and 425px to index.html page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
     </list>
@@ -124,14 +124,7 @@
       <workItem from="1641581671512" duration="3332000" />
       <workItem from="1641626209468" duration="19910000" />
       <workItem from="1641707566094" duration="30310000" />
-      <workItem from="1641798990621" duration="1996000" />
-    </task>
-    <task id="LOCAL-00022" summary="update ass08.html page">
-      <created>1641579628363</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1641579628363</updated>
+      <workItem from="1641798990621" duration="2742000" />
     </task>
     <task id="LOCAL-00023" summary="add assignment10">
       <created>1641582196878</created>
@@ -469,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641799734540</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="add responsive 320px,375px and 425px to index.html page">
+      <created>1641801381052</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1641801381052</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +488,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Response 768px index.html" />
     <MESSAGE value="Response 1024px index.html" />
     <MESSAGE value="add projects in github to the Stand-alone Projects.html" />
     <MESSAGE value="add social media links for contact.html" />
@@ -513,7 +512,8 @@
     <MESSAGE value="add respond 768px to projects.html" />
     <MESSAGE value="add respond 1024px to projects.html" />
     <MESSAGE value="update index.html page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index.html page" />
+    <MESSAGE value="add responsive 320px,375px and 425px to index.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add responsive 320px,375px and 425px to index.html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
