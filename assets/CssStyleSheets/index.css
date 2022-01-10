@@ -19,7 +19,7 @@
     text-decoration: none;
     color: #e5e5e5;
     font-size: 24px;
-    padding-left: 500px;
+    padding-left: 580px;
     animation-name: testOne;
     animation-duration: 2s;
     animation-direction: alternate;
@@ -34,7 +34,7 @@
 .header-nav-h4-u-span {
     text-decoration: none;
     color: #e5e5e5;
-    padding-left: 45px;
+    padding-left: 35px;
 }
 
 a:hover {
