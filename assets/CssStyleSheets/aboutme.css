@@ -122,20 +122,20 @@ a:hover {
     .header-nav-h2 {
         width: 300px;
         position: relative;
-        top: -23px;
+        top: -20px;
         left: 92px;
         color: #e5e5e5;
-        font-size: 33px;
+        font-size: 28px;
         font-family: Roboto;
     }
 
     .section {
-        width: 150px;
+        width: 135px;
         position: relative;
         left: 90px;
         top: -34px;
         color: #0085FF;
-        box-shadow: 17px 13px 8px 0px #0085ff;
+        box-shadow: 15px 13px 8px 0px #0085ff;
     }
 
     .main-section {
