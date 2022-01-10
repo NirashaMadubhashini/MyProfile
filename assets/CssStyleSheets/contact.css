@@ -101,4 +101,103 @@ figcaption:hover{
     right:250px;
 }
 
+@media all and (min-width: 320px) and (max-width: 375px) {
+    .header-nav-h2 {
+        align-content: center;
+        font-size: 30px;
+        color: white;
+        position: relative;
+        left: 0px;
+        top: -6px;
+    }
+    .main-section-figure1 {
+        position: absolute;
+        top: 52px;
+        left: 120px;
+        width: 60px;
+    }
+    .main-section {
+        position: absolute;
+        top: 115px;
+        left: 118px;
+        color: #e5e5e5;
+        font-size: 15px;
+    }
+    .main-section-figure2 {
+        margin-left: 650px;
+        margin-top: 100px;
+        width: 60px;
+        position: relative;
+        left: -561px;
+    }
+    .main-section-figure {
+        position: absolute;
+        left: 67px;
+        top: 220px;
+        color: #e5e5e5;
+        font-size: 15px;
+    }
+    .main-section-figure3 {
+        position: absolute;
+        bottom: 265px;
+        left: 128px;
+        width: 60px;
+    }
+    .main-section-figure-figcaption {
+        width: 236px;
+        position: relative;
+        color: #e5e5e5;
+        font-size: 15px;
+        bottom: -93px;
+        left: 94px;
+    }
+    .footer {
+        padding: 0px 0px 0px 0px;
+        background-color: #000000;
+    }
+    .footer-h3 {
+        font-size: 30px;
+        color: #e5e5e5;
+        position: relative;
+        top: 89px;
+        left: 7px;
+    }
+    .footer-image1 {
+        position: absolute;
+        right: 270px;
+        top: 463px;
+        width: 40px;
+    }
+    .footer-image2 {
+        position: absolute;
+        right: 217px;
+        top: 463px;
+        width: 40px;
+    }
+    .footer-image3 {
+        position: absolute;
+        right: 166px;
+        top: 463px;
+        width: 40px;
+    }
+    .footer-image4 {
+        position: absolute;
+        right: 116px;
+        top: 463px;
+        width: 40px;
+    }
+    .footer-image5 {
+        position: absolute;
+        right: 64px;
+        top: 464px;
+        width: 40px;
+    }
+    .footer-image6 {
+        position: absolute;
+        right: 12px;
+        top: 464px;
+        width: 40px;
+    }
+}
+
 
