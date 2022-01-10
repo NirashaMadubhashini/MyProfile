@@ -261,27 +261,26 @@ a:hover {
         width: 300px;
         position: relative;
         top: -15px;
-        left: 431px;
+        left: 329px;
         color: #e5e5e5;
-        font-size: 44px;
+        font-size: 40px;
         font-family: Roboto;
     }
     .section {
-        width: 212px;
+        width: 190px;
         position: relative;
-        left: 80px;
-        top: 7px;
+        left: 58px;
+        top: -15px;
         color: #0085FF;
-        box-shadow: 24px 18px 8px 0px #0085ff;
+        box-shadow: 23px 18px 8px 0px #0085ff;
     }
-
     .main-section {
         width: 300px;
         position: relative;
-        top: -318px;
-        left: -59px;
+        top: -309px;
+        left: -75px;
         color: #e5e5e5;
-        font-size: 32px;
+        font-size: 28px;
         font-family: Roboto;
         animation-name: test;
         animation-duration: 2s;
@@ -292,11 +291,11 @@ a:hover {
     .main-p {
         width: 300px;
         position: relative;
-        top: -381px;
-        left: 95px;
+        top: -379px;
+        left: 0px;
         color: #e5e5e5;
         background-color: #0085FF;
-        font-size: 37px;
+        font-size: 30px;
         font-family: Roboto;
         text-decoration: none;
     }
