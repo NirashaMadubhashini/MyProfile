@@ -178,26 +178,26 @@ span:hover{
         padding-top: 177px;
         padding-left: 17px;
         opacity: 40%;
-        width: 145px;
-        height: 168px;
+        width: 130px;
+        height: 150px;
     }
     .span-image2 {
         position: relative;
-        padding-left: 89px;
+        padding-left: 78px;
         padding-top: -99px;
-        top: -195px;
+        top: -192px;
         filter: brightness(180%);
-        width: 177px;
-        height: 213px;
+        width: 157px;
+        height: 195px;
     }
     .span-image3 {
         position: relative;
         padding-top: -69px;
-        top: -451px;
-        right: -185px;
+        top: -209px;
+        right: 72px;
         opacity: 20%;
-        width: 159px;
-        height: 183px;
+        width: 130px;
+        height: 150px;
     }
 }
 @media all and (min-width: 425px) and (max-width: 768px) {

@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update responsive 1024px to skills.html page" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update responsive 425px to education.html page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,14 +121,7 @@
       <workItem from="1641581671512" duration="3332000" />
       <workItem from="1641626209468" duration="19910000" />
       <workItem from="1641707566094" duration="30310000" />
-      <workItem from="1641798990621" duration="7953000" />
-    </task>
-    <task id="LOCAL-00032" summary="add standAlone.css stylesheet">
-      <created>1641638496713</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1641638496713</updated>
+      <workItem from="1641798990621" duration="8268000" />
     </task>
     <task id="LOCAL-00033" summary="Code in Stand-alone Projects.html">
       <created>1641643822787</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641813287534</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="update responsive 425px to education.html page">
+      <created>1641813590166</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1641813590166</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add respond 375px to skills.html" />
     <MESSAGE value="add respond 425px to skills.html" />
     <MESSAGE value="add respond 768px to skills.html" />
     <MESSAGE value="add respond 1024px to skills.html" />
@@ -510,7 +509,8 @@
     <MESSAGE value="update responsive 425px to skills.html page" />
     <MESSAGE value="update responsive 768px to skills.html page" />
     <MESSAGE value="update responsive 1024px to skills.html page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update responsive 1024px to skills.html page" />
+    <MESSAGE value="update responsive 425px to education.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update responsive 425px to education.html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
