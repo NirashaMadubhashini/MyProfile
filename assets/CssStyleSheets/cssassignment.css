@@ -254,7 +254,7 @@ a:hover{
 }
 @keyframes test {
     from{
-        transform:rotate(240deg);
+        transform:translate(300px);
     }
 }
 @media all and (min-width: 320px) and (max-width: 375px){
