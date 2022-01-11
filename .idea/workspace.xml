@@ -10,15 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add responsive 1024px to standAlone.html page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/02.Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/02.Assignment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/03_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/03_Assignment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/04_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/04_Assignment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/06_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/06_Assignment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/07_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/07_Assignment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/08_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/08_Assignment/index.html" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="change animation in cssassignment.html page">
+      <change beforePath="$PROJECT_DIR$/myprojects/CSS/09_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/09_Assignment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,28 +125,7 @@
       <workItem from="1641626209468" duration="19910000" />
       <workItem from="1641707566094" duration="30310000" />
       <workItem from="1641798990621" duration="22266000" />
-      <workItem from="1641884331923" duration="12488000" />
-    </task>
-    <task id="LOCAL-00058" summary="add respond 768px to skills.html">
-      <created>1641728190533</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1641728190534</updated>
-    </task>
-    <task id="LOCAL-00059" summary="add respond 1024px to skills.html">
-      <created>1641729184344</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1641729184345</updated>
-    </task>
-    <task id="LOCAL-00060" summary="add respond 320px to education.html">
-      <created>1641731683642</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1641731683643</updated>
+      <workItem from="1641884331923" duration="15364000" />
     </task>
     <task id="LOCAL-00061" summary="add respond 375px to education.html">
       <created>1641731819928</created>
@@ -476,7 +449,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641918320415</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="change animation in index.html page">
+      <created>1641927511866</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1641927511867</updated>
+    </task>
+    <task id="LOCAL-00108" summary="change animation in assignment.html page">
+      <created>1641927623149</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1641927623149</updated>
+    </task>
+    <task id="LOCAL-00109" summary="change animation in cssassignment.html page">
+      <created>1641927722909</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1641927722909</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,9 +489,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update responsive 425px to education.html page" />
-    <MESSAGE value="update responsive 375px to projects.html page" />
-    <MESSAGE value="update responsive 425px to projects.html page" />
     <MESSAGE value="update responsive 768px to projects.html page" />
     <MESSAGE value="update responsive 1024px to projects.html page" />
     <MESSAGE value="add responsive 320px to assignment.html page" />
@@ -520,7 +511,10 @@
     <MESSAGE value="add responsive 425px to standAlone.html page" />
     <MESSAGE value="add responsive 768px to standAlone.html page" />
     <MESSAGE value="add responsive 1024px to standAlone.html page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add responsive 1024px to standAlone.html page" />
+    <MESSAGE value="change animation in index.html page" />
+    <MESSAGE value="change animation in assignment.html page" />
+    <MESSAGE value="change animation in cssassignment.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="change animation in cssassignment.html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
