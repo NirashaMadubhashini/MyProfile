@@ -12,6 +12,7 @@
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="assests/css/fonts/css/all.css" rel="stylesheet">
+    <meta  name="viewport" content="width=device-width, initial-scale=1">
 
     <style>
         header {
@@ -128,6 +129,46 @@
             color: white;
             font-weight: bold;
         }
+        @media all and (max-width: 425px) {
+            header {
+                height: 87px;
+            }
+
+            header > img {
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: auto;
+                top: 10px;
+            }
+
+            header > ul {
+                right: 30px;
+                bottom: 10px;
+                left: 0;
+                right: 0;
+                font-size: 19px;
+                width: max-content;
+                margin: auto;
+                padding-left: 0;
+            }
+
+            main > nav {
+                display: none;
+            }
+
+            main > section {
+                margin-left: 0;
+            }
+
+            main > section > section {
+                flex-direction: column;
+                height: 699px;
+            }
+        }
+
+
+
     </style>
 </head>
 <body>

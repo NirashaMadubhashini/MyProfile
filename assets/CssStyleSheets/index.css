@@ -77,7 +77,7 @@ p:hover {
 
 @keyframes test {
     from {
-        transform: rotate(90deg);
+        transform: translate(300px);
         color: #0085FF;
     }
 
