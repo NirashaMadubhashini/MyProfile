@@ -111,7 +111,7 @@ a:hover{
 }
 @keyframes test {
     from{
-        transform:skew(100deg);
+        transform:translateY(300px);
         background-color:#0085FF ;
     }
 }
