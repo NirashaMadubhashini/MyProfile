@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add responsive 320px to cssassignment.html page" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add responsive 375px to cssassignment.html page">
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,14 +124,7 @@
       <workItem from="1641626209468" duration="19910000" />
       <workItem from="1641707566094" duration="30310000" />
       <workItem from="1641798990621" duration="22266000" />
-      <workItem from="1641884331923" duration="2449000" />
-    </task>
-    <task id="LOCAL-00048" summary="add projects in github to the Stand-alone Projects.html">
-      <created>1641718000969</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1641718000969</updated>
+      <workItem from="1641884331923" duration="2808000" />
     </task>
     <task id="LOCAL-00049" summary="add social media links for contact.html">
       <created>1641719193912</created>
@@ -467,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641886801335</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="add responsive 375px to cssassignment.html page">
+      <created>1641911483183</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1641911483183</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +488,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add responsive 768px to index.html page" />
     <MESSAGE value="add responsive 1024px to index.html page" />
     <MESSAGE value="update responsive 375px to aboutme.html page" />
     <MESSAGE value="update responsive 425px to aboutme.html page" />
@@ -511,7 +512,8 @@
     <MESSAGE value="add responsive 768px to contact.html page" />
     <MESSAGE value="add responsive 1024px to contact.html page" />
     <MESSAGE value="add responsive 320px to cssassignment.html page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add responsive 320px to cssassignment.html page" />
+    <MESSAGE value="add responsive 375px to cssassignment.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add responsive 375px to cssassignment.html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
