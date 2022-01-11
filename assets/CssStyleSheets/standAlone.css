@@ -332,3 +332,109 @@ p:hover{
         width: 200px;
     }
 }
+@media all and (min-width: 425px) and (max-width: 768px){
+    .header-nav-h2 {
+        width: 300px;
+        position: absolute;
+        left: 65px;
+        color: #e5e5e5;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+    .p1 {
+        position: absolute;
+        top: 55px;
+        left: 90px;
+        color: #e5e5e5;
+        font-size: 15px;
+        font-family: Roboto;
+    }
+    .img1 {
+        position: absolute;
+        top: 115px;
+        left: 70px;
+        border: 5px solid #0085FF;
+        border-radius: 24px;
+        width: 200px;
+    }
+    .p2 {
+        position: absolute;
+        bottom: 300px;
+        left: 60px;
+        color: #e5e5e5;
+        font-size: 15px;
+        font-family: Roboto;
+    }
+    .img2 {
+        position: absolute;
+        bottom: 190px;
+        left: 72px;
+        border: 5px solid #0085FF;
+        border-radius: 24px;
+        width: 200px;
+    }
+    .p3 {
+        position: absolute;
+        top: 390px;
+        left: 75px;
+        color: #e5e5e5;
+        font-size: 15px;
+        font-family: Roboto;
+    }
+    .img3 {
+        position: absolute;
+        top: 450px;
+        left: 72px;
+        border: 5px solid #0085FF;
+        border-radius: 24px;
+        width: 200px;
+    }
+    .p4 {
+        position: absolute;
+        top: 560px;
+        left: 95px;
+        color: #e5e5e5;
+        font-size: 15px;
+        font-family: Roboto;
+    }
+    .img4 {
+        position: absolute;
+        top: 600px;
+        left: 72px;
+        border: 5px solid #0085FF;
+        border-radius: 24px;
+        width: 200px;
+    }
+    .p5 {
+        position: absolute;
+        top: 740px;
+        left: 106px;
+        color: #e5e5e5;
+        font-size: 15px;
+        font-family: Roboto;
+    }
+    .img5 {
+        position: absolute;
+        top: 780px;
+        left: 72px;
+        border: 5px solid #0085FF;
+        border-radius: 24px;
+        width: 200px;
+    }
+    .p6 {
+        position: absolute;
+        top: 920px;
+        left: 103px;
+        color: #e5e5e5;
+        font-size: 15px;
+        font-family: Roboto;
+    }
+    .img6 {
+        position: absolute;
+        top: 980px;
+        left: 72px;
+        border: 5px solid #0085FF;
+        border-radius: 24px;
+        width: 200px;
+    }
+}
