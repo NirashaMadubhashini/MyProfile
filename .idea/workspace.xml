@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update contact.html">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update mail of  contact.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +128,8 @@
       <workItem from="1641707566094" duration="30310000" />
       <workItem from="1641798990621" duration="22266000" />
       <workItem from="1641884331923" duration="15429000" />
-      <workItem from="1641981796696" duration="6151000" />
-    </task>
-    <task id="LOCAL-00065" summary="add respond 320px to projects.html">
-      <created>1641744650562</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1641744650564</updated>
+      <workItem from="1641981796696" duration="8740000" />
+      <workItem from="1642012565653" duration="3702000" />
     </task>
     <task id="LOCAL-00066" summary="add respond 375px to projects.html">
       <created>1641744876446</created>
@@ -472,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641989789965</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="update mail of  contact.html">
+      <created>1641991506905</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1641991506906</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +493,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add responsive 375px to assignment.html page" />
     <MESSAGE value="add responsive 425px to assignment.html page" />
     <MESSAGE value="add responsive 768px to assignment.html page" />
     <MESSAGE value="add responsive 1024px to assignment.html page" />
@@ -516,7 +517,8 @@
     <MESSAGE value="update assignment09" />
     <MESSAGE value="update icons of contact.html" />
     <MESSAGE value="update contact.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update contact.html" />
+    <MESSAGE value="update mail of  contact.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mail of  contact.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
