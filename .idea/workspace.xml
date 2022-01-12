@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update icons of contact.html">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update contact.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,14 +127,7 @@
       <workItem from="1641707566094" duration="30310000" />
       <workItem from="1641798990621" duration="22266000" />
       <workItem from="1641884331923" duration="15429000" />
-      <workItem from="1641981796696" duration="4562000" />
-    </task>
-    <task id="LOCAL-00064" summary="add respond 1024px to education.html">
-      <created>1641740792043</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1641740792043</updated>
+      <workItem from="1641981796696" duration="6151000" />
     </task>
     <task id="LOCAL-00065" summary="add respond 320px to projects.html">
       <created>1641744650562</created>
@@ -471,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641987707814</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="update contact.html">
+      <created>1641989789965</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1641989789965</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,9 +514,9 @@
     <MESSAGE value="change animation in assignment.html page" />
     <MESSAGE value="change animation in cssassignment.html page" />
     <MESSAGE value="update assignment09" />
-    <MESSAGE value="update contact.html" />
     <MESSAGE value="update icons of contact.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update icons of contact.html" />
+    <MESSAGE value="update contact.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update contact.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
