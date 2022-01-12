@@ -34,10 +34,12 @@
 }
 
 .figure1 {
-    position:absolute;
+    position: absolute;
     padding-top: 300px;
     left: 50px;
+
 }
+
 
 .figure2 {
     position: absolute;
@@ -52,16 +54,18 @@
 }
 
 .figure4 {
-    position:absolute;
+    position: absolute;
     bottom: 550px;
     left: 1350px;
 }
 
 .figure5 {
-    position:absolute;
+    position: absolute;
     bottom: 450px;
     left: 1370px;
 }
+
+
 @media all and (min-width: 320px) and (max-width: 375px) {
     .header-nav-h2 {
         /* width: 300px; */
@@ -72,41 +76,49 @@
         font-size: 30px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 66px;
         left: 30px;
     }
+
     .main-section-figure {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     .main-section-figure-figcaption {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     img {
         border-style: none;
         width: 160px;
     }
+
     .figure2 {
         position: absolute;
         top: 377px;
         right: 31px;
     }
+
     .figure3 {
         position: absolute;
         bottom: -377px;
         right: 47px;
     }
+
     .figure4 {
         position: absolute;
         bottom: -444px;
         left: 25px;
         width: 125px;
     }
+
     .figure5 {
         position: absolute;
         bottom: -477px;
@@ -114,7 +126,8 @@
         width: 87px;
     }
 }
-@media all and (min-width: 375px) and (max-width: 425px){
+
+@media all and (min-width: 375px) and (max-width: 425px) {
     .header-nav-h2 {
         /* width: 300px; */
         position: absolute;
@@ -124,41 +137,49 @@
         font-size: 30px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 66px;
         left: 63px;
     }
+
     .main-section-figure {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     .main-section-figure-figcaption {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     img {
         border-style: none;
         width: 160px;
     }
+
     .figure2 {
         position: absolute;
         top: 377px;
         right: 60px;
     }
+
     .figure3 {
         position: absolute;
         bottom: -377px;
         right: 80px;
     }
+
     .figure4 {
         position: absolute;
         bottom: -449px;
         left: 64px;
         width: 125px;
     }
+
     .figure5 {
         position: absolute;
         bottom: -455px;
@@ -166,7 +187,8 @@
         width: 87px;
     }
 }
-@media all and (min-width: 425px) and (max-width: 768px){
+
+@media all and (min-width: 425px) and (max-width: 768px) {
     .header-nav-h2 {
         /* width: 300px; */
         position: absolute;
@@ -176,41 +198,49 @@
         font-size: 30px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 66px;
         left: 81px;
     }
+
     .main-section-figure {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     .main-section-figure-figcaption {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     img {
         border-style: none;
         width: 160px;
     }
+
     .figure2 {
         position: absolute;
         top: 377px;
         right: 78px;
     }
+
     .figure3 {
         position: absolute;
         bottom: -377px;
         right: 103px;
     }
+
     .figure4 {
         position: absolute;
         bottom: -459px;
         left: 93px;
         width: 125px;
     }
+
     .figure5 {
         position: absolute;
         bottom: -477px;
@@ -218,7 +248,8 @@
         width: 87px;
     }
 }
-@media all and (min-width: 768px) and (max-width: 1024px){
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
     .header-nav-h2 {
         position: absolute;
         top: -10px;
@@ -227,41 +258,49 @@
         font-size: 36px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 66px;
         left: -5px;
     }
+
     .main-section-figure {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     .main-section-figure-figcaption {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     img {
         border-style: none;
         width: 160px;
     }
+
     .figure2 {
         position: absolute;
         top: 64px;
         right: 240px;
     }
+
     .figure3 {
         position: absolute;
         bottom: 241px;
         right: -6px;
     }
+
     .figure4 {
         position: absolute;
         bottom: 107px;
         left: 527px;
         width: 125px;
     }
+
     .figure5 {
         position: absolute;
         bottom: 97px;
@@ -269,7 +308,8 @@
         width: 87px;
     }
 }
-@media all and (min-width: 1024px) and (max-width: 1440px){
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
     .header-nav-h2 {
         position: absolute;
         top: -10px;
@@ -278,41 +318,49 @@
         font-size: 50px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 110px;
         left: 24px;
     }
+
     .main-section-figure {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     .main-section-figure-figcaption {
         color: #e5e5e5;
         font-size: 20px;
         font-family: Roboto;
     }
+
     img {
         border-style: none;
         width: 160px;
     }
+
     .figure2 {
         position: absolute;
         top: 96px;
         right: 393px;
     }
+
     .figure3 {
         position: absolute;
         bottom: 208px;
         right: 46px;
     }
+
     .figure4 {
         position: absolute;
         bottom: 107px;
         left: 724px;
         width: 125px;
     }
+
     .figure5 {
         position: absolute;
         bottom: 97px;
