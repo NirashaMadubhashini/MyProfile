@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update mail of  contact.html">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update skills.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,28 +127,7 @@
       <workItem from="1641798990621" duration="22266000" />
       <workItem from="1641884331923" duration="15429000" />
       <workItem from="1641981796696" duration="8740000" />
-      <workItem from="1642012565653" duration="3702000" />
-    </task>
-    <task id="LOCAL-00066" summary="add respond 375px to projects.html">
-      <created>1641744876446</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1641744876446</updated>
-    </task>
-    <task id="LOCAL-00067" summary="add respond 425px to projects.html">
-      <created>1641745136072</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1641745136072</updated>
-    </task>
-    <task id="LOCAL-00068" summary="add respond 768px to projects.html">
-      <created>1641746234551</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1641746234552</updated>
+      <workItem from="1642012565653" duration="4400000" />
     </task>
     <task id="LOCAL-00069" summary="add respond 1024px to projects.html">
       <created>1641747132722</created>
@@ -474,7 +451,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641991506906</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="update mail of  index.css">
+      <created>1642016394151</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1642016394153</updated>
+    </task>
+    <task id="LOCAL-00116" summary="update education.css">
+      <created>1642016416515</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1642016416515</updated>
+    </task>
+    <task id="LOCAL-00117" summary="update skills.css">
+      <created>1642016449563</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1642016449563</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,9 +491,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add responsive 425px to assignment.html page" />
-    <MESSAGE value="add responsive 768px to assignment.html page" />
-    <MESSAGE value="add responsive 1024px to assignment.html page" />
     <MESSAGE value="add responsive 320px to contact.html page" />
     <MESSAGE value="add responsive 375px to contact.html page" />
     <MESSAGE value="add responsive 425px to contact.html page" />
@@ -518,7 +513,10 @@
     <MESSAGE value="update icons of contact.html" />
     <MESSAGE value="update contact.html" />
     <MESSAGE value="update mail of  contact.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update mail of  contact.html" />
+    <MESSAGE value="update mail of  index.css" />
+    <MESSAGE value="update education.css" />
+    <MESSAGE value="update skills.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update skills.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
