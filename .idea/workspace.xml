@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update contact.html">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update icons of contact.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,14 +126,7 @@
       <workItem from="1641707566094" duration="30310000" />
       <workItem from="1641798990621" duration="22266000" />
       <workItem from="1641884331923" duration="15429000" />
-      <workItem from="1641981796696" duration="2863000" />
-    </task>
-    <task id="LOCAL-00063" summary="add respond 768px to education.html">
-      <created>1641740410724</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1641740410725</updated>
+      <workItem from="1641981796696" duration="4562000" />
     </task>
     <task id="LOCAL-00064" summary="add respond 1024px to education.html">
       <created>1641740792043</created>
@@ -470,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641930907182</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="update icons of contact.html">
+      <created>1641987707812</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1641987707814</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +490,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add responsive 320px to assignment.html page" />
     <MESSAGE value="add responsive 375px to assignment.html page" />
     <MESSAGE value="add responsive 425px to assignment.html page" />
     <MESSAGE value="add responsive 768px to assignment.html page" />
@@ -514,7 +514,8 @@
     <MESSAGE value="change animation in cssassignment.html page" />
     <MESSAGE value="update assignment09" />
     <MESSAGE value="update contact.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update contact.html" />
+    <MESSAGE value="update icons of contact.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update icons of contact.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1641579553028">
@@ -537,10 +538,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="147" width="579" height="530" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1640350762281" />
-    <state x="209" y="33" key="new project wizard" timestamp="1640630668328">
+    <state x="209" y="33" key="new project wizard" timestamp="1641987865478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1640630668328" />
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1641987865478" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1641579441334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
