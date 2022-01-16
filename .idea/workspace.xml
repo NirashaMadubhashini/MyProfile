@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update web">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS/03_Assignment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS/03_Assignment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
-    </list>
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,28 +127,7 @@
       <workItem from="1642012565653" duration="4554000" />
       <workItem from="1642037997374" duration="3857000" />
       <workItem from="1642244994276" duration="4894000" />
-      <workItem from="1642324202709" duration="4708000" />
-    </task>
-    <task id="LOCAL-00071" summary="add responsive 320px,375px and 425px to index.html page">
-      <created>1641801381052</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1641801381052</updated>
-    </task>
-    <task id="LOCAL-00072" summary="add responsive 768px to index.html page">
-      <created>1641802127800</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1641802127800</updated>
-    </task>
-    <task id="LOCAL-00073" summary="add responsive 1024px to index.html page">
-      <created>1641802810064</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1641802810064</updated>
+      <workItem from="1642324202709" duration="5010000" />
     </task>
     <task id="LOCAL-00074" summary="update responsive 375px to aboutme.html page">
       <created>1641803540484</created>
@@ -477,7 +451,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642017203448</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="update index">
+      <created>1642343737960</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1642343737963</updated>
+    </task>
+    <task id="LOCAL-00121" summary="update projects.html">
+      <created>1642343751485</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1642343751485</updated>
+    </task>
+    <task id="LOCAL-00122" summary="update README.md">
+      <created>1642343762732</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1642343762733</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,9 +491,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add responsive 375px to contact.html page" />
-    <MESSAGE value="add responsive 425px to contact.html page" />
-    <MESSAGE value="add responsive 768px to contact.html page" />
     <MESSAGE value="add responsive 1024px to contact.html page" />
     <MESSAGE value="add responsive 320px to cssassignment.html page" />
     <MESSAGE value="add responsive 375px to cssassignment.html page" />
@@ -521,7 +513,10 @@
     <MESSAGE value="update skills.css" />
     <MESSAGE value="update education.css" />
     <MESSAGE value="update web" />
-    <option name="LAST_COMMIT_MESSAGE" value="update web" />
+    <MESSAGE value="update index" />
+    <MESSAGE value="update projects.html" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642328816278">
