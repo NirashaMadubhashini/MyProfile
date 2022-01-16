@@ -1,5 +1,4 @@
 
-[Project Index Photo](assets/pictures/index.png)<br>
 This is my very first project made by using CSS and HTML.<br>
 I am able to add projects and assignments done by me for this project.<br>
 There are some links that I use to make this project.
@@ -13,3 +12,8 @@ Mock up= https://www.figma.com/file/OlrvgmR1CiX6Fwo5AIHT1V/Untitled?node-id=0%3A
 ooowebhost = https://nirashamadubhashini.000webhostapp.com/
 
 github = https://github.com/NirashaMadubhashini
+
+##Screenshots of my website
+
+##Homepage
+![screenshot](assets/pictures/index.png)
