@@ -13,6 +13,8 @@ ooowebhost = https://nirashamadubhashini.000webhostapp.com/
 
 github = https://github.com/NirashaMadubhashini
 
+githubPages = https://nirashamadubhashini.github.io/MyProfile/
+
 ##Screenshots of my website
 
 ##Homepage
