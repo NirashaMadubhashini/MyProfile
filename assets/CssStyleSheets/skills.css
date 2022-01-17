@@ -18,109 +18,109 @@
 .main-section-h2-span{
     color: #0085FF;
 }
+
+.bg {
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    background-size: contain;
+}
 .main-section-dl{
     width: 300px;
     position: relative;
-    left: 400px;
-    font-size: 32px;
+    left: 550px;
+    font-size: 30px;
     color: #e5e5e5;
     font-family: Roboto;
 }
-.section-div{
+.bar {
     position: relative;
-    bottom: 30px;
-    left: 35px;
-    width: 550px;
     height: 25px;
-    background: #0085FF;
-    transition-duration: 5s, 2s, 10s;
+    background: #6a6a6a;
+    width:  0%;
+    top: 0px;
+    left: 580px;
+    margin-top: 8px;
+    animation: fill 3s infinite alternate, colors 3s infinite alternate;
 }
-div:hover{
-    cursor: pointer;
-    width: 90%;
-    transition-duration: 5s, 2s, 10s;
+
+.bar.fill1 {
+    animation: fill-1 3s infinite alternate, colors 3s infinite alternate;
 }
-.section-div2{
-    position: relative;
-    bottom:30px;
-    left: 35px;
-    width: 800px;
-    height: 25px;
-    background: #0085FF;
-    transition-duration: 5s, 2s, 10s;
+
+.bar.fill2 {
+    animation:  fill-2 3s infinite alternate, colors 3s infinite alternate;
 }
-div2:hover{
-    cursor: pointer;
-    width: 750px;
-    transition-property: width;
+
+
+.bar.fill3 {
+    animation:  fill-3 3s infinite alternate, colors 3s infinite alternate;
 }
-.section-div3{
-    position: relative;
-    bottom: 30px;
-    left: 35px;
-    width: 750px;
-    height: 25px;
-    background: #0085FF;
-    transition-duration: 5s, 2s, 10s;
+
+
+.bar.fill4 {
+    animation:  fill-4 3s infinite alternate, colors 3s infinite alternate;
 }
-div3:hover{
-    cursor: pointer;
-    width: 650px;
+
+.bar.fill5 {
+    animation:  fill-5 3s infinite alternate, colors 3s infinite alternate;
 }
-.section-div4{
-    position: relative;
-    bottom: 30px;
-    left: 35px;
-    width: 650px;
-    height: 25px;
-    background: #0085FF;
-    transition-duration: 5s, 2s, 10s;
+
+.bar.fill6 {
+    animation:  fill-6 3s infinite alternate, colors 3s infinite alternate;
 }
-div4:hover{
-    cursor: pointer;
-    width: 550px;
+
+
+
+@keyframes fill {
+    33%  { width: 30px;}
+    66%  { width: 10px;}
+    100% { width: 205px; }
 }
-.section-div5{
-    position: relative;
-    bottom: 30px;
-    left: 35px;
-    width: 550px;
-    height: 25px;
-    background: #0085FF;
-    transition-duration: 5s, 2s, 10s;
+
+@keyframes fill-1 {
+    33%  { width: 50px;}
+    66%  { width: 20px;}
+    100% { width: 450px; }
 }
-div5:hover{
-    cursor: pointer;
-    width: 450px;
+
+@keyframes fill-2 {
+    33%  { width: 90px;}
+    66%  { width: 70px;}
+    100% { width: 236px; }
 }
-.section-div6{
-    position: relative;
-    bottom: 30px;
-    left: 35px;
-    width: 450px;
-    height: 25px;
-    background: #0085FF;
-    transition-duration: 5s, 2s, 10s;
+
+@keyframes fill-3 {
+    33%  { width: 50px;}
+    66%  { width: 24px;}
+    100% { width: 309px; }
 }
-div6:hover{
-    cursor: pointer;
-    width: 350px;
+
+@keyframes fill-4 {
+    33%  { width: 98px;}
+    66%  { width: 34px;}
+    100% { width: 150px; }
 }
-.section-div7{
-    position: relative;
-    bottom: 30px;
-    left: 35px;
-    width: 350px;
-    height: 25px;
-    background: #0085FF;
-    transition-duration: 5s, 2s, 10s;
+
+@keyframes fill-5 {
+    33%  { width: 30px;}
+    66%  { width: 10px;}
+    100% { width: 248px; }
 }
-div7:hover{
-    cursor: pointer;
-    width: 300px;
+
+
+@keyframes fill-6 {
+    33%  { width: 48px;}
+    66%  { width: 22px;}
+    100% { width: 440px; }
 }
-.main-section-dl-dd{
-    padding-bottom: 35px;
+
+@keyframes colors {
+    0% { background-color: #5a5a5a;}
+    50% { background-color: #0085FF;}
+    100% { background-color: #0085FF;}
 }
 .footer{
     background-color: #201B1B;
