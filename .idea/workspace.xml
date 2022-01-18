@@ -10,39 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update assignment.css">
-      <change afterPath="$PROJECT_DIR$/assets/pictures/aboutMe.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/assignments.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/contact.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/cssAssignment.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/education.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/index.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/projects.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/skills.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/standAloneProjects.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pictures/tools.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/standAlone.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/standAlone.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pictures/index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSSAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSAssignments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Stand-alone Projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Stand-alone Projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/aboutMe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/assignment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/education.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/skills.html" beforeDir="false" />
-    </list>
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update webSite into OnePage Web" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,14 +129,7 @@
       <workItem from="1642244994276" duration="4894000" />
       <workItem from="1642324202709" duration="17235000" />
       <workItem from="1642402271128" duration="9021000" />
-      <workItem from="1642499027947" duration="3481000" />
-    </task>
-    <task id="LOCAL-00084" summary="update responsive 768px to projects.html page">
-      <created>1641816615803</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1641816615803</updated>
+      <workItem from="1642499027947" duration="3782000" />
     </task>
     <task id="LOCAL-00085" summary="update responsive 1024px to projects.html page">
       <created>1641817004965</created>
@@ -506,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642410719513</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="update webSite into OnePage Web">
+      <created>1642511009065</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1642511009068</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +493,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add responsive 320px to standAlone.html page" />
     <MESSAGE value="add responsive 375px to standAlone.html page" />
     <MESSAGE value="add responsive 425px to standAlone.html page" />
     <MESSAGE value="add responsive 768px to standAlone.html page" />
@@ -550,7 +517,8 @@
     <MESSAGE value="update projects.css" />
     <MESSAGE value="update cssassignment.css" />
     <MESSAGE value="update assignment.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="update assignment.css" />
+    <MESSAGE value="update webSite into OnePage Web" />
+    <option name="LAST_COMMIT_MESSAGE" value="update webSite into OnePage Web" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642510502930">

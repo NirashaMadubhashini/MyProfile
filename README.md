@@ -19,7 +19,7 @@ githubPages = https://nirashamadubhashini.github.io/MyProfile/
 
 
 01.Home page
-![screenshot](assets/pictures/index.png)
+![screenshot](assets/pictures/index.jpeg)
 
 02.AboutMe Page
 ![screenshot](assets/pictures/aboutMe.jpeg)
