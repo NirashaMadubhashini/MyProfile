@@ -10,16 +10,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update README.md">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update assignment.css">
+      <change afterPath="$PROJECT_DIR$/assets/pictures/aboutMe.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/assignments.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/contact.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/cssAssignment.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/education.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/index.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/projects.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/skills.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/standAloneProjects.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pictures/tools.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/aboutme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/assignment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/contact.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssassignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/education.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/projects.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/skills.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/standAlone.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/standAlone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pictures/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/CSSAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSAssignments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/assignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Stand-alone Projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Stand-alone Projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/aboutMe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/assignment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/education.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/skills.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +72,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/assImg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/pictures" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkArea\MyProfile\assets\assImg" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\03_Assignment" />
-      <recent name="D:\WorkArea\MyProfile\assets\projectImg" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\10_Assignment" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\08_Assignment\assets\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\css" />
       <recent name="D:\WorkArea\MyProfile\pages" />
       <recent name="D:\WorkArea\MyProfile\assests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
+      <recent name="D:\WorkArea\MyProfile\assets\assImg" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\03_Assignment" />
+      <recent name="D:\WorkArea\MyProfile\assets\projectImg" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS\10_Assignment" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -138,63 +160,8 @@
       <workItem from="1642037997374" duration="3857000" />
       <workItem from="1642244994276" duration="4894000" />
       <workItem from="1642324202709" duration="17235000" />
-      <workItem from="1642402271128" duration="7547000" />
-    </task>
-    <task id="LOCAL-00076" summary="update responsive 768px to aboutme.html page">
-      <created>1641811223151</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1641811223152</updated>
-    </task>
-    <task id="LOCAL-00077" summary="update responsive 1024px to aboutme.html page">
-      <created>1641811550745</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1641811550745</updated>
-    </task>
-    <task id="LOCAL-00078" summary="update responsive 425px to skills.html page">
-      <created>1641812168420</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1641812168420</updated>
-    </task>
-    <task id="LOCAL-00079" summary="update responsive 768px to skills.html page">
-      <created>1641812604693</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1641812604694</updated>
-    </task>
-    <task id="LOCAL-00080" summary="update responsive 1024px to skills.html page">
-      <created>1641813287534</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1641813287534</updated>
-    </task>
-    <task id="LOCAL-00081" summary="update responsive 425px to education.html page">
-      <created>1641813590166</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1641813590166</updated>
-    </task>
-    <task id="LOCAL-00082" summary="update responsive 375px to projects.html page">
-      <created>1641813904113</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1641813904114</updated>
-    </task>
-    <task id="LOCAL-00083" summary="update responsive 425px to projects.html page">
-      <created>1641816279689</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1641816279689</updated>
+      <workItem from="1642402271128" duration="9021000" />
+      <workItem from="1642499027947" duration="3481000" />
     </task>
     <task id="LOCAL-00084" summary="update responsive 768px to projects.html page">
       <created>1641816615803</created>
@@ -483,7 +450,63 @@
       <option name="project" value="LOCAL" />
       <updated>1642344232896</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="update projects.html">
+      <created>1642410595382</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1642410595384</updated>
+    </task>
+    <task id="LOCAL-00126" summary="update skills.html">
+      <created>1642410611875</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1642410611875</updated>
+    </task>
+    <task id="LOCAL-00127" summary="update CSSAssignments.html">
+      <created>1642410624239</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1642410624239</updated>
+    </task>
+    <task id="LOCAL-00128" summary="update assignments.html">
+      <created>1642410633321</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1642410633321</updated>
+    </task>
+    <task id="LOCAL-00129" summary="update skills.css">
+      <created>1642410680501</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1642410680501</updated>
+    </task>
+    <task id="LOCAL-00130" summary="update projects.css">
+      <created>1642410694679</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1642410694679</updated>
+    </task>
+    <task id="LOCAL-00131" summary="update cssassignment.css">
+      <created>1642410711320</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1642410711320</updated>
+    </task>
+    <task id="LOCAL-00132" summary="update assignment.css">
+      <created>1642410719513</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1642410719513</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,12 +525,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add responsive 1024px to contact.html page" />
-    <MESSAGE value="add responsive 320px to cssassignment.html page" />
-    <MESSAGE value="add responsive 375px to cssassignment.html page" />
-    <MESSAGE value="add responsive 425px to cssassignment.html page" />
-    <MESSAGE value="add responsive 768px to cssassignment.html page" />
-    <MESSAGE value="add responsive 1024px to cssassignment.html page" />
     <MESSAGE value="add responsive 320px to standAlone.html page" />
     <MESSAGE value="add responsive 375px to standAlone.html page" />
     <MESSAGE value="add responsive 425px to standAlone.html page" />
@@ -521,19 +538,25 @@
     <MESSAGE value="update contact.html" />
     <MESSAGE value="update mail of  contact.html" />
     <MESSAGE value="update mail of  index.css" />
-    <MESSAGE value="update skills.css" />
     <MESSAGE value="update education.css" />
     <MESSAGE value="update web" />
     <MESSAGE value="update index" />
-    <MESSAGE value="update projects.html" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="update projects.html" />
+    <MESSAGE value="update skills.html" />
+    <MESSAGE value="update CSSAssignments.html" />
+    <MESSAGE value="update assignments.html" />
+    <MESSAGE value="update skills.css" />
+    <MESSAGE value="update projects.css" />
+    <MESSAGE value="update cssassignment.css" />
+    <MESSAGE value="update assignment.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update assignment.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642328816278">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642510502930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1642328816278" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1642510502930" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1639377557050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

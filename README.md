@@ -17,5 +17,34 @@ githubPages = https://nirashamadubhashini.github.io/MyProfile/
 
 ##Screenshots of my website##
 
-##Homepage
+
+01.Home page
 ![screenshot](assets/pictures/index.png)
+
+02.AboutMe Page
+![screenshot](assets/pictures/aboutMe.jpeg)
+
+03.Skills Page
+![screenshot](assets/pictures/skills.jpeg)
+
+04.Tools
+![screenshot](assets/pictures/tools.jpeg)
+
+05.Education Page
+![screenshot](assets/pictures/education.jpeg)
+
+06.Project Page
+![screenshot](assets/pictures/projects.jpeg)
+
+07.StandAloneProjects Page
+![screenshot](assets/pictures/standAloneProjects.jpeg)
+
+08.Assignments Page
+![screenshot](assets/pictures/assignments.jpeg)
+
+09.CSSAssignment Page
+![screenshot](assets/pictures/cssAssignment.jpeg)
+
+10.Contact
+![screenshot](assets/pictures/contact.jpeg)
+
