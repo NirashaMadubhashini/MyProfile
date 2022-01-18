@@ -45,6 +45,6 @@ githubPages = https://nirashamadubhashini.github.io/MyProfile/
 09.CSSAssignment Page
 ![screenshot](assets/pictures/cssAssignment.jpeg)
 
-10.Contact
+10.Contact Page
 ![screenshot](assets/pictures/contact.jpeg)
 
