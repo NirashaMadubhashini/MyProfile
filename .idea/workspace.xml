@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update webSite into OnePage Web" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,21 +129,7 @@
       <workItem from="1642244994276" duration="4894000" />
       <workItem from="1642324202709" duration="17235000" />
       <workItem from="1642402271128" duration="9021000" />
-      <workItem from="1642499027947" duration="3782000" />
-    </task>
-    <task id="LOCAL-00085" summary="update responsive 1024px to projects.html page">
-      <created>1641817004965</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1641817004965</updated>
-    </task>
-    <task id="LOCAL-00086" summary="add responsive 320px to assignment.html page">
-      <created>1641818605414</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1641818605414</updated>
+      <workItem from="1642499027947" duration="4110000" />
     </task>
     <task id="LOCAL-00087" summary="add responsive 375px to assignment.html page">
       <created>1641822775984</created>
@@ -474,7 +460,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642511009068</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="update README.md">
+      <created>1642511203535</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1642511203535</updated>
+    </task>
+    <task id="LOCAL-00135" summary="update README.md">
+      <created>1642511277877</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1642511277878</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +508,6 @@
     <MESSAGE value="update education.css" />
     <MESSAGE value="update web" />
     <MESSAGE value="update index" />
-    <MESSAGE value="update README.md" />
     <MESSAGE value="update projects.html" />
     <MESSAGE value="update skills.html" />
     <MESSAGE value="update CSSAssignments.html" />
@@ -518,7 +517,8 @@
     <MESSAGE value="update cssassignment.css" />
     <MESSAGE value="update assignment.css" />
     <MESSAGE value="update webSite into OnePage Web" />
-    <option name="LAST_COMMIT_MESSAGE" value="update webSite into OnePage Web" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642510502930">
