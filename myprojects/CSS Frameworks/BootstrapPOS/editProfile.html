@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EditProfile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow ">
+    <img src="assets/img/netscape.png" alt="" width="30" height="25" class="d-inline-block align-text-top ms-3">
+    <a class="navbar-brand mr-5 ms-2" href="# ">Nirasha POS System</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active ">
+                <a class="nav-link" href="DashBord.html"><i class="fa fa-home">&nbsp;</i><span
+                        class="bd-nav">Home</span> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active ">
+                <a class="nav-link" href="Loging.html"><i class="fa fa-user">&nbsp;</i><span
+                        class="bd-nav">Log Out</span></a>
+            </li>
+            <li class="nav-item active ">
+                <a class="nav-link" href="DashBord.html"><i class="fa fa-backward">&nbsp;</i><span
+                        class="bd-nav">Back</span></a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<div class="card border-secondary mb-3 mx-auto mt-5" style="max-width: 24rem;">
+    <div class="card-header text-uppercase font-weight-bold bg-primary">Register</div>
+    <div class="card-body text-secondary">
+        <form>
+            <div class="form-group">
+                <label for="fullName">Full name</label>
+                <input type="fullName" class="form-control" id="fullName" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+            <div class="form-group">
+                <label for="rePassword">Re-enter-password</label>
+                <input type="rePassword" class="form-control" id="rePassword">
+            </div>
+            <div class="form-group">
+                <label for="userType">User-Type</label>
+                <select type="user" class="form-control" id="userType" aria-describedby="emailHelp">
+                    <option value="1">Admin</option>
+                    <option value="0">Other</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary"><a href="DashBord.html" class="text-decoration-none text-light">Register</a></button>
+            <button type="submit" class="btn btn-danger"><a href="Loging.html" class="text-decoration-none text-light">Cancel</a></button>
+        </form>
+
+    </div>
+</div>
+</body>
+</html>
