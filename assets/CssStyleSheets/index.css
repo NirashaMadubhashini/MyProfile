@@ -497,9 +497,9 @@ a:hover{
     width:200px;
     position:absolute;
     left: 450px;
-    top: 4710px;
+    top: 4680px;
     margin:55px 0 0 2px;
-
+    text-decoration: none;
 }
 .msg2{
     color: whitesmoke;
@@ -511,7 +511,7 @@ a:hover{
     left: 850px;
     top: 4710px;
     margin:55px 0 0 2px;
-
+    text-decoration: none;
 }
 .msg3{
     color: whitesmoke;
