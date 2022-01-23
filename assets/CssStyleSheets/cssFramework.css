@@ -1,0 +1,19 @@
+.title{
+    color:#e5e5e5;
+}
+.body{
+    background-color: #1D1D1D;
+}
+.header-nav-h2{
+    width: 300px;
+    position: relative;
+    left: 500px;
+    color: #e5e5e5;
+    font-size: 55px;
+    font-family: Roboto;
+
+}
+.header-nav-h2-span {
+    color: #0085FF;
+
+}
