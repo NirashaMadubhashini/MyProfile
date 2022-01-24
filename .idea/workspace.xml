@@ -11,15 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update cssFramework.css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/Customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/DashBord.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/DashBord.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/Item.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/Item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/PlaceOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/PlaceOrder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/addCustomer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/addItem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,49 +137,7 @@
       <workItem from="1642658069397" duration="2425000" />
       <workItem from="1642881042213" duration="1038000" />
       <workItem from="1642928725794" duration="3910000" />
-      <workItem from="1642994349320" duration="2881000" />
-    </task>
-    <task id="LOCAL-00092" summary="add responsive 375px to contact.html page">
-      <created>1641826705526</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1641826705526</updated>
-    </task>
-    <task id="LOCAL-00093" summary="add responsive 425px to contact.html page">
-      <created>1641828434970</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1641828434970</updated>
-    </task>
-    <task id="LOCAL-00094" summary="add responsive 768px to contact.html page">
-      <created>1641830207530</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1641830207530</updated>
-    </task>
-    <task id="LOCAL-00095" summary="add responsive 1024px to contact.html page">
-      <created>1641830684616</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1641830684616</updated>
-    </task>
-    <task id="LOCAL-00096" summary="add responsive 320px to cssassignment.html page">
-      <created>1641886801334</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1641886801335</updated>
-    </task>
-    <task id="LOCAL-00097" summary="add responsive 375px to cssassignment.html page">
-      <created>1641911483183</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1641911483183</updated>
+      <workItem from="1642994349320" duration="3339000" />
     </task>
     <task id="LOCAL-00098" summary="add responsive 375px to cssassignment.html page">
       <created>1641911672724</created>
@@ -489,7 +440,49 @@
       <option name="project" value="LOCAL" />
       <updated>1642995465540</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="update PlaceOrder.html">
+      <created>1643020689914</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1643020689914</updated>
+    </task>
+    <task id="LOCAL-00142" summary="update Item.html">
+      <created>1643020701146</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1643020701146</updated>
+    </task>
+    <task id="LOCAL-00143" summary="update DashBord.html">
+      <created>1643020713881</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1643020713881</updated>
+    </task>
+    <task id="LOCAL-00144" summary="update Customer.html">
+      <created>1643020733516</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1643020733516</updated>
+    </task>
+    <task id="LOCAL-00145" summary="update CSSFrameworkAssignments.html">
+      <created>1643020748328</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1643020748328</updated>
+    </task>
+    <task id="LOCAL-00146" summary="update cssFramework.css">
+      <created>1643020761653</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1643020761653</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,10 +501,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change animation in assignment.html page" />
-    <MESSAGE value="change animation in cssassignment.html page" />
-    <MESSAGE value="update assignment09" />
-    <MESSAGE value="update icons of contact.html" />
     <MESSAGE value="update contact.html" />
     <MESSAGE value="update mail of  contact.html" />
     <MESSAGE value="update mail of  index.css" />
@@ -530,8 +519,12 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="Add framework POS project" />
     <MESSAGE value="update index.html" />
-    <MESSAGE value="update CSSFrameworkAssignments.html" />
     <MESSAGE value="add pos assignment to CSSFrameworkAssignments.html page" />
+    <MESSAGE value="update PlaceOrder.html" />
+    <MESSAGE value="update Item.html" />
+    <MESSAGE value="update DashBord.html" />
+    <MESSAGE value="update Customer.html" />
+    <MESSAGE value="update CSSFrameworkAssignments.html" />
     <MESSAGE value="update cssFramework.css" />
     <option name="LAST_COMMIT_MESSAGE" value="update cssFramework.css" />
   </component>
