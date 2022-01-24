@@ -10,11 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update cssFramework.css">
-      <change afterPath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/SPAAssignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add spaAssignment.css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,35 +136,7 @@
       <workItem from="1642658069397" duration="2425000" />
       <workItem from="1642881042213" duration="1038000" />
       <workItem from="1642928725794" duration="3910000" />
-      <workItem from="1642994349320" duration="4338000" />
-    </task>
-    <task id="LOCAL-00102" summary="add responsive 320px to standAlone.html page">
-      <created>1641915185841</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1641915185841</updated>
-    </task>
-    <task id="LOCAL-00103" summary="add responsive 375px to standAlone.html page">
-      <created>1641915428686</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1641915428686</updated>
-    </task>
-    <task id="LOCAL-00104" summary="add responsive 425px to standAlone.html page">
-      <created>1641916742091</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1641916742091</updated>
-    </task>
-    <task id="LOCAL-00105" summary="add responsive 768px to standAlone.html page">
-      <created>1641917765880</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1641917765881</updated>
+      <workItem from="1642994349320" duration="5130000" />
     </task>
     <task id="LOCAL-00106" summary="add responsive 1024px to standAlone.html page">
       <created>1641918320415</created>
@@ -484,7 +453,35 @@
       <option name="project" value="LOCAL" />
       <updated>1643021801113</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="update index.html">
+      <created>1643022185985</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1643022185985</updated>
+    </task>
+    <task id="LOCAL-00152" summary="update index.css">
+      <created>1643022196043</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1643022196043</updated>
+    </task>
+    <task id="LOCAL-00153" summary="add SPAAssignment.html">
+      <created>1643022209118</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1643022209119</updated>
+    </task>
+    <task id="LOCAL-00154" summary="add spaAssignment.css">
+      <created>1643022219605</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1643022219605</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,9 +500,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update contact.html" />
-    <MESSAGE value="update mail of  contact.html" />
-    <MESSAGE value="update mail of  index.css" />
     <MESSAGE value="update education.css" />
     <MESSAGE value="update web" />
     <MESSAGE value="update index" />
@@ -520,7 +514,6 @@
     <MESSAGE value="update webSite into OnePage Web" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="Add framework POS project" />
-    <MESSAGE value="update index.html" />
     <MESSAGE value="add pos assignment to CSSFrameworkAssignments.html page" />
     <MESSAGE value="update PlaceOrder.html" />
     <MESSAGE value="update DashBord.html" />
@@ -528,7 +521,11 @@
     <MESSAGE value="update Customer.html" />
     <MESSAGE value="update CSSFrameworkAssignments.html" />
     <MESSAGE value="update cssFramework.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="update cssFramework.css" />
+    <MESSAGE value="update index.html" />
+    <MESSAGE value="update index.css" />
+    <MESSAGE value="add SPAAssignment.html" />
+    <MESSAGE value="add spaAssignment.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add spaAssignment.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643019965154">
@@ -551,10 +548,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="147" width="579" height="530" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1640350762281" />
-    <state x="209" y="33" key="new project wizard" timestamp="1642676160091">
+    <state x="209" y="33" key="new project wizard" timestamp="1643022240839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1642676160091" />
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1643022240839" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1641579441334">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
