@@ -20,20 +20,68 @@
                 <a class="nav-link" href="DashBord.html"><i class="fa fa-home">&nbsp;</i><span
                         class="bd-nav">Home</span> <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active ">
-                <a class="nav-link" href="DashBord.html"><i class="fa fa-backward">&nbsp;</i><span
+            <li class="nav-item active">
+                <a class="nav-link" href="Customer.html"><i class="fa fa-user">&nbsp;</i><span
+                        class="bd-nav">Customer</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="Item.html"><i class="fa fa-user">&nbsp;</i><span
+                        class="bd-nav">Item</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="PlaceOrder.html"><i class="fa fa-user">&nbsp;</i><span
+                        class="bd-nav">Orders</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="DashBord.html"><i class="fa fa-user">&nbsp;</i><span
                         class="bd-nav">Back</span></a>
             </li>
-
         </ul>
     </div>
 </nav>
+<div class="row  container-fluid mt-3" style="margin:0; padding: 0 ">
+    <div class=" col-xl-3 col-lg-3 col-md-6 col-12 ms-5">
+        <div class="card bg-light mt-2 ms-5" >
+            <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Item</div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="itemCode">Item Code</label>
+                        <input type="itemCode" class="form-control" id="itemCode">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="itemName">Item Name</label>
+                        <input type="itemName" class="form-control" id="itemName">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="itemPrice">Item Price</label>
+                        <input type="itemPrice" class="form-control" id="itemPrice">
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Quantity</label>
+                        <input type="quantity" class="form-control" id="quantity">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary"><a href="DashBord.html" class="text-decoration-none text-light">Add</a></button>
+                    <button type="submit" class="btn btn-danger"><a href="DashBord.html" class="text-decoration-none text-light">Cancel</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 ms-5 position-absolute top-50 start-50 translate-middle">
+        <div class="shadow-sm pt-3 pb-5 px-3 py-3 mt-2 border-3 border-dark ">
+            <h1 class="h1 mb-3">Item Manager</h1>
+            <div class="mb-3">
+                <label class="form-label" for="srcCusID">Search Item</label>
+                <input class="form-control" id="srcCusID" placeholder="Item Code, Name" type="text">
+            </div>
+            <button class="btn btn-warning" type="submit">Search</button>
+        </div>
+    </div>
+</div>
 <br>
-<br>
-<form class="d-flex position-absolute top-45 start-50 translate-middle w-25">
-    <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-warning" type="submit">Search</button>
-</form>
 <div class="container table-responsive">
     <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover">
         <thead class="table-info">
@@ -56,11 +104,8 @@
                 <button type="button" class="btn btn-info">Update</button>
             </td>
         </tr>
-
         </tbody>
     </table>
-
 </div>
-
 </body>
 </html>
