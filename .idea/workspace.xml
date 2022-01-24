@@ -10,8 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update Customer.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update cssFramework.css">
+      <change afterPath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/SPAAssignment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,21 +139,7 @@
       <workItem from="1642658069397" duration="2425000" />
       <workItem from="1642881042213" duration="1038000" />
       <workItem from="1642928725794" duration="3910000" />
-      <workItem from="1642994349320" duration="3963000" />
-    </task>
-    <task id="LOCAL-00100" summary="add responsive 768px to cssassignment.html page">
-      <created>1641913010756</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1641913010756</updated>
-    </task>
-    <task id="LOCAL-00101" summary="add responsive 1024px to cssassignment.html page">
-      <created>1641913626188</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1641913626188</updated>
+      <workItem from="1642994349320" duration="4338000" />
     </task>
     <task id="LOCAL-00102" summary="add responsive 320px to standAlone.html page">
       <created>1641915185841</created>
@@ -481,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643021103628</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="update CSSFrameworkAssignments.html">
+      <created>1643021755750</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1643021755750</updated>
+    </task>
+    <task id="LOCAL-00150" summary="update cssFramework.css">
+      <created>1643021801113</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1643021801113</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,11 +524,11 @@
     <MESSAGE value="add pos assignment to CSSFrameworkAssignments.html page" />
     <MESSAGE value="update PlaceOrder.html" />
     <MESSAGE value="update DashBord.html" />
-    <MESSAGE value="update CSSFrameworkAssignments.html" />
-    <MESSAGE value="update cssFramework.css" />
     <MESSAGE value="update Item.html" />
     <MESSAGE value="update Customer.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Customer.html" />
+    <MESSAGE value="update CSSFrameworkAssignments.html" />
+    <MESSAGE value="update cssFramework.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update cssFramework.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643019965154">
