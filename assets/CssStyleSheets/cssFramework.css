@@ -59,11 +59,21 @@ section::after {
     border: 20px solid #eeeeee;
     border-top: 20px solid #ff253a;
     border-radius: 100%;
+    animation: rotar 10s infinite running;
 }
 
-section:hover::after{
-    transform: rotate(360deg);
-    transition: all 5s;
-    cursor: pointer;
-}
+/*section:hover::after{*/
+/*    transform: rotate(360deg);*/
+/*    transition: all 5s;*/
+/*    cursor: pointer;*/
+/*}*/
 
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+        transition: all 5s;
+    } to {
+              transform: rotate(360deg);
+              transition: all 5s;
+      }
+}
