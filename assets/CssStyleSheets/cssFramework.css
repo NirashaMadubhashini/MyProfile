@@ -11,9 +11,59 @@
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
-
 }
 .header-nav-h2-span {
     color: #0085FF;
 
 }
+.main-section1{
+    text-decoration: none;
+    color: cornsilk;
+}
+section {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #1b57a3;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+section > h2 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: max-content;
+    height: max-content;
+    color: white;
+    font-size: 30px;
+    font-family: Ubuntu;
+    z-index: 3;
+}
+
+
+section::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 20px solid #eeeeee;
+    border-top: 20px solid #ff253a;
+    border-radius: 100%;
+}
+
+section:hover::after{
+    transform: rotate(360deg);
+    transition: all 5s;
+    cursor: pointer;
+}
+

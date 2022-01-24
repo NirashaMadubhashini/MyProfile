@@ -10,12 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="Add framework POS project">
-      <change afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update CSSFrameworkAssignments.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,21 +138,8 @@
       <workItem from="1642569496376" duration="6222000" />
       <workItem from="1642658069397" duration="2425000" />
       <workItem from="1642881042213" duration="1038000" />
-      <workItem from="1642928725794" duration="652000" />
-    </task>
-    <task id="LOCAL-00088" summary="add responsive 425px to assignment.html page">
-      <created>1641823562173</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1641823562174</updated>
-    </task>
-    <task id="LOCAL-00089" summary="add responsive 768px to assignment.html page">
-      <created>1641823973165</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1641823973165</updated>
+      <workItem from="1642928725794" duration="3910000" />
+      <workItem from="1642994349320" duration="717000" />
     </task>
     <task id="LOCAL-00090" summary="add responsive 1024px to assignment.html page">
       <created>1641824256191</created>
@@ -484,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642883364912</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="update index.html">
+      <created>1642929518811</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1642929518811</updated>
+    </task>
+    <task id="LOCAL-00138" summary="update CSSFrameworkAssignments.html">
+      <created>1642929531654</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1642929531654</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,8 +503,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add responsive 425px to standAlone.html page" />
-    <MESSAGE value="add responsive 768px to standAlone.html page" />
     <MESSAGE value="add responsive 1024px to standAlone.html page" />
     <MESSAGE value="change animation in index.html page" />
     <MESSAGE value="change animation in assignment.html page" />
@@ -528,7 +526,9 @@
     <MESSAGE value="update webSite into OnePage Web" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="Add framework POS project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add framework POS project" />
+    <MESSAGE value="update index.html" />
+    <MESSAGE value="update CSSFrameworkAssignments.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update CSSFrameworkAssignments.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642510502930">
