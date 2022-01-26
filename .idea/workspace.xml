@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update README.md">
-      <change afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add SPA assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/SPAAssignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/SPAAssignment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +45,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/assets/posImg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/SPA" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\posImg" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS" />
-      <recent name="D:\WorkArea\MyProfile\assets" />
-      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
-      <recent name="D:\WorkArea\MyProfile\assets\assImg" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\css" />
       <recent name="D:\WorkArea\MyProfile\pages" />
       <recent name="D:\WorkArea\MyProfile\assests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\SPA" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\posImg" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS" />
+      <recent name="D:\WorkArea\MyProfile\assets" />
+      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -142,14 +141,7 @@
       <workItem from="1642928725794" duration="3910000" />
       <workItem from="1642994349320" duration="7754000" />
       <workItem from="1643125479399" duration="1197000" />
-      <workItem from="1643183300709" duration="604000" />
-    </task>
-    <task id="LOCAL-00114" summary="update mail of  contact.html">
-      <created>1641991506905</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1641991506906</updated>
+      <workItem from="1643183300709" duration="1580000" />
     </task>
     <task id="LOCAL-00115" summary="update mail of  index.css">
       <created>1642016394151</created>
@@ -487,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643024281039</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="add SPA assignment">
+      <created>1643184342431</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1643184342432</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +505,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update index" />
     <MESSAGE value="update projects.html" />
     <MESSAGE value="update skills.html" />
     <MESSAGE value="update CSSAssignments.html" />
@@ -531,7 +529,8 @@
     <MESSAGE value="update name of DashBord.html to index.html" />
     <MESSAGE value="update name to index.html" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="add SPA assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SPA assignment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643019965154">
