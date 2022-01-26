@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add SPA assignment">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/SPAAssignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/SPAAssignment.html" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update SPAAssignment.html page">
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,14 +140,7 @@
       <workItem from="1642928725794" duration="3910000" />
       <workItem from="1642994349320" duration="7754000" />
       <workItem from="1643125479399" duration="1197000" />
-      <workItem from="1643183300709" duration="1580000" />
-    </task>
-    <task id="LOCAL-00115" summary="update mail of  index.css">
-      <created>1642016394151</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1642016394153</updated>
+      <workItem from="1643183300709" duration="1899000" />
     </task>
     <task id="LOCAL-00116" summary="update education.css">
       <created>1642016416515</created>
@@ -486,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643184342432</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="update SPAAssignment.html page">
+      <created>1643185170733</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1643185170733</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +504,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update projects.html" />
     <MESSAGE value="update skills.html" />
     <MESSAGE value="update CSSAssignments.html" />
     <MESSAGE value="update assignments.html" />
@@ -530,7 +528,8 @@
     <MESSAGE value="update name to index.html" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="add SPA assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SPA assignment" />
+    <MESSAGE value="update SPAAssignment.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update SPAAssignment.html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643019965154">
