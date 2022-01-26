@@ -1,0 +1,323 @@
+
+.profile-info{
+  height: 28rem;
+}
+.img-profile{
+  width: 13rem;
+  margin-left: 4rem;
+}
+.profile-info-card-body{
+  margin-left: 4.5rem;
+  padding: 0rem 2rem;
+  position: relative;
+  bottom: 54px;
+}
+.new-order{
+  width: 100%; height: 23rem;
+}
+
+
+
+
+@media all and (min-width: 320px) and (max-width:375px){
+
+  .profile-info{
+    width: 18rem;
+    margin-top: 2rem;
+    padding: 0;
+    height: 24rem;
+
+  }
+  .new-order-h1{
+    display: none;
+  }
+  .new-order-ifram{
+    display: none;
+  }
+  .new-order{
+    height: 14rem;
+  }
+  .new-order-card-body{
+    position: relative;
+    bottom: 10px;
+  }
+  .catagory{
+    margin-bottom: 10px;
+  }
+  .product{
+    margin-bottom: 10px;
+
+  }
+  .brand{
+    margin-bottom: 10px;
+  }
+}
+@media all and (min-width: 375px) and (max-width:425px){
+
+  .profile-info{
+    width: 18rem;
+    margin-top: 2rem;
+    padding: 0;
+    height: 24rem;
+
+  }
+  .new-order-h1{
+    display: none;
+  }
+  .new-order-ifram{
+    display: none;
+  }
+  .new-order{
+    height: 14rem;
+  }
+  .new-order-card-body{
+    position: relative;
+    bottom: 10px;
+  }
+  .catagory{
+    margin-bottom: 10px;
+  }
+  .product{
+    margin-bottom: 10px;
+
+  }
+  .brand{
+    margin-bottom: 10px;
+  }
+}
+@media all and (min-width: 425px) and (max-width:768px){
+
+  .profile-info{
+    width: 18rem;
+    margin-top: 2rem;
+    padding: 0;
+    height: 22rem;
+
+  }
+  .profile-info-div{
+
+    padding-left: 26px;
+    margin: 0 18px;
+  }
+  .new-order-h1{
+    display: none;
+  }
+  .new-order-ifram{
+    display: none;
+  }
+  .new-order{
+    height: 14rem;
+  }
+  .new-order-card-body{
+    position: relative;
+    bottom: -5px;
+  }
+  .catagory{
+    margin-bottom: 10px;
+  }
+  .product{
+    margin-bottom: 10px;
+
+  }
+  .brand{
+    margin-bottom: 10px;
+  }
+}
+@media all and (min-width: 768px) and (max-width:1024px){
+
+  .profile-info{
+    width: 18rem;
+    margin-top: 2rem;
+    padding: 0;
+    height: 22rem;
+
+  }
+  .profile-info-card-body{
+    margin-left: 4.5rem;
+    padding: 0rem 0;
+    position: relative;
+    bottom: 105px;
+  }
+  .img-profile{
+    position: relative;
+    left: 14rem;
+    bottom: -7rem;
+  }
+  .profile-info-div{
+
+    padding-left: 26px;
+    margin: 0 18px;
+  }
+  .new-order-h1{
+    display: none;
+  }
+  .new-order-ifram{
+    display: none;
+  }
+  .new-order{
+    height: 18rem;
+  }
+  .new-order-card-body{
+    position: relative;
+    bottom: -5px;
+  }
+  .catagory{
+    margin-bottom: 10px;
+  }
+  .product{
+    margin-bottom: 10px;
+
+  }
+  .brand{
+    margin-bottom: 10px;
+  }
+
+}
+@media all and (min-width: 1024px) and (max-width:1440px){
+
+  .catagory-row{
+    position: relative;
+    top: 5rem;
+  }
+  .img-profile{
+    position: relative;
+    left: -3rem;
+    bottom: -1rem;
+  }
+  .profile-info-card-body {
+    margin-left: 4.5rem;
+    padding: 0rem 0;
+    position: relative;
+    bottom: 6px;
+    left: -1rem;
+    height: 15rem;
+  }
+  .new-order{
+    position: relative;
+    top: 2rem;
+    height: 28rem;
+    margin: 0;
+  }
+}
+/*///////////////////////////////////////////////////////*/
+.login-container{
+  width: 22rem;
+  position: relative;
+  left: -3rem;
+}
+.login-img{
+  width: 60%;
+}
+@media all and (min-width: 320px) and (max-width:375px){
+  .login-container{
+    width: 17rem;
+    position: relative;
+    left: 0;
+
+  }
+  .login-img{
+    width: 50%;
+  }
+  .login-h1{
+    font-size: 38px;
+  }
+}
+@media all and (min-width: 375px) and (max-width:425px){
+  .login-container{
+    width: 19rem;
+    position: relative;
+    left: 0;
+
+  }
+  .login-img{
+    width: 50%;
+  }
+  .login-h1{
+    font-size: 38px;
+  }
+}
+@media all and (min-width: 425px) and (max-width:768px){
+  .login-container{
+    width: 19rem;
+    position: relative;
+    left: 0;
+
+  }
+  .login-img{
+    width: 50%;
+  }
+  .login-h1{
+    font-size: 38px;
+  }
+}
+@media all and (min-width: 768px) and (max-width:1024px){
+  .login-container{
+    width: 22rem;
+    position: relative;
+    left: 0;
+
+  }
+  .login-img{
+    width: 50%;
+  }
+  .login-h1{
+    font-size: 38px;
+  }
+}
+@media all and (min-width: 1024px) and (max-width:1440px) {
+  .login-container {
+    width: 28rem;
+    position: relative;
+    left: 0;
+    bottom: -4rem;
+    height: 37rem;
+
+  }
+
+  .login-img {
+    width: 50%;
+  }
+
+  .login-h1 {
+    font-size: 38px;
+  }
+
+
+  .new-order-h1 {
+    position: relative;
+    left: 10rem;
+    bottom: 2rem;
+  }
+
+  .new-order-h1 {
+    position: relative;
+    display: flex;
+    left: 8rem;
+    bottom: 2rem;
+  }
+
+  .new-order-ifram {
+    position: relative;
+    display: flex;
+    left: 3rem;
+    bottom: -1rem;
+
+  }
+}
+.new-order-h1{
+  position: relative;
+  bottom: 2rem;
+  left: 10rem;
+  font-family: sans-serif;
+}
+.new-order-h1>span{
+  color: crimson;
+}
+.new-order-ifram{
+  left: 4rem;
+}
+
+
+
+
+

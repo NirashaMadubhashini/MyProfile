@@ -6,7 +6,6 @@
 .body {
     background-color:#1D1D1D;
 }
-
 .img {
     position: relative;
     top: 0px;
@@ -31,10 +30,6 @@
     padding-left: 35px;
 }
 
-span:hover {
-    cursor: pointer;
-    color: #0085FF;
-}
 
 .main-p {
     position: absolute;
@@ -65,12 +60,6 @@ span:hover {
     40% {
         text-shadow: 0 0 5px silver;
     }
-}
-
-p:hover {
-    cursor: pointer;
-    color: #0085FF;
-
 }
 
 .main-p-span {
@@ -157,7 +146,11 @@ p:hover {
     font-family: Roboto;
     text-decoration: none;
 }
+span:hover {
+    cursor: pointer;
+    color: #0085FF;
 
+}
 a:hover {
     cursor: pointer;
     color: darkblue;
