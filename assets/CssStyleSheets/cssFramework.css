@@ -66,45 +66,11 @@ section::after {
     border-radius: 100%;
     animation: rotar 10s infinite running;
 }
-/*.section2{*/
-/*    width: 300px;*/
-/*    height: 300px;*/
-/*    border-radius: 100%;*/
-/*    background-color: #1b57a3;*/
-/*    position: absolute;*/
-/*    margin: auto;*/
-/*    left:500px;*/
-/*    right: 0;*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*}*/
+a:hover{
+    cursor: pointer;
+    color: black;
+}
 
-/*section2::after {*/
-/*    content: " ";*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    border: 20px solid #eeeeee;*/
-/*    border-top: 20px solid #0c4128;*/
-/*    border-radius: 100%;*/
-/*    animation: rotar 10s infinite running;*/
-/*}*/
-/*section2 > h2 {*/
-/*    position: absolute;*/
-/*    margin: auto;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*    width: max-content;*/
-/*    height: max-content;*/
-/*    color: white;*/
-/*    font-size: 30px;*/
-/*    font-family: Ubuntu;*/
-/*    z-index: 3;*/
-/*}*/
 @keyframes rotar {
     from {
         transform: rotate(0deg);
