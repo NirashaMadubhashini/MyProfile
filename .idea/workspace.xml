@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update SPAAssignment.html page">
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update CSSFrameworkAssignments.html page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,21 +140,9 @@
       <workItem from="1642928725794" duration="3910000" />
       <workItem from="1642994349320" duration="7754000" />
       <workItem from="1643125479399" duration="1197000" />
-      <workItem from="1643183300709" duration="1899000" />
-    </task>
-    <task id="LOCAL-00116" summary="update education.css">
-      <created>1642016416515</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1642016416515</updated>
-    </task>
-    <task id="LOCAL-00117" summary="update skills.css">
-      <created>1642016449563</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1642016449563</updated>
+      <workItem from="1643183300709" duration="2210000" />
+      <workItem from="1643195993641" duration="178000" />
+      <workItem from="1643196242925" duration="623000" />
     </task>
     <task id="LOCAL-00118" summary="update education.css">
       <created>1642017182321</created>
@@ -485,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643185170733</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="update CSSFrameworkAssignments.html page">
+      <created>1643185315629</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1643185315629</updated>
+    </task>
+    <task id="LOCAL-00166" summary="update CSSFrameworkAssignments.html page">
+      <created>1643185323787</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1643185323787</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +506,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update skills.html" />
     <MESSAGE value="update CSSAssignments.html" />
     <MESSAGE value="update assignments.html" />
     <MESSAGE value="update skills.css" />
@@ -529,7 +530,8 @@
     <MESSAGE value="update README.md" />
     <MESSAGE value="add SPA assignment" />
     <MESSAGE value="update SPAAssignment.html page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update SPAAssignment.html page" />
+    <MESSAGE value="update CSSFrameworkAssignments.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update CSSFrameworkAssignments.html page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643019965154">
