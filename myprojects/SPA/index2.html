@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DashBoard</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/Dashbord.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/Placeorder.css">
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+        <img src="assets/img/netscape.png" alt="" width="30" height="25" class="d-inline-block align-text-top ms-3">
+        <a class="navbar-brand mr-5 ms-2" href="# ">Nirasha POS System</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active ">
+                    <a class="nav-link" id="linkHome" href="#"><i class="fa fa-home">&nbsp;</i><span
+                            class="bd-nav">Home</span> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" id="linkCustomer" href="#"><i class="fa fa-user">&nbsp;</i><span
+                            class="bd-nav">Customer</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" id="linkItem" href="#"><i class="fa fa-user">&nbsp;</i><span
+                            class="bd-nav">Item</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" id="linkOrder" href="#"><i class="fa fa-user">&nbsp;</i><span
+                            class="bd-nav">Orders</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Loging.html"><i class="fa fa-user">&nbsp;</i><span
+                            class="bd-nav">Back</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<br><br><br>
+<section id="home">
+    <div class="container ms-lg-5">
+        <div class="row mt-5">
+            <div class="profile-info col-sm-12 col-12 col-md-4 col-xl-4 ">
+                <div class="profile-info-div card " style="border: 2px solid#0d6efd">
+                    <img src="assets/img/admin.png " alt="" class="img-profile card-img-overlay" alt="Admin">
+                    <div class="card-body profile-info-card-body ">
+                        <h3 class="card-title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profile
+                            Info</h3>
+                        <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                                class="fa fa-user"></i><b>Nirasha Madubhashini</b></p>
+                        <p class="card-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                                class="fa fa-user"></i><b>Admin</b></p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                            href="editProfile.html" class="btn btn-primary">
+                        <i class="fa fa-edit"></i>EditProfile
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-xl-8">
+                <div class="new-order jumbotron ">
+                    <div class="row"
+                         style="display: flex;justify-content: center;align-items: center;position:absolute;top: 200px;">
+                        <h1 class="new-order-h1 ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>W</span>elcome
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row catagory-row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pl-xl-0  pl-md-0 ">
+                <div class="card catagory ">
+                    <div class="card-body " style="border: 2px solid#0d6efd">
+                        <h5 class="card-title">Customer</h5>
+                        <p class="card-text">Here You can Add and Manage Customers</p>
+                        <a id="linkCustomerPage" href="#" class="btn btn-warning">Add/Manage</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pr-xl-0 pr-md-0">
+                <div class="card product">
+                    <div class="card-body " style="border: 2px solid#0d6efd">
+                        <h5 class="card-title">Item</h5>
+                        <p class="card-text">Here You can Add and Manage Items</p>
+                        <a id="linkItemPage" href="#" class="btn btn-warning">Add/Manage</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 pr-xl-0 pr-md-0">
+                <div class="card product">
+                    <div class="card-body " style="border: 2px solid#0d6efd">
+                        <h5 class="card-title">Orders</h5>
+                        <p class="card-text">Here You can Add and Manage Orders</p>
+                        <a id="linkOrderPage" href="#" class="btn btn-success">Place New Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="customer">
+    <div class="row  container-fluid mt-3" style="margin:0; padding: 0 ">
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12 ms-5">
+            <div class="card bg-light mt-2 ms-5">
+                <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Customer
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="customerId">Customer Id</label>
+                            <input type="customerId" class="form-control" id="customerId">
+                        </div>
+                        <div class="form-group">
+                            <label for="customerName">Customer Name</label>
+                            <input type="customerName" class="form-control" id="customerName">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="address" class="form-control" id="address">
+                        </div>
+                        <div class="form-group">
+                            <label for="tp">Tp</label>
+                            <input type="tp" class="form-control" id="tp">
+                        </div>
+                        <div class="form-group">
+                            <label for="salary">Salary</label>
+                            <input type="salary" class="form-control" id="salary">
+                        </div>
+                        <br>
+                        <button type="submit" id="btnAddCustomer" class="btn btn-primary">Add</button>
+                        <button type="submit" id="btnDelete" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-info">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 ms-5 position-absolute top-50 start-50 translate-middle">
+            <div class="shadow-sm pt-3 pb-5 px-3 py-3 mt-2 border-3 border-dark ">
+                <h1 class="h1 mb-3">Customer Manager</h1>
+                <div class="mb-3">
+                    <label class="form-label" for="srcCusID">Search Customer</label>
+                    <input class="form-control" id="srcCusID" placeholder="Customer ID, Name" type="text">
+                </div>
+                <button class="btn btn-warning" id="btnSearch" type="submit">Search</button>
+            </div>
+        </div>
+    </div>
+    <div class="container table-responsive">
+        <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover ">
+            <thead class="table-info">
+            <tr>
+                <th scope="col">Customer NIC</th>
+                <th scope="col">Customer Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Tp</th>
+                <th scope="col">Salary</th>
+            </tr>
+            </thead>
+            <tbody id="customerTable">
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section id="item">
+    <div class="row  container-fluid mt-3" style="margin:0; padding: 0 ">
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12 ms-5">
+            <div class="card bg-light mt-2 ms-5">
+                <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Item</div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="itemCode">Item Code</label>
+                            <input type="itemCode" class="form-control" id="itemCode">
+                        </div>
+                        <div class="form-group">
+                            <label for="itemName">Item Name</label>
+                            <input type="itemName" class="form-control" id="itemName">
+                        </div>
+                        <div class="form-group">
+                            <label for="itemPrice">Item Price</label>
+                            <input type="itemPrice" class="form-control" id="itemPrice">
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Quantity</label>
+                            <input type="quantity" class="form-control" id="quantity">
+                        </div>
+                        <br>
+                        <button type="submit" id="btnAddItem" class="btn btn-primary">Add</button>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-info">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 ms-5 position-absolute top-200 start-50 translate-middle">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="shadow-sm pt-3 pb-5 px-3 py-3 mt-2 border-3 border-dark ">
+                <h1 class="h1 mb-3">Item Manager</h1>
+                <div class="mb-3">
+                    <label class="form-label" for="srcItemCode">Search Item</label>
+                    <input class="form-control" id="srcItemCode" placeholder="Item Code, Name" type="text">
+                </div>
+                <button class="btn btn-warning" type="submit">Search</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container table-responsive">
+        <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover">
+            <thead class="table-info">
+            <tr>
+                <th scope="col">Item Code</th>
+                <th scope="col">Item Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+
+            </tr>
+            </thead>
+            <tbody id="itemTable">
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section id="placeOrder">
+    <div class="row  container-fluid" style="margin:0; padding: 0 ">
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12">
+            <div class="card bg-light mt-2 ms-5">
+                <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Order</div>
+                <div class="card-body">
+                    <div class="form-group ">
+                        <label for="txtOrderId">Order-Id</label>
+                        <input class="form-control" id="txtOrderId" name="OrderId" type="text"
+                               placeholder="Auto-Generate">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txtDate">Date</label>
+                        <input class="form-control" id="txtDate" name="OrderDate" type="date">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txtTime">Time</label>
+                        <input class="form-control" id="txtTime" name="OrderTime" type="time">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12">
+            <div class="card bg-light mt-2 ms-5">
+                <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Customer
+                </div>
+                <div class="card-body">
+                    <div class="form-group ">
+                        <label for="txtCusId">Customer-Id</label>
+                        <input class="form-control" id="txtCusId" name="Customer-Id" type="text">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txtCusName">Customer-Name</label>
+                        <input class="form-control" id="txtCusName" name="Name" type="text">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txtTp">Tp</label>
+                        <input class="form-control" id="txtTp" name="Tp" type="text">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txtAddress">Address</label>
+                        <input class="form-control" id="txtAddress" name="Address" type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12">
+            <div class="card bg-light mt-2 ms-5">
+                <div class="card-header bg-secondary text-white font-weight-bold" style="text-align: center;">Item</div>
+                <div class="card-body">
+                    <div class="form-group ">
+                        <label for="txtItemCode">Item-Code</label>
+                        <input class="form-control" id="txtItemCode" name="Item-Code" type="text">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txtItemName">Item-Name</label>
+                        <input class="form-control" id="txtItemName" name="Item-Name" type="text">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txt-qty">Quantity</label>
+                        <input class="form-control" id="txt-qty" name="Quantity" type="text">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txtUnitPrice">Unit-Price</label>
+                        <input class="form-control" id="txtUnitPrice" name="Unit-Price" type="text">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txt-qty">QuantityOnHand</label>
+                        <input class="form-control" id="txt-qtyOnHand" name="QuantityOnHand" type="text">
+                    </div>
+                    <div class="form-group ">
+                        <label for="txtTotalPrice">Total</label>
+                        <input class="form-control" id="txtTotalPrice" name="TotalPrice" type="text">
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart">&nbsp;</i>Add To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class=" col-xl-3 col-lg-3 col-md-6 col-12">
+            <div class="card bg-light mt-xl-5 ms-4">
+                <div class="card-body">
+                    <div class="form-group ">
+                        <label for="txtDiscount">Discount</label>
+                        <input type="text" class="form-control" id="txtDiscount" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="txtPaymentMethod">Payment Method</label>
+                        <select class="custom-select" id="txtPaymentMethod" required>
+                            <option>Credit</option>
+                            <option>Debet</option>
+                            <option>Cash</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group ">
+                            <label for="txtCash">Cash</label>
+                            <input type="text" class="form-control" id="txtCash" required>
+                        </div>
+                        <div class="form-group ">
+                            <label for="txtChange">Change</label>
+                            <input type="text" class="form-control" id="txtChange" required>
+                        </div>
+                        <div class="form-group ">
+                            <label for="txtTotal">Total</label>
+                            <input class="form-control" id="txtTotal" name="Total" type="text">
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-warning"><i class="fa fa-shopping-cart">&nbsp;</i>Cancel
+                        </button>
+                        <button type="button" class="btn btn-success"><i class="fa fa-shopping-cart">&nbsp;</i>Payment
+                        </button>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div class="container table-responsive">
+            <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover">
+                <thead class="table-info">
+                <tr>
+                    <th scope="col">Item Code</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">C001</th>
+                    <td>Rice</td>
+                    <td>1kg</td>
+                    <td>50/=</td>
+                    <td>100/=</td>
+                    <td>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+<script>
+    $("#home").css("display", "block");
+    $("#customer").css("display", "none");
+    $("#item").css("display", "none");
+    $("#placeOrder").css("display", "none");
+
+
+    $("#linkCustomer").click(function () {
+        $("#customer").css("display", "block");
+        $("#home").css("display", "none");
+        $("#item").css("display", "none");
+        $("#placeOrder").css("display", "none");
+
+    });
+    $("#linkCustomerPage").click(function () {
+        $("#customer").css("display", "block");
+        $("#home").css("display", "none");
+        $("#item").css("display", "none");
+        $("#placeOrder").css("display", "none");
+
+    });
+
+    $("#linkItem").click(function () {
+        $("#item").css("display", "block");
+        $("#customer").css("display", "none");
+        $("#home").css("display", "none");
+        $("#placeOrder").css("display", "none");
+
+    });
+    $("#linkItemPage").click(function () {
+        $("#item").css("display", "block");
+        $("#customer").css("display", "none");
+        $("#home").css("display", "none");
+        $("#placeOrder").css("display", "none");
+
+    });
+
+    $("#linkOrder").click(function () {
+        $("#placeOrder").css("display", "block");
+        $("#item").css("display", "none");
+        $("#customer").css("display", "none");
+        $("#home").css("display", "none");
+
+    });
+    $("#linkOrderPage").click(function () {
+        $("#placeOrder").css("display", "block");
+        $("#item").css("display", "none");
+        $("#customer").css("display", "none");
+        $("#home").css("display", "none");
+
+    });
+
+
+    $("#linkHome").click(function () {
+        $("#home").css("display", "block");
+        $("#item").css("display", "none");
+        $("#customer").css("display", "none");
+        $("#placeOrder").css("display", "none");
+    });
+
+
+    $("#btnAddCustomer").click(function () {
+
+        $("#customerTable>tr").off("click");
+
+        let customerID = $("#customerId").val();
+        let customerName = $("#customerName").val();
+        let customerAddress = $("#address").val();
+        let customerTP = $("#tp").val();
+        let customerSalary = $("#salary").val();
+
+
+        let row = `<tr><td>${customerID}</td><td>${customerName}</td><td>${customerAddress}</td><td>${customerTP}</td>
+                  <td>${customerSalary}</td></tr>`;
+
+
+        $("#customerTable").append(row);
+
+
+        $("#customerTable>tr").click(function () {
+            let cusID = $(this).children(":eq(0)").text();
+            let cusName = $(this).children(":eq(1)").text();
+            let cusAddress = $(this).children(":eq(2)").text();
+            let cusTP = $(this).children(":eq(3)").text();
+            let cusSalary = $(this).children(":eq(4)").text();
+
+            console.log(cusID, cusName, cusAddress, cusTP,cusSalary);
+
+            $("#customerId").val(cusID);
+            $("#customerName").val(cusName);
+            $("#address").val(cusAddress);
+            $("#tp").val(cusTP);
+            $("#salary").val(cusSalary);
+        });
+
+        $("#customerTable>tr").dblclick(function () {
+            $(this).remove();
+        });
+    });
+
+    var regExCusID = /^(C-)[0-9]{3,4}$/;
+
+    $("#customerId").keyup(function () {
+        let input = $("#customerId").val();
+        if (regExCusID.test(input)) {
+            $("#customerId").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#customerId").css('border', '2px solid red');
+            $("#error").text("Wrong format : C-001");
+        }
+    });
+
+    var regExCusName = /^[A-z ]{2,}$/;
+
+    $("#customerName").keyup(function () {
+        let input = $("#customerName").val();
+        if (regExCusName.test(input)) {
+            $("#customerName").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#customerName").css('border', '2px solid red');
+            $("#error").text("Wrong format : Nirasha");
+        }
+    });
+
+    var regExCusAddress = /^[A-z ]{3,30}([0-9]{1,2})?$/;
+
+    $("#address").keyup(function () {
+        let input = $("#address").val();
+        if (regExCusAddress.test(input)) {
+            $("#address").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#address").css('border', '2px solid red');
+            $("#error").text("Wrong format : Galle");
+        }
+    });
+
+    var regExCusTp = /^[0-9]{0,}$/;
+
+    $("#tp").keyup(function () {
+        let input = $("#tp").val();
+        if (regExCusTp.test(input)) {
+            $("#tp").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#tp").css('border', '2px solid red');
+            $("#error").text("Wrong format :0761319259");
+        }
+    });
+
+    var regExCusSalary = /^[0-9]{2,}$/;
+
+    $("#salary").keyup(function () {
+        let input = $("#salary").val();
+        if (regExCusSalary.test(input)) {
+            $("#salary").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#salary").css('border', '2px solid red');
+            $("#error").text("Wrong format :500000");
+        }
+    });
+
+
+
+
+    $("#btnAddItem").click(function () {
+
+        $("#itemTable>tr").off("click");
+
+        let itemCode = $("#itemCode").val();
+        let itemName = $("#itemName").val();
+        let quantity = $("#quantity").val();
+        let itemPrice = $("#itemPrice").val();
+
+
+        let row = `<tr><td>${itemCode}</td><td>${itemName}</td><td>${quantity}</td><td>${itemPrice}</td></tr>`;
+
+
+        $("#itemTable").append(row);
+
+
+        $("#itemTable>tr").click(function () {
+            let itemCode = $(this).children(":eq(0)").text();
+            let itemName = $(this).children(":eq(1)").text();
+            let itemQty = $(this).children(":eq(2)").text();
+            let itemPrice = $(this).children(":eq(3)").text();
+
+            console.log(itemCode, itemName, itemQty, itemPrice);
+
+            $("#itemCode").val(itemCode);
+            $("#itemName").val(itemName);
+            $("#quantity").val(itemQty);
+            $("#itemPrice").val(itemPrice);
+
+        });
+
+        $("#itemTable>tr").dblclick(function () {
+            $(this).remove();
+        });
+    });
+
+    var regExItemCode = /^(I-)[0-9]{3,4}$/;
+
+    $("#itemCode").keyup(function () {
+        let input = $("#itemCode").val();
+        if (regExItemCode.test(input)) {
+            $("#itemCode").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#itemCode").css('border', '2px solid red');
+            $("#error").text("Wrong format : I-001");
+        }
+    });
+
+    var regExItemName = /^[A-z ]{2,}$/;
+
+    $("#itemName").keyup(function () {
+        let input = $("#itemName").val();
+        if (regExItemName.test(input)) {
+            $("#itemName").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#itemName").css('border', '2px solid red');
+            $("#error").text("Wrong format :Rice");
+        }
+    });
+
+    var regExQty = /^[0-9 A-z]{3,}$/;
+
+    $("#quantity").keyup(function () {
+        let input = $("#quantity").val();
+        if (regExQty.test(input)) {
+            $("#quantity").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#quantity").css('border', '2px solid red');
+            $("#error").text("Wrong format :500g");
+        }
+    });
+
+    var regExPrice = /^[0-9]{2,}$/;
+
+    $("#itemPrice").keyup(function () {
+        let input = $("#itemPrice").val();
+        if (regExPrice.test(input)) {
+            $("#itemPrice").css('border', '2px solid green');
+            $("#error").text("");
+        } else {
+            $("#itemPrice").css('border', '2px solid red');
+            $("#error").text("Wrong format :100");
+        }
+    });
+
+</script>
+</body>
+</html>
