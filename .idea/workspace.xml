@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update index.html">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add SPAAssignment.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +48,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\SPA" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\SPA\assets" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\posImg" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS" />
+      <recent name="D:\WorkArea\MyProfile\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\css" />
       <recent name="D:\WorkArea\MyProfile\pages" />
       <recent name="D:\WorkArea\MyProfile\assests" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkArea\MyProfile\myprojects\SPA" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\posImg" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS" />
-      <recent name="D:\WorkArea\MyProfile\assets" />
-      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -143,13 +144,9 @@
       <workItem from="1643195993641" duration="178000" />
       <workItem from="1643196242925" duration="2919000" />
       <workItem from="1644136235226" duration="1377000" />
-    </task>
-    <task id="LOCAL-00123" summary="update README.md">
-      <created>1642344171414</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1642344171414</updated>
+      <workItem from="1644576317510" duration="847000" />
+      <workItem from="1644996826433" duration="598000" />
+      <workItem from="1645091824363" duration="6093000" />
     </task>
     <task id="LOCAL-00124" summary="update README.md">
       <created>1642344232896</created>
@@ -487,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644137120250</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="add SPAAssignment.html">
+      <created>1644576513041</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1644576513041</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +523,6 @@
     <MESSAGE value="update CSSFrameworkAssignments.html" />
     <MESSAGE value="update cssFramework.css" />
     <MESSAGE value="update index.css" />
-    <MESSAGE value="add SPAAssignment.html" />
     <MESSAGE value="add spaAssignment.css" />
     <MESSAGE value="update name of DashBord.html to index.html" />
     <MESSAGE value="update name to index.html" />
@@ -531,7 +534,8 @@
     <MESSAGE value="update Customer.html of BootstrapPOS" />
     <MESSAGE value="update item.html of BootstrapPOS" />
     <MESSAGE value="update index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index.html" />
+    <MESSAGE value="add SPAAssignment.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SPAAssignment.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1643019965154">
