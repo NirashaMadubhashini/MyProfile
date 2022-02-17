@@ -726,26 +726,26 @@ a:hover{
         width: 300px;
         position: relative;
         left: 95px;
-        top: 0px;
+        top: -25px;
         color: #e5e5e5;
-        font-size: 30px;
+        font-size: 25px;
         font-family: Roboto;
     }
     .section2 {
-        width: 175px;
+        width: 125px;
         position: relative;
-        left: 72px;
-        top: 20px;
+        left: 85px;
+        top: -30px;
         color: #0085FF;
-        box-shadow: 14px 12px 10px -3px #0085ff;
+        box-shadow: 14px 10px 10px -3px #0085ff;
     }
     .main-section2 {
         width: 300px;
         position: relative;
-        top: 70px;
-        left: -240px;
+        top: -25px;
+        left: -160px;
         color: #e5e5e5;
-        font-size: 18px;
+        font-size: 15px;
         font-family: Roboto;
         animation-name: testTwo;
         animation-duration: 2s;
@@ -755,12 +755,182 @@ a:hover{
     .main-p2 {
         width: 300px;
         position: relative;
-        top: 75px;
+        top: -60px;
         left: -2px;
         color: #e5e5e5;
         background-color: #0085FF;
-        font-size: 25px;
+        font-size: 18px;
         font-family: Roboto;
         text-decoration: none;
     }
+    .main-section3-h2 {
+        width: 300px;
+        position: relative;
+        top: -60px;
+        left: 120px;
+        color: #e5e5e5;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+    .main-section3-dl {
+        width: 300px;
+        position: relative;
+        top: -73px;
+        left: 46px;
+        font-size: 18px;
+        color: #e5e5e5;
+        font-family: Roboto;
+    }
+    .bar {
+        position: relative;
+        height: 12px;
+        background: #6a6a6a;
+        width: 0%;
+        top: -68px;
+        left: 38px;
+        margin-top: 8px;
+        animation: fill 3s infinite alternate, colors 3s infinite alternate;
+    }
+    @keyframes fill {
+        66%  { width: 10px;}
+        100% {
+            width: 80px;
+        }
+    }
+
+    @keyframes fill-1 {
+        66%  { width: 20px;}
+        100% {
+            width: 130px;
+        }
+    }
+
+    @keyframes fill-2 {
+        66%  { width: 70px;}
+        100% {
+            width: 180px;
+        }
+    }
+
+    @keyframes fill-3 {
+        66%  { width: 24px;}
+        100% {
+            width: 200px;
+        }
+    }
+
+    @keyframes fill-4 {
+        66%  { width: 34px;}
+        100% {
+            width: 110px;
+        }
+    }
+
+    @keyframes fill-5 {
+        66%  { width: 10px;}
+        100% {
+            width: 215px;
+        }
+    }
+
+
+    @keyframes fill-6 {
+        66%  { width: 22px;}
+        100% {
+            width: 260px;
+        }
+    }
+    .footer3 {
+        background-color: #201B1B;
+        padding: 30px 10px 100px 60px;
+        position: relative;
+        top: -110px;
+    }
+    .footer3-h2 {
+        alignment: center;
+        color: #e5e5e5;
+        font-size: 26px;
+        font-family: Roboto;
+        display: flex;
+        margin-left: 60px;
+    }
+    .footer3-image1 {
+        position: relative;
+        right: 50px;
+        width: 55px;
+    }
+    .footer3-image2 {
+        position: relative;
+        right: 25px;
+        width: 55px;
+    }
+    .footer3-image3 {
+        position: relative;
+        right: -14px;
+        top: -5px;
+        width: 50px;
+    }
+    .footer3-image4 {
+        position: relative;
+        right: 223px;
+        width: 55px;
+        top: 85px;
+    }
+    .footer3-image5 {
+        position: relative;
+        left: 10px;
+        width: 50px;
+        top: 20px;
+    }
+    .footer3-image6 {
+        position: relative;
+        left: 52px;
+        width: 45px;
+        top: 20px;
+    }
+    .footer3-image7 {
+        position: relative;
+        left: -94px;
+        width: 55px;
+        top: 95px;
+    }
+    .header4-nav-h2 {
+        width: 300px;
+        position: absolute;
+        top: 2200px;
+        left: 100px;
+        color: #e5e5e5;
+        font-size: 25px;
+        font-family: Roboto;
+    }
+    .figure1 {
+        position: absolute;
+        padding-top: 300px;
+        left: 0px;
+        top: 1955px;
+        width: 500px;
+    }
+    .main-section4-figure {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+        left: 55px;
+        position: absolute;
+        top: 290px;
+    }
+    .main-section4-figure-figcaption {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-family: Roboto;
+        position: absolute;
+        top: 595px;
+        left: 20px;
+    }
+    .figure2 {
+        position: absolute;
+        top: 2601px;
+        right: -34px;
+        width: 296px;
+    }
+
 }
