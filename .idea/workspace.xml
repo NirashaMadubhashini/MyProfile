@@ -10,81 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update POS">
-      <change afterPath="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/POS System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myprojects/SPA/SPA.iml" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update SPA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/Loging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/img/Customer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/img/Items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/img/Orders.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/img/admin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/img/logOut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/img/netscape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/img/signUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/jQuery/jquery-3.6.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/posImg/AddCustomer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/posImg/AddItem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/posImg/DashBoard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/posImg/EditProfileInfo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/posImg/Loging.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/posImg/Manage Customers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/posImg/Manage Items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/posImg/PlaceOrder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/style/Dashbord.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/style/Placeorder.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/assets/style/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/editProfile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/SPA/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/SPAAssignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/SPAAssignment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,14 +146,7 @@
       <workItem from="1644576317510" duration="847000" />
       <workItem from="1644996826433" duration="598000" />
       <workItem from="1645091824363" duration="10454000" />
-      <workItem from="1645180281303" duration="764000" />
-    </task>
-    <task id="LOCAL-00127" summary="update CSSAssignments.html">
-      <created>1642410624239</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1642410624239</updated>
+      <workItem from="1645180281303" duration="1558000" />
     </task>
     <task id="LOCAL-00128" summary="update assignments.html">
       <created>1642410633321</created>
@@ -564,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645180711540</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="update SPA">
+      <created>1645181099646</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1645181099646</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +510,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update assignment.css" />
     <MESSAGE value="update webSite into OnePage Web" />
     <MESSAGE value="Add framework POS project" />
     <MESSAGE value="add pos assignment to CSSFrameworkAssignments.html page" />
@@ -608,7 +534,8 @@
     <MESSAGE value="update index.css" />
     <MESSAGE value="responsive index,about me and skills" />
     <MESSAGE value="update POS" />
-    <option name="LAST_COMMIT_MESSAGE" value="update POS" />
+    <MESSAGE value="update SPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="update SPA" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1645180325860">
