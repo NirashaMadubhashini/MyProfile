@@ -1,0 +1,27 @@
+.nav-X{
+
+  font-size: 28px;
+  color: orange;
+  font-weight: bold;
+}
+.bd-nav:hover{
+
+  color: greenyellow;
+
+}
+.form-control{
+  height: calc(1em + .75rem + 2px);
+}
+.custom-select{
+  /*height: calc(1em + .75rem + 2px);*/
+  font-size: 11px;
+}
+.table{
+  margin-right: 12px;
+}
+.net-total{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

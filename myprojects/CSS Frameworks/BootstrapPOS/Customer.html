@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Customers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow ">
+    <img src="assets/img/netscape.png" alt="" width="30" height="25" class="d-inline-block align-text-top ms-3">
+    <a class="navbar-brand mr-5 ms-2" href="# ">Nirasha POS System</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active ">
+                <a class="nav-link" href="index.html"><i class="fa fa-home">&nbsp;</i><span
+                        class="bd-nav">Home</span> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="Customer.html"><i class="fa fa-user">&nbsp;</i><span
+                        class="bd-nav">Customer</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="Item.html"><i class="fa fa-user">&nbsp;</i><span
+                        class="bd-nav">Item</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="PlaceOrder.html"><i class="fa fa-user">&nbsp;</i><span
+                        class="bd-nav">Orders</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html"><i class="fa fa-user">&nbsp;</i><span
+                        class="bd-nav">Back</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="row  container-fluid mt-3" style="margin:0; padding: 0 ">
+    <div class=" col-xl-3 col-lg-3 col-md-6 col-12 ms-5">
+        <div class="card bg-light mt-2 ms-5">
+            <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Customer
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label  for="customerId">Customer Id</label>
+                        <input type="customerId" class="form-control" id="customerId">
+                        <p><small id="lblcusid" class="text-danger pl-1"></small></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerName">Customer Name</label>
+                        <input type="customerName" class="form-control" id="customerName">
+                        <p><small id="lblcusname" class="text-danger pl-1"></small></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerAddress">Address</label>
+                        <input type="customerAddress" class="form-control" id="customerAddress">
+                        <p><small id="lblcusaddress" class="text-danger pl-1"></small></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerSalary">Salary</label>
+                        <input type="customerSalary" class="form-control" id="customerSalary">
+                        <p><small id="lblcussalary" class="text-danger pl-1"></small></p>
+                    </div>
+                    <br>
+                    <button type="submit" id="btnAddCustomer" class="btn btn-primary">Add</button>
+                    <button type="submit" id="btnUpdateCustomer" class="btn btn-info"> Update</button>
+                    <button type="submit" id="btnDelete" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-4 ms-5 position-absolute top-50 start-50 translate-middle">
+        <div class="shadow-sm pt-3 pb-5 px-3 py-3 mt-2 border-3 border-dark ">
+            <h1 class="h1 mb-3">Customer Manager</h1>
+            <div class="mb-3">
+                <label class="form-label" for="txtSearchCusID">Search Customer</label>
+                <input class="form-control" id="txtSearchCusID" placeholder="Customer ID, Name" type="text">
+            </div>
+            <button class="btn btn-warning" id="btnSearch" type="submit">Search</button>
+        </div>
+    </div>
+</div>
+<div class="container table-responsive">
+    <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover ">
+        <thead class="table-info">
+        <tr>
+            <th scope="col">Customer Id</th>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Salary</th>
+        </tr>
+        </thead>
+        <tbody id="customerTable">
+
+        </tbody>
+    </table>
+</div>
+
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+<script src="db/DB.js"></script>
+<script>
+    $("#btnAddCustomer").click(function () {
+        saveCustomer();
+        clearAll();
+        loadAllCustomers();
+    });
+
+    $("#btnSearch").click(function () {
+        var searchID = $("#txtSearchCusID").val();
+
+        var response = searchCustomer(searchID);
+        if (response) {
+            $("#customerId").val(response.id);
+            $("#customerName").val(response.name);
+            $("#customerAddress").val(response.address);
+            $("#customerSalary").val(response.salary);
+        }else{
+            clearAll();
+            alert("No Such a Customer");
+        }
+    });
+
+    function loadAllCustomers() {
+        $("#customerTable").empty();
+        for (var i of customerDB) {
+            let row = `<tr><td>${i.id}</td><td>${i.name}</td><td>${i.address}</td><td>${i.salary}</td></tr>`;
+            $("#customerTable").append(row);
+        }
+    }
+
+    function saveCustomer() {
+        let customerID = $("#customerId").val();
+        let customerName = $("#customerName").val();
+        let customerAddress = $("#customerAddress").val();
+        let customerSalary = $("#customerSalary").val();
+
+        var customerObject = {
+            id: customerID,
+            name: customerName,
+            address: customerAddress,
+            salary: customerSalary
+        };
+
+        customerDB.push(customerObject);
+    }
+
+    function searchCustomer(id) {
+        for (let i = 0; i < customerDB.length; i++) {
+            if (customerDB[i].id == id) {
+                return customerDB[i];
+            }
+        }
+    }
+
+    function deleteCustomer(){
+        //write the code
+    }
+
+    function updateCustomer(){
+        //write the code
+    }
+
+    const cusIDRegEx = /^(C00-)[0-9]{3}$/;
+    const cusNameRegEx = /^[A-z ]{5,20}$/;
+    const cusAddressRegEx = /^[A-z]{3,}$/;
+    const cusSalaryRegEx = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
+
+
+    $('#customerId,#customerName,#customerAddress,#customerSalary').on('keydown', function (eventOb) {
+        if (eventOb.key == "Tab") {
+            eventOb.preventDefault(); // stop execution of the button
+        }
+    });
+
+    $('#customerId,#customerName,#customerAddress,#customerSalary').on('blur', function () {
+        formValid();
+    });
+
+    $("#customerId").on('keyup', function (eventOb) {
+        setButton();
+        if (eventOb.key == "Enter") {
+            checkIfValid();
+        }
+
+        if (eventOb.key == "Control") {
+            var typedCustomerID = $("#customerId").val();
+            var srcCustomer = searchCustomerFromID(typedCustomerID);
+            $("#customerId").val(srcCustomer.getCustomerID());
+            $("#customerName").val(srcCustomer.getCustomerName());
+            $("#customerAddress").val(srcCustomer.getCustomerAddress());
+            $("#customerSalary").val(srcCustomer.getCustomerSalary());
+        }
+
+
+    });
+
+    $("#customerName").on('keyup', function (eventOb) {
+        setButton();
+        if (eventOb.key == "Enter") {
+            checkIfValid();
+        }
+    });
+
+    $("#customerAddress").on('keyup', function (eventOb) {
+        setButton();
+        if (eventOb.key == "Enter") {
+            checkIfValid();
+        }
+    });
+
+    $("#customerSalary").on('keyup', function (eventOb) {
+        setButton();
+        if (eventOb.key == "Enter") {
+            checkIfValid();
+        }
+    });
+
+    $("#btnAddCustomer").attr('disabled', true);
+
+    function clearAll() {
+        $('#customerId,#customerName,#customerAddress,#customerSalary').val("");
+        $('#customerId,#customerName,#customerAddress,#customerSalary').css('border', '2px solid #ced4da');
+        $('#customerId').focus();
+        $("#btnAddCustomer").attr('disabled', true);
+        loadAllCustomers();
+        $("#lblcusid,#lblcusname,#lblcusaddress,#lblcussalary").text("");
+    }
+
+    function formValid() {
+        var cusID = $("#customerId").val();
+        $("#customerId").css('border', '2px solid green');
+        $("#lblcusid").text("");
+        if (cusIDRegEx.test(cusID)) {
+            var cusName = $("#customerName").val();
+            if (cusNameRegEx.test(cusName)) {
+                $("#customerName").css('border', '2px solid green');
+                $("#lblcusname").text("");
+                var cusAddress = $("#customerAddress").val();
+                if (cusAddressRegEx.test(cusAddress)) {
+                    var cusSalary = $("#customerSalary").val();
+                    var resp = cusSalaryRegEx.test(cusSalary);
+                    $("#customerAddress").css('border', '2px solid green');
+                    $("#lblcusaddress").text("");
+                    if (resp) {
+                        $("#customerSalary").css('border', '2px solid green');
+                        $("#lblcussalary").text("");
+                        return true;
+                    } else {
+                        $("#customerSalary").css('border', '2px solid red');
+                        $("#lblcussalary").text("Cus Salary is a required field : Pattern 100.00 or 100");
+                        return false;
+                    }
+                } else {
+                    $("#customerAddress").css('border', '2px solid red');
+                    $("#lblcusaddress").text("Cus Address is a required field : Mimum 3");
+                    return false;
+                }
+            } else {
+                $("#customerName").css('border', '2px solid red');
+                $("#lblcusname").text("Cus Name is a required field : Mimimum 5, Max 20, Spaces Allowed");
+                return false;
+            }
+        } else {
+            $("#customerId").css('border', '2px solid red');
+            $("#lblcusid").text("Cus ID is a required field : Pattern C00-000");
+            return false;
+        }
+    }
+
+    function checkIfValid() {
+        var cusID = $("#customerId").val();
+        if (cusIDRegEx.test(cusID)) {
+            $("#customerName").focus();
+            var cusName = $("#customerName").val();
+            if (cusNameRegEx.test(cusName)) {
+                $("#customerAddress").focus();
+                var cusAddress = $("#customerAddress").val();
+                if (cusAddressRegEx.test(cusAddress)) {
+                    $("#customerSalary").focus();
+                    var cusSalary = $("#customerSalary").val();
+                    var resp = cusSalaryRegEx.test(cusSalary);
+                    if (resp) {
+                        let res = confirm("Do you really need to add this Customer..?");
+                        if (res) {
+                            saveCustomer();
+                            clearAll();
+                        }
+                    } else {
+                        $("#customerSalary").focus();
+                    }
+                } else {
+                    $("#customerAddress").focus();
+                }
+            } else {
+                $("#customerName").focus();
+            }
+        } else {
+            $("#customerId").focus();
+        }
+    }
+
+    function setButton() {
+        let b = formValid();
+        if (b) {
+            $("#btnAddCustomer").attr('disabled', false);
+        } else {
+            $("#btnAddCustomer").attr('disabled', true);
+        }
+    }
+
+    $('#btnAddCustomer').click(function () {
+        checkIfValid();
+    });
+</script>
+</body>
+</html>

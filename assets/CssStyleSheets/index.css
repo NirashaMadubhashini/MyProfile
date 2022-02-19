@@ -346,8 +346,42 @@ dd:hover{
     font-size: 30px;
     font-family: Roboto;
 }
-
+.main-section4-figure2 {
+    color: #e5e5e5;
+    font-size: 30px;
+    font-family: Roboto;
+}
+.main-section4-figure3 {
+    color: #e5e5e5;
+    font-size: 30px;
+    font-family: Roboto;
+}
+.imgScl{
+   width: 258px;
+}
+.imgICBT{
+   width: 328px;
+}
+.imgIJSE{
+   width: 331px;
+}
+.imgCup{
+    width: 156px;
+}
+.imgMedal{
+    width: 77px;
+}
 .main-section4-figure-figcaption {
+    color: #e5e5e5;
+    font-size: 36px;
+    font-family: Roboto;
+}
+.main-section4-figure2-figcaption {
+    color: #e5e5e5;
+    font-size: 36px;
+    font-family: Roboto;
+}
+.main-section4-figure3-figcaption {
     color: #e5e5e5;
     font-size: 36px;
     font-family: Roboto;
@@ -912,25 +946,85 @@ a:hover{
     }
     .main-section4-figure {
         color: #e5e5e5;
-        font-size: 20px;
+        font-size: 16px;
         font-family: Roboto;
-        left: 55px;
+        left: 65px;
         position: absolute;
         top: 290px;
     }
     .main-section4-figure-figcaption {
         color: #e5e5e5;
-        font-size: 20px;
+        font-size: 16px;
         font-family: Roboto;
         position: absolute;
-        top: 595px;
-        left: 20px;
+        top: 465px;
+        left: 30px;
     }
     .figure2 {
         position: absolute;
         top: 2601px;
         right: -34px;
         width: 296px;
+    }
+    .imgScl {
+        width: 135px;
+        position: absolute;
+        left: 46px;
+    }
+    .imgICBT {
+        width: 175px;
+        position: absolute;
+        left: 52px;
+        top: -98px;
+    }
+    .main-section4-figure2 {
+        color: #e5e5e5;
+        font-size: 16px;
+        font-family: Roboto;
+        position: absolute;
+        left: 100px;
+        top: -145px;
+    }
+    .main-section4-figure2-figcaption {
+        color: #e5e5e5;
+        font-size: 16px;
+        font-family: Roboto;
+        position: absolute;
+        top: 35px;
+        left: 60px;
+    }
+    .main-section4-figure3 {
+        color: #e5e5e5;
+        font-size: 16px;
+        position: absolute;
+        font-family: Roboto;
+        top: -252px;
+        left: 45px;
+    }
+    .imgIJSE {
+        width: 195px;
+        position: absolute;
+        top: -170px;
+        left: -25px;
+    }
+    .main-section4-figure3-figcaption {
+        color: #e5e5e5;
+        font-size: 16px;
+        font-family: Roboto;
+        position: absolute;
+        top: -45px;
+        left: 15px;
+    }
+    .figure4 {
+        position: absolute;
+        top: 3044px;
+        left: 50px;
+        width: 90px;
+    }
+    .figure5 {
+        position: absolute;
+        top: 3070px;
+        left: 155px;
     }
 
 }
