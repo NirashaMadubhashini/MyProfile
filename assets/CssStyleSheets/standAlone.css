@@ -116,7 +116,7 @@ p:hover{
 }
 @keyframes test {
     from{
-        transform: translate(300px);
+        transform: translateY(300px);
     }
 }
 @media all and (min-width: 320px) and (max-width: 375px) {
