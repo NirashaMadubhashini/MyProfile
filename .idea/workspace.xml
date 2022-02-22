@@ -10,11 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update assignment">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/standAlone.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/standAlone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/SPAAssignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/MOC.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,28 +155,7 @@
       <workItem from="1645259979886" duration="3868000" />
       <workItem from="1645339650617" duration="5586000" />
       <workItem from="1645504045665" duration="6103000" />
-      <workItem from="1645552601395" duration="3995000" />
-    </task>
-    <task id="LOCAL-00132" summary="update assignment.css">
-      <created>1642410719513</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1642410719513</updated>
-    </task>
-    <task id="LOCAL-00133" summary="update webSite into OnePage Web">
-      <created>1642511009065</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1642511009068</updated>
-    </task>
-    <task id="LOCAL-00134" summary="update README.md">
-      <created>1642511203535</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1642511203535</updated>
+      <workItem from="1645552601395" duration="5499000" />
     </task>
     <task id="LOCAL-00135" summary="update README.md">
       <created>1642511277877</created>
@@ -498,7 +479,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645342615119</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="update standAlone.css">
+      <created>1645557077193</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1645557077195</updated>
+    </task>
+    <task id="LOCAL-00182" summary="update index.css">
+      <created>1645557092379</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1645557092379</updated>
+    </task>
+    <task id="LOCAL-00183" summary="update index.html">
+      <created>1645557105772</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1645557105772</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +519,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update PlaceOrder.html" />
     <MESSAGE value="update DashBord.html" />
     <MESSAGE value="update Item.html" />
     <MESSAGE value="update Customer.html" />
@@ -533,16 +534,17 @@
     <MESSAGE value="update index of SPA assignment" />
     <MESSAGE value="update Customer.html of BootstrapPOS" />
     <MESSAGE value="update item.html of BootstrapPOS" />
-    <MESSAGE value="update index.html" />
     <MESSAGE value="add SPAAssignment.html" />
-    <MESSAGE value="update index.css" />
     <MESSAGE value="responsive index,about me and skills" />
     <MESSAGE value="update POS" />
     <MESSAGE value="update SPA" />
     <MESSAGE value="update" />
     <MESSAGE value="responsive index,aboutme,skills and education @media 320" />
     <MESSAGE value="update assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="update assignment" />
+    <MESSAGE value="update standAlone.css" />
+    <MESSAGE value="update index.css" />
+    <MESSAGE value="update index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1645180325860">

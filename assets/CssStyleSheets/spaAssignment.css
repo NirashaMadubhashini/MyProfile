@@ -7,7 +7,7 @@
 .header-nav-h2{
     width: 300px;
     position: relative;
-    left: 600px;
+    left: 700px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
@@ -15,14 +15,16 @@
 }
 .header-nav-h2-span{
     color: #0085FF;
-
 }
-/* Animation property */
+
 button {
     animation: wiggle 2s linear infinite;
 }
+button1 {
+    animation: wiggle 2s linear infinite;
+}
 
-/* Keyframes */
+
 @keyframes wiggle {
     0%, 7% {
         transform: rotateZ(0);
@@ -53,12 +55,24 @@ body {
 
 button {
     position: absolute;
-    left:655px;
+    left:400px;
     top:250px;
-
     height: 10em;
     width: 15em;
-
+    background: #444;
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-top: 10px solid #0085FF;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #fff;
+    transform-origin: 50% 5em;
+}
+button1 {
+    position: absolute;
+    left:900px;
+    top:250px;
+    height: 10em;
+    width: 15em;
     background: #444;
     background: linear-gradient(top, #555, #333);
     border: none;
@@ -70,8 +84,20 @@ button {
 .text{
     text-decoration: none;
     color: cornsilk;
-    font-size: 30px;
+    font-size: 35px;
     font-family: Helvetica, Arial, Sans-serif;
+    position: relative;
+    left: -10px;
+    top:-10px;
+}
+.text1{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 35px;
+    font-family: Helvetica, Arial, Sans-serif;
+    position: relative;
+    left: 60px;
+    top:50px;
 }
 a:hover{
     cursor: pointer;
