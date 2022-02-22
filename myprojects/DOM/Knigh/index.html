@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Night light system</title>
+
+<style>
+    #body{
+        background-color: #0C090A;
+    }
+    section {
+        height: 10vh;
+        width: 80vw;
+        display: flex;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 1px solid black;
+    }
+
+    section > div {
+        width: 16vw;
+        border: 1px solid black;
+    }
+
+    button {
+        width: 10vw;
+        height: 5vh;
+        color: white;
+        border-color: white;
+        font-weight: bolder;
+    }
+
+    body > div {
+        width: 25vw;
+        display: flex;
+        position: absolute;
+        bottom: 30vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+</style>
+</head>
+<body id="body">
+
+<section>
+    <div style="background-color: #C02324"></div>
+    <div style="background-color: #943736"></div>
+    <div style="background-color: #B06062"></div>
+    <div style="background-color: #D9B7B7"></div>
+    <div style="background-color: #ffffff"></div>
+</section>
+
+<div>
+    <button id="start" style="background-color: #006AF0; font-size: 20px">Start</button>
+    <button id="end" style="background-color: #EF0000;  font-size: 20px">End</button>
+</div>
+
+
+
+
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+<script>
+
+    function animateColors() {
+        let d1 = $("section>div:nth-child(1)").css('background-color');
+        let d2 = $("section>div:nth-child(2)").css('background-color');
+        let d3 = $("section>div:nth-child(3)").css('background-color');
+        let d4 = $("section>div:nth-child(4)").css('background-color');
+        let d5 = $("section>div:nth-child(5)").css('background-color');
+
+        $("section>div:nth-child(1)").css('background-color',d2);
+        $("section>div:nth-child(2)").css('background-color',d3);
+        $("section>div:nth-child(3)").css('background-color',d4);
+        $("section>div:nth-child(4)").css('background-color',d5);
+        $("section>div:nth-child(5)").css('background-color',d1);
+    }
+
+    let timerId
+    $("#start").click(function () {
+        clearInterval(timerId);
+        timerId =   setInterval(animateColors,100);
+    });
+
+
+    $("#end").click(function () {
+        clearInterval(timerId);
+    });
+</script>
+</body>
+</html>
