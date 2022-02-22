@@ -29,7 +29,10 @@
     padding-left: 35px;
 }
 
-
+a:hover{
+    cursor: pointer;
+    color: #0085FF;
+}
 .main-p {
     position: absolute;
     bottom: 180px;
@@ -140,7 +143,7 @@
     top: -550px;
     left: 200px;
     color: #e5e5e5;
-    background-color: #0085FF;
+    background-color: #51585e;
     font-size: 36px;
     font-family: Roboto;
     text-decoration: none;
@@ -150,10 +153,7 @@ span:hover {
     color: #0085FF;
 
 }
-a:hover {
-    cursor: pointer;
-    color: darkblue;
-}
+
 
 @keyframes testTwo {
     from {
@@ -181,14 +181,14 @@ dd:hover{
     cursor: pointer;
     color: #0085FF;
 }
-.bg {
-    position: absolute;
-    top: 9px;
-    left: 8px;
-    right: 8px;
-    bottom: 8px;
-    background-size: contain;
-}
+/*.bg {*/
+/*    position: absolute;*/
+/*    top: 9px;*/
+/*    left: 8px;*/
+/*    right: 8px;*/
+/*    bottom: 8px;*/
+/*    background-size: contain;*/
+/*}*/
 .main-section3-dl{
     width: 300px;
     position: relative;
@@ -385,7 +385,10 @@ dd:hover{
     font-size: 36px;
     font-family: Roboto;
 }
-
+figcaption:hover{
+    cursor: pointer;
+    color: #0085FF;
+}
 .figure1 {
     position: absolute;
     padding-top: 300px;
@@ -430,6 +433,7 @@ dd:hover{
 .span5{
     margin-left: 80px;
 }
+
 .span55{
     margin-left: 80px;
 }
@@ -440,33 +444,33 @@ dd:hover{
 
 }
 .main-section5-h4{
-    position: relative;
-    top: 450px;
+    /*position: relative;*/
+    /*position: absolute;*/
+    padding-top: 400px;
     padding-left: 200px;
     color: #e5e5e5;
     font-size: 36px;
     font-family: Roboto;
 }
 
-
 .main-section5-h4-span{
     color: #0085FF;
 }
 .span5-image1{
     position: absolute;
-    padding-top: 600px;
+    padding-top: 100px;
     padding-left: 350px;
     opacity:40%;
 
 }
 .span5-image2{
     padding-left: 600px;
-    padding-top: 500px;
+    padding-top: 50px;
     filter: brightness(180%);
 }
 .span5-image3{
     position: absolute;
-    padding-top: 600px;
+    padding-top: 100px;
     right: 320px;
     opacity:20%;
 }
@@ -511,10 +515,7 @@ dd:hover{
     margin:55px 0 0 2px;
     text-decoration: none;
 }
-a:hover{
-    cursor: pointer;
-    color: #00427D;
-}
+
 .msg1{
     color: whitesmoke;
     text-align:center;
@@ -523,7 +524,7 @@ a:hover{
     width:200px;
     position:absolute;
     left: 650px;
-    top: 4670px;
+    top: 4615px;
     margin:55px 0 0 2px;
     text-decoration: none;
 }
