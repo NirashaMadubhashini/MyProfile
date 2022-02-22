@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update cssFramework.css">
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update index.css">
+      <change beforePath="$PROJECT_DIR$/pages/MOC.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/MOC.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/SPA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/DOM/Knigh" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -150,14 +150,7 @@
       <workItem from="1645259979886" duration="3868000" />
       <workItem from="1645339650617" duration="5586000" />
       <workItem from="1645504045665" duration="6103000" />
-      <workItem from="1645552601395" duration="5805000" />
-    </task>
-    <task id="LOCAL-00141" summary="update PlaceOrder.html">
-      <created>1643020689914</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1643020689914</updated>
+      <workItem from="1645552601395" duration="6120000" />
     </task>
     <task id="LOCAL-00142" summary="update Item.html">
       <created>1643020701146</created>
@@ -495,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645558730575</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="update index.css">
+      <created>1645558904671</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1645558904671</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,14 +532,14 @@
     <MESSAGE value="responsive index,aboutme,skills and education @media 320" />
     <MESSAGE value="update assignment" />
     <MESSAGE value="update standAlone.css" />
-    <MESSAGE value="update index.css" />
     <MESSAGE value="update spaAssignment.css" />
     <MESSAGE value="update moc.css" />
     <MESSAGE value="update MOC.html" />
     <MESSAGE value="update index.html" />
     <MESSAGE value="update CSSFrameworkAssignments.html" />
     <MESSAGE value="update cssFramework.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="update cssFramework.css" />
+    <MESSAGE value="update index.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1645180325860">
