@@ -52,7 +52,7 @@ a:hover{
 
 @keyframes reveal {
     80%{
-        letter-spacing: 8px;
+        letter-spacing: 5px;
     }
     100% {
         background-size: 100% 100%;
@@ -60,7 +60,7 @@ a:hover{
 }
 @keyframes glow {
     40% {
-        text-shadow: 0 0 5px silver;
+        text-shadow: 2px 2px 5px silver;
     }
 }
 

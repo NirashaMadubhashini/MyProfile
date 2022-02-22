@@ -10,13 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update index.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/cssFramework.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/spaAssignment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CSSFrameworkAssignments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/SPAAssignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/MOC.html" afterDir="false" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update cssFramework.css">
+      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,49 +150,7 @@
       <workItem from="1645259979886" duration="3868000" />
       <workItem from="1645339650617" duration="5586000" />
       <workItem from="1645504045665" duration="6103000" />
-      <workItem from="1645552601395" duration="5499000" />
-    </task>
-    <task id="LOCAL-00135" summary="update README.md">
-      <created>1642511277877</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1642511277878</updated>
-    </task>
-    <task id="LOCAL-00136" summary="Add framework POS project">
-      <created>1642883364912</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1642883364912</updated>
-    </task>
-    <task id="LOCAL-00137" summary="update index.html">
-      <created>1642929518811</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1642929518811</updated>
-    </task>
-    <task id="LOCAL-00138" summary="update CSSFrameworkAssignments.html">
-      <created>1642929531654</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1642929531654</updated>
-    </task>
-    <task id="LOCAL-00139" summary="add pos assignment to CSSFrameworkAssignments.html page">
-      <created>1642995212329</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1642995212332</updated>
-    </task>
-    <task id="LOCAL-00140" summary="update cssFramework.css">
-      <created>1642995465540</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1642995465540</updated>
+      <workItem from="1645552601395" duration="5805000" />
     </task>
     <task id="LOCAL-00141" summary="update PlaceOrder.html">
       <created>1643020689914</created>
@@ -500,7 +453,49 @@
       <option name="project" value="LOCAL" />
       <updated>1645557105772</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="update spaAssignment.css">
+      <created>1645558570560</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1645558570560</updated>
+    </task>
+    <task id="LOCAL-00185" summary="update moc.css">
+      <created>1645558657709</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1645558657709</updated>
+    </task>
+    <task id="LOCAL-00186" summary="update MOC.html">
+      <created>1645558670974</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1645558670974</updated>
+    </task>
+    <task id="LOCAL-00187" summary="update index.html">
+      <created>1645558701398</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1645558701398</updated>
+    </task>
+    <task id="LOCAL-00188" summary="update CSSFrameworkAssignments.html">
+      <created>1645558719170</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1645558719170</updated>
+    </task>
+    <task id="LOCAL-00189" summary="update cssFramework.css">
+      <created>1645558730575</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1645558730575</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,11 +514,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update DashBord.html" />
-    <MESSAGE value="update Item.html" />
-    <MESSAGE value="update Customer.html" />
-    <MESSAGE value="update CSSFrameworkAssignments.html" />
-    <MESSAGE value="update cssFramework.css" />
     <MESSAGE value="add spaAssignment.css" />
     <MESSAGE value="update name of DashBord.html to index.html" />
     <MESSAGE value="update name to index.html" />
@@ -543,8 +533,13 @@
     <MESSAGE value="update assignment" />
     <MESSAGE value="update standAlone.css" />
     <MESSAGE value="update index.css" />
+    <MESSAGE value="update spaAssignment.css" />
+    <MESSAGE value="update moc.css" />
+    <MESSAGE value="update MOC.html" />
     <MESSAGE value="update index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index.html" />
+    <MESSAGE value="update CSSFrameworkAssignments.html" />
+    <MESSAGE value="update cssFramework.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update cssFramework.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1645180325860">
