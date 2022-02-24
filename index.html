@@ -16,7 +16,7 @@
     <nav>
         <img src="assets/images/img%201.jpg" alt="" width="1515" height="900" class="img">
         <h4 class="header-nav-h4">
-            <u><a href="#index" class="header-nav-h4-u-span">Home</a></u>
+            <u><a href="#" id="linkHome" class="header-nav-h4-u-span">Home</a></u>
             <a href="#aboutMe"class="header-nav-h4-u-span">About Me</a>
             <a href="#skills" class="header-nav-h4-u-span">Skills</a>
             <a href="#education" class="header-nav-h4-u-span">Education</a>
@@ -248,6 +248,68 @@
     </center>
 </footer>
 </section>
-<script src="assets/js/script.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/script/script.js"></script>
+<script>
+    $("#home").css("display", "block");
+    $("#customer").css("display", "none");
+    $("#item").css("display", "none");
+    $("#placeOrder").css("display", "none");
+
+
+    $("#linkCustomer").click(function () {
+        $("#customer").css("display", "block");
+        $("#home").css("display", "none");
+        $("#item").css("display", "none");
+        $("#placeOrder").css("display", "none");
+
+    });
+    $("#linkCustomerPage").click(function () {
+        $("#customer").css("display", "block");
+        $("#home").css("display", "none");
+        $("#item").css("display", "none");
+        $("#placeOrder").css("display", "none");
+
+    });
+
+    $("#linkItem").click(function () {
+        $("#item").css("display", "block");
+        $("#customer").css("display", "none");
+        $("#home").css("display", "none");
+        $("#placeOrder").css("display", "none");
+
+    });
+    $("#linkItemPage").click(function () {
+        $("#item").css("display", "block");
+        $("#customer").css("display", "none");
+        $("#home").css("display", "none");
+        $("#placeOrder").css("display", "none");
+
+    });
+
+    $("#linkOrder").click(function () {
+        $("#placeOrder").css("display", "block");
+        $("#item").css("display", "none");
+        $("#customer").css("display", "none");
+        $("#home").css("display", "none");
+
+    });
+    $("#linkOrderPage").click(function () {
+        $("#placeOrder").css("display", "block");
+        $("#item").css("display", "none");
+        $("#customer").css("display", "none");
+        $("#home").css("display", "none");
+
+    });
+
+
+    $("#linkHome").click(function () {
+        $("#home").css("display", "block");
+        $("#item").css("display", "none");
+        $("#customer").css("display", "none");
+        $("#placeOrder").css("display", "none");
+    });
+</script>
+
 </body>
 </html>
