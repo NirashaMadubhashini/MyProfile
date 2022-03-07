@@ -23,6 +23,9 @@ button {
 button1 {
     animation: wiggle 2s linear infinite;
 }
+button2 {
+    animation: wiggle 2s linear infinite;
+}
 
 
 @keyframes wiggle {
@@ -55,7 +58,7 @@ body {
 
 button {
     position: absolute;
-    left:400px;
+    left:300px;
     top:250px;
     height: 10em;
     width: 15em;
@@ -69,7 +72,21 @@ button {
 }
 button1 {
     position: absolute;
-    left:900px;
+    left:650px;
+    top:250px;
+    height: 10em;
+    width: 15em;
+    background: #444;
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-top: 10px solid #0085FF;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #fff;
+    transform-origin: 50% 5em;
+}
+button2 {
+    position: absolute;
+    left:1000px;
     top:250px;
     height: 10em;
     width: 15em;
@@ -97,6 +114,15 @@ button1 {
     font-family: Helvetica, Arial, Sans-serif;
     position: relative;
     left: 60px;
+    top:50px;
+}
+.text2{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 35px;
+    font-family: Helvetica, Arial, Sans-serif;
+    position: relative;
+    left: 80px;
     top:50px;
 }
 a:hover{

@@ -2,7 +2,6 @@
 .title {
     color:black;
 }
-
 .body {
     background-color:#1D1D1D;
 }
@@ -28,7 +27,6 @@
     color: #e5e5e5;
     padding-left: 35px;
 }
-
 a:hover{
     cursor: pointer;
     color: #0085FF;
@@ -48,8 +46,6 @@ a:hover{
     glow 2500ms linear infinite 2000ms;
 
 }
-
-
 @keyframes reveal {
     80%{
         letter-spacing: 5px;
@@ -63,21 +59,17 @@ a:hover{
         text-shadow: 2px 2px 5px silver;
     }
 }
-
 .main-p-span {
     color: #0085FF;
     font-size: 50px;
     font-family: Roboto;
 }
-
 .span {
     padding-right: 200px;
 }
-
 .span1 {
     padding-right: 320px;
 }
-
 @keyframes test {
     from {
         transform: translateY(300px);
@@ -85,7 +77,6 @@ a:hover{
     }
 
 }
-
 @keyframes testOne {
     from {
         transform: translateY(300px);
@@ -103,11 +94,9 @@ a:hover{
     font-size: 55px;
     font-family: Roboto;
 }
-
 .header2-nav-h2-span {
     color: #0085FF;
 }
-
 .section2 {
     width: 300px;
     position: relative;
@@ -117,7 +106,6 @@ a:hover{
     box-shadow: 22px 18px 10px 0px #0085FF;
 
 }
-
 .main-section2 {
     width: 300px;
     position: relative;
@@ -131,12 +119,10 @@ a:hover{
     animation-direction: alternate;
     animation-iteration-count: 1;
 }
-
 .main-section-span2 {
     font-size: 42px;
     font-family: Roboto;
 }
-
 .main-p2 {
     width: 300px;
     position: relative;
@@ -153,16 +139,11 @@ span:hover {
     color: #0085FF;
 
 }
-
-
 @keyframes testTwo {
     from {
         transform: translateY(300px);
     }
 }
-
-
-
 .main-section3-h2{
     width: 300px;
     position: relative;
@@ -173,7 +154,6 @@ span:hover {
     font-family: Roboto;
 
 }
-
 .main-section3-h2-span{
     color: #0085FF;
 }
@@ -208,77 +188,58 @@ dd:hover{
     margin-top: 8px;
     animation: fill 3s infinite alternate, colors 3s infinite alternate;
 }
-
 .bar.fill1 {
     animation: fill-1 3s infinite alternate, colors 3s infinite alternate;
 }
-
 .bar.fill2 {
     animation:  fill-2 3s infinite alternate, colors 3s infinite alternate;
 }
-
-
 .bar.fill3 {
     animation:  fill-3 3s infinite alternate, colors 3s infinite alternate;
 }
-
-
 .bar.fill4 {
     animation:  fill-4 3s infinite alternate, colors 3s infinite alternate;
 }
-
 .bar.fill5 {
     animation:  fill-5 3s infinite alternate, colors 3s infinite alternate;
 }
-
 .bar.fill6 {
     animation:  fill-6 3s infinite alternate, colors 3s infinite alternate;
 }
-
-
-
 @keyframes fill {
     66%  { width: 10px;}
     100% { width: 205px; }
 }
-
 @keyframes fill-1 {
     66%  { width: 20px;}
     100% { width: 450px; }
 }
-
 @keyframes fill-2 {
     66%  { width: 70px;}
     100% { width: 236px; }
 }
-
 @keyframes fill-3 {
     66%  { width: 24px;}
     100% { width: 309px; }
 }
-
 @keyframes fill-4 {
     66%  { width: 34px;}
     100% { width: 150px; }
 }
-
 @keyframes fill-5 {
     66%  { width: 10px;}
     100% { width: 248px; }
 }
-
-
 @keyframes fill-6 {
     66%  { width: 22px;}
     100% { width: 440px; }
 }
-
 @keyframes colors {
     50% { background-color: #0085FF;}
     100% { background-color: #0085FF;}
 }
 .footer3{
-    background-color: #201B1B;
+    background-color:#201B1B;
     padding: 30px 10px 100px 60px;
     position: relative;
     top: -500px;
@@ -333,11 +294,9 @@ dd:hover{
     font-size: 55px;
     font-family: Roboto;
 }
-
 .header4-nav-h2-span {
     color: #0085FF;
 }
-
 .main-section4-figure {
     color: #e5e5e5;
     font-size: 30px;
@@ -428,12 +387,9 @@ figcaption:hover{
 .span5{
     margin-left: 80px;
 }
-
 .span55{
     margin-left: 80px;
 }
-
-
 .header5-nav-h2-span{
     color: #0085FF;
 
@@ -447,7 +403,6 @@ figcaption:hover{
     font-size: 36px;
     font-family: Roboto;
 }
-
 .main-section5-h4-span{
     color: #0085FF;
 }
@@ -469,7 +424,6 @@ figcaption:hover{
     right: 320px;
     opacity:20%;
 }
-
 .link1{
     text-decoration: none;
     color: white;
@@ -482,7 +436,6 @@ figcaption:hover{
     text-decoration: none;
     color: white;
 }
-
 .header6-nav-h2{
     width: 300px;
     position: relative;
@@ -495,10 +448,7 @@ figcaption:hover{
     color: #0085FF;
 
 }
-
-
 .wrap {width:200px; margin:auto;  z-index:1;}
-
 .msg {
     color: whitesmoke;
     text-align:center;
@@ -510,7 +460,6 @@ figcaption:hover{
     margin:55px 0 0 2px;
     text-decoration: none;
 }
-
 .msg1{
     color: whitesmoke;
     text-align:center;
@@ -519,7 +468,7 @@ figcaption:hover{
     width:200px;
     position:absolute;
     left: 650px;
-    top: 4615px;
+    top: 4630px;
     margin:55px 0 0 2px;
     text-decoration: none;
 }
@@ -577,7 +526,6 @@ figcaption:hover{
     animation: spin 10s linear infinite;
     animation-play-state: paused;
 }
-
 .sticker:hover {
     animation-play-state: running;
 }
@@ -590,8 +538,6 @@ figcaption:hover{
 .sticker3:hover {
     animation-play-state: running;
 }
-
-
 @keyframes spin {
     100% {transform: rotate(1turn); }
 }
@@ -646,12 +592,10 @@ figcaption:hover{
     top: 5250px;
     left: 1220px;
 }
-
 .footer7 {
     padding: 30px 10px 100px 60px;
     background-color:#201B1B;
 }
-
 .footer7-h3{
     font-size: 50px;
     color: #e5e5e5;
@@ -659,8 +603,6 @@ figcaption:hover{
     top: 5450px;
     left: 600px;
 }
-
-
 .footer7-h3-span{
     color: #0085FF;
 }
@@ -684,13 +626,11 @@ figcaption:hover{
     right:650px;
     top: 5650px;
 }
-
 .footer7-image5{
     position:absolute;
     right: 450px;
     top: 5650px;
 }
-
 .footer7-image6{
     position:absolute;
     right:250px;
@@ -2286,7 +2226,7 @@ figcaption:hover{
 @media all and (min-width: 768px) and (max-width: 1024px){
     .img {
         position: relative;
-        width: 495px;
+        width: 318px;
         top: 0px;
         filter: brightness(50%);
     }
@@ -2312,10 +2252,10 @@ figcaption:hover{
     }
     .main-p {
         position: absolute;
-        bottom: -20px;
-        padding-left: 110px;
+        bottom: -102px;
+        padding-left: 20px;
         color: #e5e5e5;
-        font-size: 32px;
+        font-size: 31px;
         font-family: Roboto;
         animation-name: test;
         animation-duration: 2s;
@@ -2816,7 +2756,7 @@ figcaption:hover{
 @media all and (min-width: 1024px) and (max-width: 1440px){
     .img {
         position: relative;
-        width: 668px;
+        width: 678px;
         top: 0px;
         filter: brightness(50%);
     }
