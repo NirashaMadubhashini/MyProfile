@@ -10,8 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update myProjects">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,14 +158,8 @@
       <workItem from="1646551172366" duration="6508000" />
       <workItem from="1646626572539" duration="1770000" />
       <workItem from="1646638942261" duration="437000" />
-      <workItem from="1646639567141" duration="1282000" />
-    </task>
-    <task id="LOCAL-00149" summary="update CSSFrameworkAssignments.html">
-      <created>1643021755750</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1643021755750</updated>
+      <workItem from="1646639567141" duration="1424000" />
+      <workItem from="1646819384318" duration="837000" />
     </task>
     <task id="LOCAL-00150" summary="update cssFramework.css">
       <created>1643021801113</created>
@@ -502,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645693725362</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="update">
+      <created>1646651899590</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1646651899591</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +530,6 @@
     <MESSAGE value="responsive index,about me and skills" />
     <MESSAGE value="update POS" />
     <MESSAGE value="update SPA" />
-    <MESSAGE value="update" />
     <MESSAGE value="responsive index,aboutme,skills and education @media 320" />
     <MESSAGE value="update assignment" />
     <MESSAGE value="update standAlone.css" />
@@ -546,7 +547,8 @@
     <MESSAGE value="responsive @media 1024px" />
     <MESSAGE value="update index.html" />
     <MESSAGE value="update myProjects" />
-    <option name="LAST_COMMIT_MESSAGE" value="update myProjects" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1645180325860">
