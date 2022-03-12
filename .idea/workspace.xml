@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update" />
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update OrderController.js in spa" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,16 +41,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/assets/style" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/JS/SPA/assets/style" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\assets\style" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\style" />
       <recent name="D:\WorkArea\MyProfile\assets" />
       <recent name="D:\WorkArea\MyProfile\myprojects\DOM\Knigh" />
       <recent name="D:\WorkArea\MyProfile\myprojects\SPA" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\JS" />
@@ -157,63 +157,7 @@
       <workItem from="1646638942261" duration="437000" />
       <workItem from="1646639567141" duration="1424000" />
       <workItem from="1646819384318" duration="837000" />
-      <workItem from="1647084880557" duration="366000" />
-    </task>
-    <task id="LOCAL-00159" summary="update name to index.html">
-      <created>1643023306087</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1643023306088</updated>
-    </task>
-    <task id="LOCAL-00160" summary="update name to index.html">
-      <created>1643023310908</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1643023310908</updated>
-    </task>
-    <task id="LOCAL-00161" summary="update name to index.html">
-      <created>1643023314520</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1643023314520</updated>
-    </task>
-    <task id="LOCAL-00162" summary="update README.md">
-      <created>1643024281039</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1643024281039</updated>
-    </task>
-    <task id="LOCAL-00163" summary="add SPA assignment">
-      <created>1643184342431</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1643184342432</updated>
-    </task>
-    <task id="LOCAL-00164" summary="update SPAAssignment.html page">
-      <created>1643185170733</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1643185170733</updated>
-    </task>
-    <task id="LOCAL-00165" summary="update CSSFrameworkAssignments.html page">
-      <created>1643185315629</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1643185315629</updated>
-    </task>
-    <task id="LOCAL-00166" summary="update CSSFrameworkAssignments.html page">
-      <created>1643185323787</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1643185323787</updated>
+      <workItem from="1647084880557" duration="665000" />
     </task>
     <task id="LOCAL-00167" summary="update index of SPA assignment">
       <created>1643199029956</created>
@@ -502,7 +446,63 @@
       <option name="project" value="LOCAL" />
       <updated>1647085245094</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="update">
+      <created>1647085325855</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085325855</updated>
+    </task>
+    <task id="LOCAL-00209" summary="update responsive.css in spa">
+      <created>1647085351239</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085351240</updated>
+    </task>
+    <task id="LOCAL-00210" summary="update Placeorder.css in spa">
+      <created>1647085359863</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085359863</updated>
+    </task>
+    <task id="LOCAL-00211" summary="update Dashbord.css in spa">
+      <created>1647085370975</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085370975</updated>
+    </task>
+    <task id="LOCAL-00212" summary="update spa">
+      <created>1647085384111</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085384111</updated>
+    </task>
+    <task id="LOCAL-00213" summary="update CustomerController.js in spa">
+      <created>1647085455641</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085455641</updated>
+    </task>
+    <task id="LOCAL-00214" summary="update ItemController.js in spa">
+      <created>1647085506940</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085506940</updated>
+    </task>
+    <task id="LOCAL-00215" summary="update OrderController.js in spa">
+      <created>1647085517836</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085517836</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,13 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="responsive index,aboutme,skills and education @media 320" />
-    <MESSAGE value="update assignment" />
-    <MESSAGE value="update standAlone.css" />
-    <MESSAGE value="update spaAssignment.css" />
-    <MESSAGE value="update moc.css" />
-    <MESSAGE value="update MOC.html" />
-    <MESSAGE value="update CSSFrameworkAssignments.html" />
     <MESSAGE value="update cssFramework.css" />
     <MESSAGE value="update index.css" />
     <MESSAGE value="add knight MOC assignment" />
@@ -546,13 +539,20 @@
     <MESSAGE value="update Dashbord.css in pos" />
     <MESSAGE value="update index.html" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update responsive.css in spa" />
+    <MESSAGE value="update Placeorder.css in spa" />
+    <MESSAGE value="update Dashbord.css in spa" />
+    <MESSAGE value="update spa" />
+    <MESSAGE value="update CustomerController.js in spa" />
+    <MESSAGE value="update ItemController.js in spa" />
+    <MESSAGE value="update OrderController.js in spa" />
+    <option name="LAST_COMMIT_MESSAGE" value="update OrderController.js in spa" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1645180325860">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647085300961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1645180325860" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1647085300961" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1642996059195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
