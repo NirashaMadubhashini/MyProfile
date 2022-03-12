@@ -1,0 +1,191 @@
+@media all and (min-width: 320px) and (max-width: 375px){
+    .btn-primary.disabled, .btn-primary:disabled {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        top: 362px;
+        left: 175px;
+    }
+    .new-order-ifram{
+        display: none;
+    }
+    .brand{
+        margin: 12px 0px;
+    }
+    .ms-5 {
+        margin-left: 0rem!important;
+    }
+    .px-3 {
+        padding-right: 1rem!important;
+        padding-left: 0rem!important;
+    }
+    .pb-5 {
+        padding-bottom: 3rem!important;
+    }
+
+    .pt-3 {
+        padding-top: 45rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 685px;
+        left: 0px;
+    }
+
+}
+@media all and (min-width: 375px) and (max-width: 425px){
+    .btn-primary.disabled, .btn-primary:disabled {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        top: 362px;
+        left: 175px;
+    }
+    .new-order-ifram{
+        display: none;
+    }
+    .brand{
+        margin: 12px 0px;
+    }
+    .ms-5 {
+        margin-left: 0rem!important;
+    }
+    .px-3 {
+        padding-right: 1rem!important;
+        padding-left: 0rem!important;
+    }
+    .pb-5 {
+        padding-bottom: 3rem!important;
+    }
+
+    .pt-3 {
+        padding-top: 45rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 680px;
+        left: 0px;
+    }
+
+}
+@media all and (min-width: 425px) and (max-width: 768px) {
+    .btn-primary.disabled, .btn-primary:disabled {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        top: 362px;
+        left: 175px;
+    }
+    .new-order-ifram{
+        display: none;
+    }
+    .brand{
+        margin: 12px 0px;
+    }
+    .ms-5 {
+        margin-left: 0rem!important;
+    }
+    .px-3 {
+        padding-right: 1rem!important;
+        padding-left: 0rem!important;
+    }
+    .pb-5 {
+        padding-bottom: 3rem!important;
+    }
+
+    .pt-3 {
+        padding-top: 45rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 635px;
+        left: 0px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .btn-primary:disabled {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        top: 410px;
+        left: 175px;
+    }
+    .new-order-ifram{
+        display: none;
+    }
+    .brand{
+        margin: 12px 0px;
+    }
+    .ms-5 {
+        margin-left: 0rem!important;
+    }
+    .px-3 {
+        padding-right: -24rem!important;
+        padding-left: 22rem!important;
+    }
+    .pb-5 {
+        padding-bottom: 11rem!important;
+    }
+    .pt-3 {
+        padding-top: 18rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 550px;
+        left: 0px;
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1440px){
+    .btn-primary:disabled {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        top: 410px;
+        left: 175px;
+    }
+    .new-order-ifram{
+        display: none;
+    }
+    .brand{
+        margin: 12px 0px;
+    }
+    .ms-5 {
+        margin-left: -4rem!important;
+    }
+    .mt-3 {
+        margin-top: 1rem!important;
+        margin-left: 10rem!important;
+    }
+    .px-3 {
+        padding-right: -24rem!important;
+        padding-left: 22rem!important;
+    }
+    .pb-5 {
+        padding-bottom: 11rem!important;
+    }
+    .pt-3 {
+        padding-top: 18rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 480px;
+        left: 0px;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 84%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

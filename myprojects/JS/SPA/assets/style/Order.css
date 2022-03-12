@@ -1,0 +1,128 @@
+@media all and (min-width: 320px) and (max-width: 375px) {
+    .btn-primary {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        left: 100px;
+        top: 375px;
+    }
+    .ms-4 {
+        margin-left: 0.5rem!important;
+        margin-top: 1rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 1425px;
+        left: 0px;
+    }
+    .table-bordered>:not(caption)>*>* {
+        border-width: 0 1px;
+    }
+}
+@media all and (min-width: 375px) and (max-width: 425px)  {
+    .btn-primary {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        left: 100px;
+        top: 375px;
+    }
+    .ms-4 {
+        margin-left: 0.5rem!important;
+        margin-top: 1rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 1425px;
+        left: 0px;
+    }
+    .table-bordered>:not(caption)>*>* {
+        border-width: 0 1px;
+    }
+}
+@media all and (min-width: 425px) and (max-width: 768px) {
+    .btn-primary {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        left: 100px;
+        top: 375px;
+    }
+    .ms-4 {
+        margin-left: 0.5rem!important;
+        margin-top: 1rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 1435px;
+        left: 0px;
+    }
+    .table-bordered>:not(caption)>*>* {
+        border-width: 0 1px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .btn-primary {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        left: 100px;
+        top: 388px;
+    }
+    .ms-4 {
+        margin-left: 0.5rem!important;
+        margin-top: 1rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 750px;
+        left: 0px;
+    }
+    .table-bordered>:not(caption)>*>* {
+        border-width: 0 1px;
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+    .btn-primary {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        position: absolute;
+        left: 100px;
+        top: 390px;
+    }
+    .ms-4 {
+        margin-left: 0.5rem!important;
+        margin-top: 1rem!important;
+    }
+    .table {
+        margin-right: 12px;
+        position: absolute;
+        top: 440px;
+        left: 0px;
+    }
+    .table-bordered>:not(caption)>*>* {
+        border-width: 0 1px;
+    }
+    .ms-4 {
+        margin-left: 0.5rem!important;
+        margin-top: 1rem!important;
+        position: absolute;
+        left: 770px;
+        top: 50px;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 24%;
+        margin-left: 55px;
+    }
+
+}
