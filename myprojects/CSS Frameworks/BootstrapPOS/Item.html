@@ -5,9 +5,10 @@
     <title>Manage Items</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/Item.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
     <img src="assets/img/netscape.png" alt="" width="30" height="25" class="d-inline-block align-text-top ms-3">
     <a class="navbar-brand mr-5 ms-2" href="# ">Nirasha POS System</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -17,7 +18,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active ">
-                <a class="nav-link" href="index.html"><i class="fa fa-home">&nbsp;</i><span
+                <a class="nav-link"  href="index.html"><i class="fa fa-home">&nbsp;</i><span
                         class="bd-nav">Home</span> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
@@ -39,70 +40,70 @@
         </ul>
     </div>
 </nav>
-
-    <div class="row  container-fluid mt-3" style="margin:0; padding: 0 ">
-        <div class=" col-xl-3 col-lg-3 col-md-6 col-12 ms-5">
-            <div class="card bg-light mt-2 ms-5">
-                <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Item</div>
-                <div class="card-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="itemCode">Item Code</label>
-                            <input type="itemCode" class="form-control" id="itemCode">
-                            <p><small id="lblitemcode" class="text-danger pl-1"></small></p>
-                        </div>
-                        <div class="form-group">
-                            <label for="itemName">Item Name</label>
-                            <input type="itemName" class="form-control" id="itemName">
-                            <p><small id="lblitemname" class="text-danger pl-1"></small></p>
-                        </div>
-                        <div class="form-group">
-                            <label for="itemPrice">Item Price</label>
-                            <input type="itemPrice" class="form-control" id="itemPrice">
-                            <p><small id="lblitemprice" class="text-danger pl-1"></small></p>
-                        </div>
-                        <div class="form-group">
-                            <label for="itemQuantity">Quantity</label>
-                            <input type="itemQuantity" class="form-control" id="itemQuantity">
-                            <p><small id="lblitemquantity" class="text-danger pl-1"></small></p>
-                        </div>
-                        <br>
-                        <button type="submit" id="btnAddItem" class="btn btn-primary">Add</button>
-                        <button type="submit" id="btnUpdateItem" class="btn btn-info"> Update</button>
-                        <button type="submit" class="btn btn-danger">Delete</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-4 ms-5 position-absolute top-200 start-50 translate-middle">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <div class="shadow-sm pt-3 pb-5 px-3 py-3 mt-2 border-3 border-dark ">
-                <h1 class="h1 mb-3">Item Manager</h1>
-                <div class="mb-3">
-                    <label class="form-label" for="txtSearchItemCode">Search Item</label>
-                    <input class="form-control" id="txtSearchItemCode" placeholder="Item Code, Name" type="text">
-                </div>
-                <button class="btn btn-warning" id="btnSearchItem" type="submit">Search</button>
+<br>
+<br>
+<div class="row  container-fluid mt-3" style="margin:0; padding: 0 ">
+    <div class=" col-xl-3 col-lg-3 col-md-6 col-12 ms-5">
+        <div class="card bg-light mt-2 ms-5">
+            <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Item</div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="itemCode">Item Code</label>
+                        <input type="itemCode" class="form-control" id="itemCode">
+                        <p><small id="lblitemcode" class="text-danger pl-1"></small></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="itemName">Item Name</label>
+                        <input type="itemName" class="form-control" id="itemName">
+                        <p><small id="lblitemname" class="text-danger pl-1"></small></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="itemPrice">Item Price</label>
+                        <input type="itemPrice" class="form-control" id="itemPrice">
+                        <p><small id="lblitemprice" class="text-danger pl-1"></small></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="itemQuantity">Quantity</label>
+                        <input type="itemQuantity" class="form-control" id="itemQuantity">
+                        <p><small id="lblitemquantity" class="text-danger pl-1"></small></p>
+                    </div>
+                    <br>
+                    <button type="submit" id="btnAddItem" class="btn btn-primary">Add</button>
+                    <button type="button" id="btnUpdateItem" class="btn btn-info"> Update</button>
+                    <button type="button" id="btnDeleteItem" class="btn btn-danger">Delete</button>
+                </form>
             </div>
         </div>
     </div>
-    <br>
-    <div class="container table-responsive">
-        <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover">
-            <thead class="table-info">
-            <tr>
-                <th scope="col">Item Code</th>
-                <th scope="col">Item Name</th>
-                <th scope="col">Price</th>
-                <th scope="col">Quantity</th>
-
-            </tr>
-            </thead>
-            <tbody id="itemTable">
-
-            </tbody>
-        </table>
+    <div class="col-12 col-md-4 ms-5 position-absolute top-200 start-50 translate-middle">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="shadow-sm pt-3 pb-5 px-3 py-3 mt-2 border-3 border-dark ">
+            <h1 class="h1 mb-3">Item Manager</h1>
+            <div class="mb-3">
+                <label class="form-label" for="txtSearchItemCode">Search Item</label>
+                <input class="form-control" id="txtSearchItemCode" placeholder="Item Code, Name" type="text">
+            </div>
+            <button class="btn btn-warning" id="btnSearchItem" type="submit">Search</button>
+        </div>
     </div>
+</div>
+<div class="container table-responsive">
+    <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover">
+        <thead class="table-primary">
+        <tr>
+            <th scope="col">Item Code</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+
+        </tr>
+        </thead>
+        <tbody id="itemTable">
+
+        </tbody>
+    </table>
+</div>
 
 <script src="assets/jQuery/jquery-3.6.0.min.js"></script>
 <script src="db/DB.js"></script>
@@ -320,7 +321,5 @@
         checkIfValid();
     });
 </script>
-
-
 </body>
 </html>
