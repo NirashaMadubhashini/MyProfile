@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,23 +41,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/CSS Frameworks/BootstrapPOS/assets/style" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\style" />
+      <recent name="D:\WorkArea\MyProfile\assets" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\DOM\Knigh" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\SPA" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\JS" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\Transitions" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\Layouts" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\Animation" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkArea\MyProfile\assets" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\DOM\Knigh" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\SPA" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\SPA\assets" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -160,69 +157,7 @@
       <workItem from="1646638942261" duration="437000" />
       <workItem from="1646639567141" duration="1424000" />
       <workItem from="1646819384318" duration="837000" />
-    </task>
-    <task id="LOCAL-00150" summary="update cssFramework.css">
-      <created>1643021801113</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1643021801113</updated>
-    </task>
-    <task id="LOCAL-00151" summary="update index.html">
-      <created>1643022185985</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1643022185985</updated>
-    </task>
-    <task id="LOCAL-00152" summary="update index.css">
-      <created>1643022196043</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1643022196043</updated>
-    </task>
-    <task id="LOCAL-00153" summary="add SPAAssignment.html">
-      <created>1643022209118</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1643022209119</updated>
-    </task>
-    <task id="LOCAL-00154" summary="add spaAssignment.css">
-      <created>1643022219605</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1643022219605</updated>
-    </task>
-    <task id="LOCAL-00155" summary="update name of DashBord.html to index.html">
-      <created>1643023273043</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1643023273043</updated>
-    </task>
-    <task id="LOCAL-00156" summary="update name to index.html">
-      <created>1643023285527</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1643023285527</updated>
-    </task>
-    <task id="LOCAL-00157" summary="update name to index.html">
-      <created>1643023293114</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1643023293114</updated>
-    </task>
-    <task id="LOCAL-00158" summary="update name to index.html">
-      <created>1643023299657</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1643023299657</updated>
+      <workItem from="1647084880557" duration="366000" />
     </task>
     <task id="LOCAL-00159" summary="update name to index.html">
       <created>1643023306087</created>
@@ -504,7 +439,70 @@
       <option name="project" value="LOCAL" />
       <updated>1646651899591</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="update workspace.xml">
+      <created>1647085118618</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085118618</updated>
+    </task>
+    <task id="LOCAL-00200" summary="update responsive.css">
+      <created>1647085137525</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085137525</updated>
+    </task>
+    <task id="LOCAL-00201" summary="update PlaceOrder.html">
+      <created>1647085159331</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085159331</updated>
+    </task>
+    <task id="LOCAL-00202" summary="update Item.html">
+      <created>1647085174045</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085174045</updated>
+    </task>
+    <task id="LOCAL-00203" summary="update index.html in pos">
+      <created>1647085197185</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085197185</updated>
+    </task>
+    <task id="LOCAL-00204" summary="update Customer.html in pos">
+      <created>1647085209076</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085209076</updated>
+    </task>
+    <task id="LOCAL-00205" summary="update Dashbord.css in pos">
+      <created>1647085220696</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085220696</updated>
+    </task>
+    <task id="LOCAL-00206" summary="update index.html">
+      <created>1647085230788</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085230789</updated>
+    </task>
+    <task id="LOCAL-00207" summary="update">
+      <created>1647085245094</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085245094</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,13 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update index of SPA assignment" />
-    <MESSAGE value="update Customer.html of BootstrapPOS" />
-    <MESSAGE value="update item.html of BootstrapPOS" />
-    <MESSAGE value="add SPAAssignment.html" />
-    <MESSAGE value="responsive index,about me and skills" />
-    <MESSAGE value="update POS" />
-    <MESSAGE value="update SPA" />
     <MESSAGE value="responsive index,aboutme,skills and education @media 320" />
     <MESSAGE value="update assignment" />
     <MESSAGE value="update standAlone.css" />
@@ -545,8 +536,15 @@
     <MESSAGE value="responsive @media 425" />
     <MESSAGE value="responsive @media 768px" />
     <MESSAGE value="responsive @media 1024px" />
-    <MESSAGE value="update index.html" />
     <MESSAGE value="update myProjects" />
+    <MESSAGE value="update workspace.xml" />
+    <MESSAGE value="update responsive.css" />
+    <MESSAGE value="update PlaceOrder.html" />
+    <MESSAGE value="update Item.html" />
+    <MESSAGE value="update index.html in pos" />
+    <MESSAGE value="update Customer.html in pos" />
+    <MESSAGE value="update Dashbord.css in pos" />
+    <MESSAGE value="update index.html" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
