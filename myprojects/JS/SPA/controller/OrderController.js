@@ -12,7 +12,7 @@ $("#btnAddToCart").click(function () {
 function loadAllOrders() {
     $("#orderTable").empty();
     for (var i of orderDB) {
-        let row = `<tr><td>${i.orderId}</td><td>${i.itemCode}</td><td>${i.itemName}</td><td>${i.qty}</td><td>${i.price}</td><td>${i.total}</td></tr>`;
+        let row = `<tr><td>${i.orderId}</td><td>${(item).itemCode}</td><td>${i.itemName}</td><td>${i.qty}</td><td>${i.price}</td><td>${i.total}</td></tr>`;
         $("#orderTable").append(row);
     }
 }
@@ -26,9 +26,9 @@ function saveOrder() {
     } else {
         confirm("Do you want to add this Order..?")
 
-        let orderDetailDTO = new OrderDetailDTO(
+        let orderDTO = new OrderDTO(
             $("#txtOrderId").val(),
-            $('#selectCusID').icode,
+            $('#selectCusID').val(),
             $("#txtItemName").val(),
             $("#txt-qty").val(),
             $("#txtUnitPrice").val(),
@@ -38,12 +38,12 @@ function saveOrder() {
 
 
         var orderObject = {
-            orderId: orderDetailDTO.orderid,
-            itemCode: orderDetailDTO.itcode,
-            itemName: orderDetailDTO.itname,
-            qty: orderDetailDTO.itqty,
-            price: orderDetailDTO.itprice,
-            total: orderDetailDTO.ittot
+            orderId: orderDTO.oid,
+            itemCode: orderDTO.icode,
+            itemName: orderDTO.iname,
+            qty: orderDTO.qtyOnHnd,
+            price: orderDTO.iprice,
+            tot: orderDTO.cost
         }
 
         orderDB.push(orderObject)

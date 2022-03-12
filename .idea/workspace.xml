@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update index.html in spa">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add que assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,16 +43,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/JS/SPA/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/JS/Que" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\JS\Que" />
       <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\model" />
       <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\assets\style" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\style" />
       <recent name="D:\WorkArea\MyProfile\assets" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\DOM\Knigh" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\JS" />
@@ -159,14 +159,7 @@
       <workItem from="1646638942261" duration="437000" />
       <workItem from="1646639567141" duration="1424000" />
       <workItem from="1646819384318" duration="837000" />
-      <workItem from="1647084880557" duration="1509000" />
-    </task>
-    <task id="LOCAL-00172" summary="add SPAAssignment.html">
-      <created>1644576513041</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1644576513041</updated>
+      <workItem from="1647084880557" duration="2461000" />
     </task>
     <task id="LOCAL-00173" summary="update index.css">
       <created>1645121008809</created>
@@ -504,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647085783864</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="add que assignment">
+      <created>1647092271964</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1647092271964</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +523,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="responsive @media 375" />
     <MESSAGE value="responsive @media 425" />
     <MESSAGE value="responsive @media 768px" />
     <MESSAGE value="responsive @media 1024px" />
@@ -548,7 +547,8 @@
     <MESSAGE value="update OrderDTO.js in spa" />
     <MESSAGE value="update spa" />
     <MESSAGE value="update index.html in spa" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index.html in spa" />
+    <MESSAGE value="add que assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add que assignment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647085300961">
