@@ -1,7 +1,9 @@
 $("#btnAddCustomer").click(function () {
+
     saveCustomer();
     clearAll();
     loadAllCustomers();
+
 });
 
 $("#btnSearch").click(function () {
@@ -9,10 +11,11 @@ $("#btnSearch").click(function () {
 
     var response = searchCustomer(searchID);
     if (response) {
-        $("#customerId").val(response.id);
-        $("#customerName").val(response.name);
-        $("#customerAddress").val(response.address);
-        $("#customerSalary").val(response.salary);
+        new CustomerDTO(
+            $("#customerId").val(response.id),
+            $("#customerName").val(response.name),
+            $("#customerAddress").val(response.address),
+            $("#customerSalary").val(response.salary));
     } else {
         clearAll();
         alert("No Such a Customer");
@@ -20,56 +23,124 @@ $("#btnSearch").click(function () {
 });
 
 function loadAllCustomers() {
+
     $("#customerTable").empty();
     for (var i of customerDB) {
         let row = `<tr><td>${i.id}</td><td>${i.name}</td><td>${i.address}</td><td>${i.salary}</td></tr>`;
         $("#customerTable").append(row);
+
     }
+
+
+    $("#customerTable>tr").click(function () {
+        console.log($(this));
+
+        let customerDTO = new CustomerDTO(
+            $(this).children(":eq(0)").text(),
+            $(this).children(":eq(1)").text(),
+            $(this).children(":eq(2)").text(),
+            $(this).children(":eq(3)").text());
+
+        $("#customerId").val(customerDTO.cid);
+        $("#customerName").val(customerDTO.cname);
+        $("#customerAddress").val(customerDTO.caddress);
+        $("#customerSalary").val(customerDTO.csalary);
+
+    });
+
 }
+
 
 function saveCustomer() {
-    let customerID = $("#customerId").val();
-    let customerName = $("#customerName").val();
-    let customerAddress = $("#customerAddress").val();
-    let customerSalary = $("#customerSalary").val();
 
-    var customerObject = {
-        id: customerID,
-        name: customerName,
-        address: customerAddress,
-        salary: customerSalary
-    };
+    let dC = duplicateCheck();
 
-    customerDB.push(customerObject);
+    if (dC) {
+        alert("This CustomerId Already Added ,Try Again")
+    } else {
+        confirm("Do you want to add this Customer..?")
+
+        let customerDTO = new CustomerDTO(
+            $("#customerId").val(),
+            $("#customerName").val(),
+            $("#customerAddress").val(),
+            $("#customerSalary").val());
+
+        var customerObject = {
+            id: customerDTO.cid,
+            name: customerDTO.cname,
+            address: customerDTO.caddress,
+            salary: customerDTO.csalary
+        };
+
+        customerDB.push(customerObject)
+
+
+    }
+
 }
+
 
 function searchCustomer(id) {
     for (let i = 0; i < customerDB.length; i++) {
-        if (customerDB[i].id == id) {
+        if (customerDB[i].id === id) {
             return customerDB[i];
         }
     }
 }
 
-$(document).ready(function () {
-    $('#btnDelete').click(function () {
-        if (confirm("Want to clear?")) {
-            $('#form1 input[type="text"]').val('');
-            $('#form1 #customerId').val('');
-            $('#form1 #customerName').val('');
-            $('#form1 #customerAddress').val('');
-            $('#form1 #customerSalary').val('');
-        }
+function duplicateCheck() {
+    for (var i = 0; i < customerDB.length; i++) {
+        if ($("#customerId").val() === customerDB[i].id) {
 
-    });
+            return true;
+        }
+    }
+    return false
+}
+
+
+$("#btnUpdateCustomer").click(function () {
+    // let customerId = $("#customerId").val();
+    // let customerName = $("#customerName").val();
+    // let customerAddress = $("#customerAddress").val();
+    // let customerSalary = $("#customerSalary").val();
+
+    let customerDTO = new CustomerDTO(
+        $("#customerId").val(),
+        $("#customerName").val(),
+        $("#customerAddress").val(),
+        $("#customerSalary").val());
+
+    for (var i = 0; i < customerDB.length; i++) {
+        if ($("#customerId").val() === customerDB[i].id) {
+
+            customerDB[i].id = customerDTO.cid;
+            customerDB[i].name = customerDTO.cname;
+            customerDB[i].address = customerDTO.caddress;
+            customerDB[i].salary = customerDTO.csalary;
+
+            alert("Successfully Updated")
+        }
+    }
+    loadAllCustomers()
+    clearAll()
 });
 
-function deleteCustomer() {
-}
+$("#btnDelete").click(function () {
+    var index = 0;
+    for (var i = 0; i < customerDB.length; i++) {
+        if ($("#customerId").val() === customerDB[i].id) {
+            index = i;
+        }
+    }
+    customerDB.splice(index, 1);
+    clearAll();
+    $(this).closest('tr').remove();
 
-function updateCustomer() {
-    //write the code
-}
+    confirm("Do you want to delete this Customer..?")
+});
+
 
 const cusIDRegEx = /^(C00-)[0-9]{3}$/;
 const cusNameRegEx = /^[A-z ]{5,20}$/;
@@ -78,51 +149,51 @@ const cusSalaryRegEx = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
 
 
 $('#customerId,#customerName,#customerAddress,#customerSalary').on('keydown', function (eventOb) {
-    if (eventOb.key == "Tab") {
-        eventOb.preventDefault(); // stop execution of the button
+    if (eventOb.key === "Tab") {
+        eventOb.preventDefault();
     }
+    formValidCus();
 });
 
 $('#customerId,#customerName,#customerAddress,#customerSalary').on('blur', function () {
-    formValid();
+    formValidCus();
 });
 
 $("#customerId").on('keyup', function (eventOb) {
     setButton();
-    if (eventOb.key == "Enter") {
-        checkIfValid();
+
+    if (eventOb.key === "Enter") {
+        checkIfValidCus();
     }
 
-    if (eventOb.key == "Control") {
-        var typedCustomerID = $("#customerId").val();
-        var srcCustomer = searchCustomerFromID(typedCustomerID);
-        $("#customerId").val(srcCustomer.getCustomerID());
+    if (eventOb.key === "Control") {
+        var typedCustomerId = $("#customerId").val();
+        var srcCustomer = searchCustomerFromID(typedCustomerId);
+        $("#customerId").val(srcCustomer.getCustomerId());
         $("#customerName").val(srcCustomer.getCustomerName());
         $("#customerAddress").val(srcCustomer.getCustomerAddress());
         $("#customerSalary").val(srcCustomer.getCustomerSalary());
     }
-
-
 });
 
 $("#customerName").on('keyup', function (eventOb) {
     setButton();
-    if (eventOb.key == "Enter") {
-        checkIfValid();
+    if (eventOb.key === "Enter") {
+        checkIfValidCus();
     }
 });
 
 $("#customerAddress").on('keyup', function (eventOb) {
     setButton();
-    if (eventOb.key == "Enter") {
-        checkIfValid();
+    if (eventOb.key === "Enter") {
+        checkIfValidCus();
     }
 });
 
 $("#customerSalary").on('keyup', function (eventOb) {
     setButton();
-    if (eventOb.key == "Enter") {
-        checkIfValid();
+    if (eventOb.key === "Enter") {
+        checkIfValidCus();
     }
 });
 
@@ -137,7 +208,7 @@ function clearAll() {
     $("#lblcusid,#lblcusname,#lblcusaddress,#lblcussalary").text("");
 }
 
-function formValid() {
+function formValidCus() {
     var cusID = $("#customerId").val();
     $("#customerId").css('border', '2px solid green');
     $("#lblcusid").text("");
@@ -178,7 +249,7 @@ function formValid() {
     }
 }
 
-function checkIfValid() {
+function checkIfValidCus() {
     var cusID = $("#customerId").val();
     if (cusIDRegEx.test(cusID)) {
         $("#customerName").focus();
@@ -211,7 +282,7 @@ function checkIfValid() {
 }
 
 function setButton() {
-    let b = formValid();
+    let b = formValidCus();
     if (b) {
         $("#btnAddCustomer").attr('disabled', false);
     } else {
@@ -220,5 +291,6 @@ function setButton() {
 }
 
 $('#btnAddCustomer').click(function () {
-    checkIfValid();
+    checkIfValidCus();
 });
+
