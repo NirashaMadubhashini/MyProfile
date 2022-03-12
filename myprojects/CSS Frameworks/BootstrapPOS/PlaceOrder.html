@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style/Placeorder.css">
+    <link rel="stylesheet" href="assets/style/Order.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow ">
@@ -42,13 +43,14 @@
 </nav>
 <div class="row  container-fluid" style="margin:0; padding: 0 ">
     <div class=" col-xl-3 col-lg-3 col-md-6 col-12">
-        <div class="card bg-light mt-2 ms-5" >
+        <div class="card bg-light mt-2 ms-5">
             <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Order</div>
             <div class="card-body">
-
                 <div class="form-group ">
                     <label for="txtOrderId">Order-Id</label>
-                    <input class="form-control" id="txtOrderId" name="OrderId" type="text"placeholder="Auto-Generate">
+                    <input class="form-control" id="txtOrderId" name="OrderId" type="text"
+                           placeholder="Auto-Generate">
+                    <p><small id="lblorderId" class="text-danger pl-1"></small></p>
                 </div>
                 <div class="form-group ">
                     <label for="txtDate">Date</label>
@@ -61,15 +63,16 @@
             </div>
         </div>
     </div>
-<br>
+    <br>
     <div class=" col-xl-3 col-lg-3 col-md-6 col-12">
-        <div class="card bg-light mt-2 ms-5" >
-            <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Customer</div>
+        <div class="card bg-light mt-2 ms-5">
+            <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Customer
+            </div>
             <div class="card-body">
-
-                <div class="form-group ">
-                    <label for="txtCusId">Customer-Id</label>
-                    <input class="form-control" id="txtCusId" name="Customer-Id" type="text">
+                <div class="form-group">
+                    <label>Customer-Id</label>
+                    <select aria-label="Default select example" class="form-select" id="selectCusID"></select>
+                    <span class="control-error" id="cus-empty-error"></span>
                 </div>
                 <div class="form-group ">
                     <label for="txtCusName">Customer-Name</label>
@@ -87,108 +90,101 @@
         </div>
     </div>
     <div class=" col-xl-3 col-lg-3 col-md-6 col-12">
-        <div class="card bg-light mt-2 ms-5" >
+        <div class="card bg-light mt-2 ms-5">
             <div class="card-header bg-secondary text-white font-weight-bold" style="text-align: center;">Item</div>
             <div class="card-body">
-
-                <div class="form-group ">
-                    <label for="txtItemCode">Item-Code</label>
-                    <input class="form-control" id="txtItemCode" name="Item-Code" type="text" >
+                <div class="form-group">
+                    <label>Item-Code</label>
+                    <select aria-label="Default select example" class="form-select" id="selectItemCode"></select>
+                    <span class="control-error"
+                          id="item-empty-error"></span>
                 </div>
                 <div class="form-group ">
                     <label for="txtItemName">Item-Name</label>
                     <input class="form-control" id="txtItemName" name="Item-Name" type="text">
                 </div>
                 <div class="form-group ">
-                    <label for="txt-qty">Quantity</label>
-                    <input class="form-control" id="txt-qty" name="Quantity" type="text" >
-                </div>
-                <div class="form-group ">
                     <label for="txtUnitPrice">Unit-Price</label>
                     <input class="form-control" id="txtUnitPrice" name="Unit-Price" type="text">
                 </div>
                 <div class="form-group ">
-                    <label for="txt-qty">QuantityOnHand</label>
-                    <input class="form-control" id="txt-qtyOnHand" name="QuantityOnHand" type="text" >
+                    <label for="txt-qtyOnHand">QuantityOnHand</label>
+                    <input class="form-control" id="txt-qtyOnHand" name="QuantityOnHand" type="text">
                 </div>
                 <div class="form-group ">
-                    <label for="txtTotalPrice">Total</label>
-                    <input class="form-control" id="txtTotalPrice" name="TotalPrice" type="text">
+                    <label for="txt-qty">Order-Quantity</label>
+                    <input class="form-control" id="txt-qty" min="1" type="number">
+                    <p><small id="lblorderQty" class="text-danger pl-1"></small></p>
+                    <span class="control-error" id="order-qty-empty-error"></span>
                 </div>
                 <br>
-                <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart">&nbsp;</i>Add To Cart</button>
-                <button type="button" class="btn btn-danger">Delete</button>
+                <button type="button" id="btnAddToCart" class="btn btn-primary"><i class="fa fa-shopping-cart">&nbsp;</i>Add
+                    To Cart
+                </button>
+                <button type="button" id="btnRemove" class="btn btn-danger">Delete</button>
             </div>
         </div>
     </div>
     <div class=" col-xl-3 col-lg-3 col-md-6 col-12">
-        <div class="card bg-light mt-xl-5 ms-4" >
+        <div class="card bg-light mt-xl-3 ms-4">
             <div class="card-body">
-
-                                <div class="form-group ">
-                                    <label for="txtDiscount">Discount</label>
-                                    <input type="text" class="form-control" id="txtDiscount" required>
-
-                                </div>
-                               <div class="col-md-6 mb-3">
-                                   <label for="txtPaymentMethod">Payment Method</label>
-                                  <select class="custom-select" id="txtPaymentMethod" required>
-
-                                     <option>Credit</option>
-                                       <option>Debet</option>
-                                    <option>Cash</option>
-                                    </select>
-
-                           </div>
+                <div class="form-group ">
+                    <div class="col-12">
+                        <span class="text-primary" id="total-text">Total : </span>
+                    </div>
+                    <div class="col-12">
+                        <span id="total" class="text-primary fs-3 fw-bolder">00.0  Rs/=</span>
+                        <div class="col-12">
+                            <span id="subTotal-text" class="text-danger">SubTotal : </span>
+                        </div>
+                        <div class="col-12">
+                            <span id="subtotal" class="text-danger fs-3 fw-bolder">00.0  Rs/=</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <label>Discount</label>
+                    <input class="form-control" id="txtDiscount" min="0" type="number">
+                </div>
                 <div class="form-row">
                     <div class="form-group ">
-                        <label for="txtCash">Cash</label>
-                        <input type="text" class="form-control" id="txtCash" required>
-
+                        <label>Cash</label>
+                        <input class="form-control" id="txtCash" min="0" type="number">
+                        <p><small id="lblcash" class="text-danger pl-1"></small></p>
+                        <span class="control-error"
+                              id="cash-empty-error"></span>
                     </div>
                     <div class="form-group ">
                         <label for="txtChange">Change</label>
                         <input type="text" class="form-control" id="txtChange" required>
-
                     </div>
-                <div class="form-group ">
-                    <label for="txtTotal">Total</label>
-                    <input class="form-control" id="txtTotal" name="Total" type="text">
+                    <br>
+                    <br>
+                    <button type="button" id="btnPay" class="btn btn-success"><i
+                            class="fa fa-shopping-cart">&nbsp;</i>Purchase Order
+                    </button>
                 </div>
-                <br>
-                <button type="button" class="btn btn-warning"><i class="fa fa-shopping-cart">&nbsp;</i>Cancel
-                </button>
-                    <button type="button" class="btn btn-success"><i class="fa fa-shopping-cart">&nbsp;</i>Payment
-                </button>
             </div>
         </div>
-    </div>
         </form>
-
     </div>
     <div class="container table-responsive">
-        <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover">
-            <thead class="table-info">
+        <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover" id="tblOrder">
+            <thead class="table-dark">
             <tr>
-                <th scope="col">Item Code</th>
-                <th scope="col">Item Name</th>
-                <th scope="col">Quantity</th>
-                <th scope="col">Price</th>
-                <th scope="col">Total</th>
+                <th scope="col">OId</th>
+                <th scope="col">Item-Code</th>
+                <th scope="col">Item-Name</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Per-Rs.</th>
+                <th scope="col">Tot</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody id="orderTable">
             <tr>
-                <th scope="row">C001</th>
-                <td>Rice</td>
-                <td>1kg</td>
-                <td>50/=</td>
-                <td>100/=</td>
             </tr>
-
             </tbody>
         </table>
-
     </div>
 </div>
 <br><br>
