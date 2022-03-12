@@ -5,6 +5,7 @@
     <title>Manage Customers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/Customer.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow ">
@@ -44,10 +45,10 @@
         <div class="card bg-light mt-2 ms-5">
             <div class="card-header bg-primary text-white font-weight-bold" style="text-align: center;">Customer
             </div>
-            <div class="card-body">
+            <div class="card-body" id="form1">
                 <form>
                     <div class="form-group">
-                        <label  for="customerId">Customer Id</label>
+                        <label for="customerId">Customer Id</label>
                         <input type="customerId" class="form-control" id="customerId">
                         <p><small id="lblcusid" class="text-danger pl-1"></small></p>
                     </div>
@@ -68,13 +69,14 @@
                     </div>
                     <br>
                     <button type="submit" id="btnAddCustomer" class="btn btn-primary">Add</button>
-                    <button type="submit" id="btnUpdateCustomer" class="btn btn-info"> Update</button>
-                    <button type="submit" id="btnDelete" class="btn btn-danger">Delete</button>
+                    <button type="button" id="btnUpdateCustomer" class="btn btn-info"> Update</button>
+                    <button type="button" id="btnDelete" class="btn btn-danger">Delete</button>
                 </form>
             </div>
         </div>
     </div>
-    <div class="col-12 col-md-4 ms-5 position-absolute top-50 start-50 translate-middle">
+    <div class="col-12 col-md-4 ms-5 position-absolute top-200 start-50 translate-middle">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <div class="shadow-sm pt-3 pb-5 px-3 py-3 mt-2 border-3 border-dark ">
             <h1 class="h1 mb-3">Customer Manager</h1>
             <div class="mb-3">
@@ -86,8 +88,8 @@
     </div>
 </div>
 <div class="container table-responsive">
-    <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover ">
-        <thead class="table-info">
+    <table class="table table-bordered mx-auto mt-5 ml-sm-0 table-hover " id="tblCustomer">
+        <thead class="table-primary">
         <tr>
             <th scope="col">Customer Id</th>
             <th scope="col">Customer Name</th>
@@ -96,11 +98,9 @@
         </tr>
         </thead>
         <tbody id="customerTable">
-
         </tbody>
     </table>
 </div>
-
 <script src="assets/jQuery/jquery-3.6.0.min.js"></script>
 <script src="db/DB.js"></script>
 <script>
@@ -158,11 +158,11 @@
     }
 
     function deleteCustomer(){
-        //write the code
+
     }
 
     function updateCustomer(){
-        //write the code
+
     }
 
     const cusIDRegEx = /^(C00-)[0-9]{3}$/;
