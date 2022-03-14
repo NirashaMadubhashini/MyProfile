@@ -340,17 +340,7 @@
                         </div>
                         <div class="col-12">
                             <span id="total" class="text-primary fs-3 fw-bolder">00.0  Rs/=</span>
-                            <div class="col-12">
-                                <span id="subTotal-text" class="text-danger">SubTotal : </span>
-                            </div>
-                            <div class="col-12">
-                                <span id="subtotal" class="text-danger fs-3 fw-bolder">00.0  Rs/=</span>
-                            </div>
                         </div>
-                    </div>
-                    <div class="form-group ">
-                        <label>Discount</label>
-                        <input class="form-control" id="txtDiscount" min="0" type="number">
                     </div>
                     <div class="form-row">
                         <div class="form-group ">
@@ -405,6 +395,7 @@
 <script src="model/ItemDTO.js"></script>
 <script src="model/OrderDTO.js"></script>
 <script src="model/OrderDetailDTO.js"></script>
+<script src="model/CartDTO.js"></script>
 
 <script>
     $("#home").css("display", "block");
@@ -490,7 +481,6 @@
         $("#selectItemCode").append(new Option("-Select Item-", ""));
         for (var i = 0; i < itemDB.length; i++) {
             $("#selectItemCode").append(new Option(itemDB[i].itemCode, i));
-
         }
     }
 

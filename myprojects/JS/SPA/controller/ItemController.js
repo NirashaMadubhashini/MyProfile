@@ -12,10 +12,10 @@ $("#btnSearchItem").click(function () {
     var response = searchItem(searchID);
     if (response) {
         new ItemDTO(
-            $("#itemCode").val(response.itemCode),
-            $("#itemName").val(response.itemName),
-            $("#itemPrice").val(response.price),
-            $("#itemQuantity").val(response.quantity));
+        $("#itemCode").val(response.itemCode),
+        $("#itemName").val(response.itemName),
+        $("#itemPrice").val(response.price),
+        $("#itemQuantity").val(response.quantity));
     }else{
         clearAllItems();
         alert("No Such a Item");

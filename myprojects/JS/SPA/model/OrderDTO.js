@@ -1,9 +1,8 @@
-function OrderDTO(oid,item,cid,qtyOnHnd,cost) {
+function OrderDTO(oid,cid,fullTotal,date) {
     var orderId =oid;
     var cusId=cid;
-    var items = new Array(item);
-    var qtOH=qtyOnHnd;
-    var tot=cost;
+    var tot=fullTotal;
+    var day=date;
 
     Object.defineProperty(this,"oid",{
         get:function()
@@ -29,37 +28,27 @@ function OrderDTO(oid,item,cid,qtyOnHnd,cost) {
     });
 
 
-    Object.defineProperty(this,"item",{
-        get:function()
-        {
-            return items;
-        },
-        set:function(item)
-        {
-            this.items=item;
-        }
-    });
 
-    Object.defineProperty(this,"qtyOnHnd",{
-        get:function()
-        {
-            return qtOH;
-        },
-        set:function(qtyOnHnd)
-        {
-            this.qtOH=qtyOnHnd;
-        }
-    });
-
-
-    Object.defineProperty(this,"cost",{
+    Object.defineProperty(this,"fullTotal",{
         get:function()
         {
             return tot;
         },
-        set:function(cost)
+        set:function(fullTotal)
         {
-            this.tot=cost;
+            this.tot=fullTotal;
         }
     });
+
+    Object.defineProperty(this,"date",{
+        get:function()
+        {
+            return day;
+        },
+        set:function(date)
+        {
+            this.day=date;
+        }
+    });
+
 }

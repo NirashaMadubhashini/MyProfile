@@ -10,8 +10,87 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="add que assignment">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update SPA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/Loging.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/SPA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/Customer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/Items.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/Orders.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/admin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/logOut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/netscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/signUp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/jQuery/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/AddCustomer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/AddItem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/DashBoard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/EditProfileInfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/Loging.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/Manage Customers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/Manage Items.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/PlaceOrder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Customer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Dashbord.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Placeorder.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/controller/CustomerController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/controller/ItemController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/controller/OrderController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/db/DB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/editProfile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/model/CustomerDTO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/model/ItemDTO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/model/OrderDTO.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +122,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/JS/Que" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myprojects/JS/SPA" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -159,14 +238,9 @@
       <workItem from="1646638942261" duration="437000" />
       <workItem from="1646639567141" duration="1424000" />
       <workItem from="1646819384318" duration="837000" />
-      <workItem from="1647084880557" duration="2461000" />
-    </task>
-    <task id="LOCAL-00173" summary="update index.css">
-      <created>1645121008809</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1645121008810</updated>
+      <workItem from="1647084880557" duration="2961000" />
+      <workItem from="1647151241965" duration="3335000" />
+      <workItem from="1647287485631" duration="300000" />
     </task>
     <task id="LOCAL-00174" summary="responsive index,about me and skills">
       <created>1645125413579</created>
@@ -504,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647092271964</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="update SPA">
+      <created>1647105826809</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1647105826809</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +604,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="responsive @media 425" />
     <MESSAGE value="responsive @media 768px" />
     <MESSAGE value="responsive @media 1024px" />
     <MESSAGE value="update myProjects" />
@@ -548,13 +628,14 @@
     <MESSAGE value="update spa" />
     <MESSAGE value="update index.html in spa" />
     <MESSAGE value="add que assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add que assignment" />
+    <MESSAGE value="update SPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="update SPA" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647085300961">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647105762202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1647085300961" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1647105762202" />
     <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1642996059195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
