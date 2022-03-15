@@ -12,85 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update SPA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/Loging.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/SPA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/Customer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/Items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/Orders.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/admin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/logOut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/netscape.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/signUp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/img/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/jQuery/jquery-3.6.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/AddCustomer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/AddItem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/DashBoard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/EditProfileInfo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/Loging.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/Manage Customers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/Manage Items.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/posImg/PlaceOrder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Customer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Dashbord.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Order.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/Placeorder.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/assets/style/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/controller/CustomerController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/controller/ItemController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/controller/OrderController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/db/DB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/editProfile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/model/CustomerDTO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/model/ItemDTO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprojects/JS/SPA/model/OrderDTO.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,19 +47,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkArea\MyProfile\myprojects\JS\Que" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\model" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\assets\style" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\style" />
-      <recent name="D:\WorkArea\MyProfile\assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\myprojects\JS" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\Transitions" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\Layouts" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\Animation" />
       <recent name="D:\WorkArea\MyProfile\myprojects\CSS\02.Assignment\assests\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\JS\Que" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\model" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\assets\style" />
+      <recent name="D:\WorkArea\MyProfile\myprojects\CSS Frameworks\BootstrapPOS\assets\style" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -240,7 +161,8 @@
       <workItem from="1646819384318" duration="837000" />
       <workItem from="1647084880557" duration="2961000" />
       <workItem from="1647151241965" duration="3335000" />
-      <workItem from="1647287485631" duration="300000" />
+      <workItem from="1647287485631" duration="2274000" />
+      <workItem from="1647330862746" duration="316000" />
     </task>
     <task id="LOCAL-00174" summary="responsive index,about me and skills">
       <created>1645125413579</created>

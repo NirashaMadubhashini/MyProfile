@@ -2226,7 +2226,7 @@ figcaption:hover{
 @media all and (min-width: 768px) and (max-width: 1024px){
     .img {
         position: relative;
-        width: 318px;
+        width: 435px;
         top: 0px;
         filter: brightness(50%);
     }
