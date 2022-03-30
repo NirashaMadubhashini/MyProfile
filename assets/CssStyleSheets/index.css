@@ -1,14 +1,42 @@
-
 .title {
-    color:black;
+    color: black;
 }
 .body {
-    background-color:#1D1D1D;
+    background-color: #1D1D1D;
+    /*background-color:#333333;*/
 }
 .img {
     position: relative;
     top: 0px;
     filter: brightness(50%);
+}
+.fixed-nav-bar {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    top: -729px;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #0085FF;
+    color: white;
 }
 .header-nav-h4 {
     position: relative;
@@ -27,27 +55,17 @@
     color: #e5e5e5;
     padding-left: 35px;
 }
-a:hover{
+a:hover {
     cursor: pointer;
     color: #0085FF;
 }
-.main-p {
-    position: absolute;
-    bottom: 180px;
-    padding-left: 850px;
-    color: #e5e5e5;
-    font-size: 50px;
-    font-family: Roboto;
-    animation-name: test;
-    animation-duration: 2s;
-    animation-direction: alternate;
-    animation-iteration-count: 1;
-    animation: reveal 3000ms ease-in-out forwards 200ms,
-    glow 2500ms linear infinite 2000ms;
-
+.ul {
+    list-style-type: none;
+    position: relative;
+    top: -350px;
 }
 @keyframes reveal {
-    80%{
+    80% {
         letter-spacing: 5px;
     }
     100% {
@@ -60,36 +78,46 @@ a:hover{
     }
 }
 .main-p-span {
+    position: absolute;
+    bottom: 235px;
+    padding-left: 1060px;
+    font-family: 'Roboto', sans-serif;
     color: #0085FF;
     font-size: 50px;
-    font-family: Roboto;
 }
-.span {
-    padding-right: 200px;
+.pan {
+    position: absolute;
+    bottom: 400px;
+    padding-left: 880px;
+    color: #e5e5e5;
+    font-size: 40px;
+    font-family: 'Roboto';
 }
-.span1 {
-    padding-right: 320px;
+.pan1 {
+    position: absolute;
+    bottom: 350px;
+    padding-left: 880px;
+    color: #e5e5e5;
+    font-size: 40px;
+    font-family: 'Roboto';
 }
-@keyframes test {
-    from {
-        transform: translateY(300px);
-        color: #0085FF;
-    }
+.pan2 {
+    position: absolute;
+    bottom: 290px;
+    padding-left: 880px;
+    color: #e5e5e5;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
 
-}
-@keyframes testOne {
-    from {
-        transform: translateY(300px);
-        color: #0085FF;
-    }
-}
 
 
 
 .header2-nav-h2 {
     width: 300px;
     position: relative;
-    left: 750px;
+    left: 700px;
+    top: -80px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
@@ -101,7 +129,7 @@ a:hover{
     width: 300px;
     position: relative;
     left: 200px;
-    top: -50px;
+    top: -100px;
     color: #0085FF;
     box-shadow: 22px 18px 10px 0px #0085FF;
 
@@ -109,7 +137,7 @@ a:hover{
 .main-section2 {
     width: 300px;
     position: relative;
-    top: -450px;
+    top: -525px;
     left: 80px;
     color: #e5e5e5;
     font-size: 40px;
@@ -126,8 +154,8 @@ a:hover{
 .main-p2 {
     width: 300px;
     position: relative;
-    top: -550px;
-    left: 200px;
+    top: -620px;
+    left: 30px;
     color: #e5e5e5;
     background-color: #51585e;
     font-size: 36px;
@@ -144,7 +172,10 @@ span:hover {
         transform: translateY(300px);
     }
 }
-.main-section3-h2{
+
+
+
+.main-section3-h2 {
     width: 300px;
     position: relative;
     top: -500px;
@@ -154,22 +185,14 @@ span:hover {
     font-family: Roboto;
 
 }
-.main-section3-h2-span{
+.main-section3-h2-span {
     color: #0085FF;
 }
-dd:hover{
+dd:hover {
     cursor: pointer;
     color: #0085FF;
 }
-/*.bg {*/
-/*    position: absolute;*/
-/*    top: 9px;*/
-/*    left: 8px;*/
-/*    right: 8px;*/
-/*    bottom: 8px;*/
-/*    background-size: contain;*/
-/*}*/
-.main-section3-dl{
+.main-section3-dl {
     width: 300px;
     position: relative;
     top: -500px;
@@ -182,7 +205,7 @@ dd:hover{
     position: relative;
     height: 25px;
     background: #6a6a6a;
-    width:  0%;
+    width: 0%;
     top: -500px;
     left: 580px;
     margin-top: 8px;
@@ -192,103 +215,131 @@ dd:hover{
     animation: fill-1 3s infinite alternate, colors 3s infinite alternate;
 }
 .bar.fill2 {
-    animation:  fill-2 3s infinite alternate, colors 3s infinite alternate;
+    animation: fill-2 3s infinite alternate, colors 3s infinite alternate;
 }
 .bar.fill3 {
-    animation:  fill-3 3s infinite alternate, colors 3s infinite alternate;
+    animation: fill-3 3s infinite alternate, colors 3s infinite alternate;
 }
 .bar.fill4 {
-    animation:  fill-4 3s infinite alternate, colors 3s infinite alternate;
+    animation: fill-4 3s infinite alternate, colors 3s infinite alternate;
 }
 .bar.fill5 {
-    animation:  fill-5 3s infinite alternate, colors 3s infinite alternate;
+    animation: fill-5 3s infinite alternate, colors 3s infinite alternate;
 }
 .bar.fill6 {
-    animation:  fill-6 3s infinite alternate, colors 3s infinite alternate;
+    animation: fill-6 3s infinite alternate, colors 3s infinite alternate;
 }
 @keyframes fill {
-    66%  { width: 10px;}
-    100% { width: 205px; }
+    66% {
+        width: 10px;
+    }
+    100% {
+        width: 205px;
+    }
 }
 @keyframes fill-1 {
-    66%  { width: 20px;}
-    100% { width: 450px; }
+    66% {
+        width: 20px;
+    }
+    100% {
+        width: 450px;
+    }
 }
 @keyframes fill-2 {
-    66%  { width: 70px;}
-    100% { width: 236px; }
+    66% {
+        width: 70px;
+    }
+    100% {
+        width: 236px;
+    }
 }
 @keyframes fill-3 {
-    66%  { width: 24px;}
-    100% { width: 309px; }
+    66% {
+        width: 24px;
+    }
+    100% {
+        width: 309px;
+    }
 }
 @keyframes fill-4 {
-    66%  { width: 34px;}
-    100% { width: 150px; }
+    66% {
+        width: 34px;
+    }
+    100% {
+        width: 150px;
+    }
 }
 @keyframes fill-5 {
-    66%  { width: 10px;}
-    100% { width: 248px; }
+    66% {
+        width: 10px;
+    }
+    100% {
+        width: 248px;
+    }
 }
 @keyframes fill-6 {
-    66%  { width: 22px;}
-    100% { width: 440px; }
+    66% {
+        width: 22px;
+    }
+    100% {
+        width: 440px;
+    }
 }
 @keyframes colors {
-    50% { background-color: #0085FF;}
-    100% { background-color: #0085FF;}
+    50% {
+        background-color: #0085FF;
+    }
+    100% {
+        background-color: #0085FF;
+    }
 }
-.footer3{
-    background-color:#201B1B;
-    padding: 30px 10px 100px 60px;
+.footer3 {
     position: relative;
     top: -500px;
 }
-.footer3-h2{
+.footer3-h2 {
     alignment: center;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
 }
-.footer3-h2-span{
+.footer3-h2-span {
     color: #0085FF;
 }
-.footer3-image1{
+.footer3-image1 {
     position: relative;
-    right:325px;
+    right: 325px;
 }
-.footer3-image2{
+.footer3-image2 {
     position: relative;
-    right:225px;
+    right: 225px;
 }
-.footer3-image3{
+.footer3-image3 {
     position: relative;
-    right:125px;
+    right: 125px;
 }
-.footer3-image4{
+.footer3-image4 {
     position: relative;
-    right:25px;
+    right: 25px;
 }
-.footer3-image5{
+.footer3-image5 {
     position: relative;
-    left:100px;
+    left: 100px;
 }
-.footer3-image6{
+.footer3-image6 {
     position: relative;
-    left:200px;
+    left: 200px;
 }
-.footer3-image7{
+.footer3-image7 {
     position: relative;
-    left:300px;
+    left: 300px;
 }
-
 
 
 
 .header4-nav-h2 {
-    /*width: 300px;*/
     position: absolute;
-    top: 2900px;
+    top: 2700px;
     left: 650px;
     color: #e5e5e5;
     font-size: 55px;
@@ -297,87 +348,100 @@ dd:hover{
 .header4-nav-h2-span {
     color: #0085FF;
 }
-.main-section4-figure {
-    color: #e5e5e5;
-    font-size: 30px;
-    font-family: Roboto;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px 0;
 }
-.main-section4-figure2 {
-    color: #e5e5e5;
-    font-size: 30px;
-    font-family: Roboto;
+.container .card {
+    position: relative;
+    top: -200px;
+    min-width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+    transition: 0.5s;
 }
-.main-section4-figure3 {
-    color: #e5e5e5;
-    font-size: 30px;
-    font-family: Roboto;
-}
-.imgScl{
-   width: 258px;
-}
-.imgICBT{
-   width: 328px;
-}
-.imgIJSE{
-   width: 331px;
-}
-.imgCup{
-    width: 156px;
-}
-.imgMedal{
-    width: 77px;
-}
-.main-section4-figure-figcaption {
-    color: #e5e5e5;
-    font-size: 36px;
-    font-family: Roboto;
-}
-.main-section4-figure2-figcaption {
-    color: #e5e5e5;
-    font-size: 36px;
-    font-family: Roboto;
-}
-.main-section4-figure3-figcaption {
-    color: #e5e5e5;
-    font-size: 36px;
-    font-family: Roboto;
-}
-figcaption:hover{
-    cursor: pointer;
-    color: #0085FF;
-}
-.figure1 {
+.container .card .box {
     position: absolute;
-    padding-top: 300px;
-    left: 50px;
-    top: 3000px;
+    top: 30px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #2a2b2f;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
 }
-.figure2 {
-    position: absolute;
-    top: 3100px;
-    right: 650px;
+.container .card .box:hover {
+    transform: translateY(-50px);
 }
-.figure3 {
+.container .card .box:before {
+    content: "";
     position: absolute;
-    top: 3000px;
-    right: 200px;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.03);
 }
-.figure4 {
-    position: absolute;
-    top: 2950px;
-    left: 1350px;
+.container .card .box .content {
+    padding: 20px;
+    text-align: center;
 }
-.figure5 {
+.container .card .box .content h2 {
     position: absolute;
-    top: 3120px;
-    left: 1370px;
+    top: -10px;
+    right: 30px;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.1);
+}
+.container .card .box .content h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    z-index: 1;
+    transition: 0.5s;
+    margin-bottom: 15px;
+}
+.container .card .box .content p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    transition: 0.5s;
+}
+.container .card .box .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+.container .card .box .content a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: #fff;
+    color: #000;
 }
 
 
 
 .header5-nav-h2{
     position: relative;
-    top:400px;
+    top: -60px;
     width: 300px;
     left: 650px;
     color: #e5e5e5;
@@ -392,12 +456,10 @@ figcaption:hover{
 }
 .header5-nav-h2-span{
     color: #0085FF;
-
 }
 .main-section5-h4{
-    /*position: relative;*/
-    /*position: absolute;*/
-    padding-top: 400px;
+    position: relative;
+    top: -50px;
     padding-left: 200px;
     color: #e5e5e5;
     font-size: 36px;
@@ -405,24 +467,6 @@ figcaption:hover{
 }
 .main-section5-h4-span{
     color: #0085FF;
-}
-.span5-image1{
-    position: absolute;
-    padding-top: 100px;
-    padding-left: 350px;
-    opacity:40%;
-
-}
-.span5-image2{
-    padding-left: 600px;
-    padding-top: 50px;
-    filter: brightness(180%);
-}
-.span5-image3{
-    position: absolute;
-    padding-top: 100px;
-    right: 320px;
-    opacity:20%;
 }
 .link1{
     text-decoration: none;
@@ -436,92 +480,157 @@ figcaption:hover{
     text-decoration: none;
     color: white;
 }
-.header6-nav-h2{
+.projectbox{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+.projectcard{
+    position: relative;
+    top:-50px;
+    width: 300px;
+    height: 350px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+.projectcard:before,
+.projectcard:after
+{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: #fff;
+    transition: 0.5s;
+    z-index:-1;
+}
+.projectcard:hover:before{
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+.projectcard:hover:after{
+    transform: rotate(10deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+.projectcard .imgBx{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: #222;
+    transition: 0.5s;
+    z-index: 1;
+}
+.projectcard:hover .imgBx
+{
+    bottom: 80px;
+}
+.projectcard .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.header6-nav-h2 {
     width: 300px;
     position: relative;
     left: 650px;
+    top:100px;
     color: #e5e5e5;
     font-size: 55px;
     font-family: Roboto;
 }
-.header6-nav-h2-span{
+.header6-nav-h2-span {
     color: #0085FF;
 
 }
-.wrap {width:200px; margin:auto;  z-index:1;}
+.wrap {
+    width: 200px;
+    margin: auto;
+    z-index: 1;
+}
 .msg {
     color: whitesmoke;
-    text-align:center;
+    text-align: center;
     font-family: Roboto;
-    font-size:30px;
-    width:200px;
-    position:absolute;
+    font-size: 30px;
+    width: 200px;
+    position: absolute;
     left: 150px;
-    margin:55px 0 0 2px;
+    top:4500px;
+    margin: 55px 0 0 2px;
     text-decoration: none;
 }
-.msg1{
+.msg1 {
     color: whitesmoke;
-    text-align:center;
+    text-align: center;
     font-family: Roboto;
-    font-size:30px;
-    width:200px;
-    position:absolute;
+    font-size: 30px;
+    width: 200px;
+    position: absolute;
     left: 650px;
-    top: 4630px;
-    margin:55px 0 0 2px;
+    top:4480px;
+    margin: 55px 0 0 2px;
     text-decoration: none;
 }
-.msg2{
+.msg2 {
     color: whitesmoke;
-    text-align:center;
+    text-align: center;
     font-family: Roboto;
-    font-size:30px;
-    width:200px;
-    position:absolute;
+    font-size: 30px;
+    width: 200px;
+    position: absolute;
     left: 1150px;
-    top: 4670px;
-    margin:55px 0 0 2px;
+    top: 4525px;
+    margin: 55px 0 0 2px;
     text-decoration: none;
 }
-.spa{
+.spa {
     color: #1d33ab;
 }
-.pos{
+.pos {
     color: #1d33ab;
 }
 .sticker {
-    width:200px;
-    height:200px;
-    position:absolute;
+    width: 200px;
+    height: 200px;
+    position: absolute;
     left: 150px;
+    top:4500px;
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/13034/sticker.png) top center no-repeat;
     animation: spin 10s linear infinite;
     animation-play-state: paused;
 }
-.sticker1{
-    width:200px;
-    height:200px;
-    position:absolute;
-    left:650px;
+.sticker1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 650px;
+    top:4500px;
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/13034/sticker.png) top center no-repeat;
     animation: spin 10s linear infinite;
     animation-play-state: paused;
 }
-.sticker2{
-    width:200px;
-    height:200px;
-    position:absolute;
+.sticker2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
     left: 1150px;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/13034/sticker.png) top center no-repeat;
-    animation: spin 10s linear infinite;
-    animation-play-state: paused;
-}
-.sticker3{
-    width:200px;
-    height:200px;
-    position:absolute;
-    left: 1200px;
+    top:4500px;
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/13034/sticker.png) top center no-repeat;
     animation: spin 10s linear infinite;
     animation-play-state: paused;
@@ -535,11 +644,10 @@ figcaption:hover{
 .sticker2:hover {
     animation-play-state: running;
 }
-.sticker3:hover {
-    animation-play-state: running;
-}
 @keyframes spin {
-    100% {transform: rotate(1turn); }
+    100% {
+        transform: rotate(1turn);
+    }
 }
 
 
@@ -549,24 +657,24 @@ figcaption:hover{
     color: white;
     position: absolute;
     left: 720px;
-    top: 5000px;
+    top: 4900px;
 }
-.header7-nav-h2-span{
+.header7-nav-h2-span {
     color: #0085FF;
 }
-.main-section7-figure1{
+.main-section7-figure1 {
     position: absolute;
     top: 5150px;
     left: 150px;
 }
-.main7-section{
-    position:absolute;
+.main7-section {
+    position: absolute;
     top: 5250px;
     left: 150px;
     color: #e5e5e5;
     font-size: 30px;
 }
-.main-section7-figure2{
+.main-section7-figure2 {
     position: absolute;
     top: 5150px;
     left: 750px;
@@ -580,71 +688,69 @@ figcaption:hover{
 
 
 }
-.main-section7-figure3{
+.main-section7-figure3 {
     position: absolute;
     top: 5150px;
     left: 1230px;
 }
-.main-section7-figure-figcaption{
-    position:absolute;
+.main-section7-figure-figcaption {
+    position: absolute;
     color: #e5e5e5;
     font-size: 30px;
     top: 5250px;
     left: 1220px;
 }
-.footer7 {
-    padding: 30px 10px 100px 60px;
-    background-color:#201B1B;
-}
-.footer7-h3{
+.footer7-h3 {
     font-size: 50px;
     color: #e5e5e5;
     position: absolute;
     top: 5450px;
     left: 600px;
 }
-.footer7-h3-span{
+.footer7-h3-span {
     color: #0085FF;
 }
-.footer7-image1{
+.footer7-image1 {
     position: absolute;
-    right:1250px;
+    right: 1250px;
     top: 5650px;
 }
-.footer7-image2{
-    position:absolute;
-    right:1050px;
+.footer7-image2 {
+    position: absolute;
+    right: 1050px;
     top: 5650px;
 }
-.footer7-image3{
-    position:absolute;
-    right:850px;
+.footer7-image3 {
+    position: absolute;
+    right: 850px;
     top: 5650px;
 }
-.footer7-image4{
-    position:absolute;
-    right:650px;
+.footer7-image4 {
+    position: absolute;
+    right: 650px;
     top: 5650px;
 }
-.footer7-image5{
-    position:absolute;
+.footer7-image5 {
+    position: absolute;
     right: 450px;
     top: 5650px;
 }
-.footer7-image6{
-    position:absolute;
-    right:250px;
+.footer7-image6 {
+    position: absolute;
+    right: 250px;
     top: 5650px;
 }
 
 
-@media all and (min-width: 320px) and (max-width: 375px){
+
+@media all and (min-width: 320px) and (max-width: 375px) {
     .img {
         position: relative;
         width: 525px;
         top: 0px;
         filter: brightness(50%);
     }
+
     .header-nav-h4 {
         position: relative;
         text-decoration: none;
@@ -659,12 +765,14 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .header-nav-h4-u-span {
         text-decoration: none;
         color: #e5e5e5;
         padding-left: -82px;
         padding-left: 12px;
     }
+
     .main-p {
         position: absolute;
         bottom: -102px;
@@ -678,11 +786,13 @@ figcaption:hover{
         animation-iteration-count: 1;
         animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
     }
+
     .main-p-span {
         color: #0085FF;
         font-size: 35px;
         font-family: Roboto;
     }
+
     .header2-nav-h2 {
         width: 300px;
         position: relative;
@@ -692,6 +802,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .section2 {
         width: 125px;
         position: relative;
@@ -700,6 +811,7 @@ figcaption:hover{
         color: #0085FF;
         box-shadow: 14px 10px 10px -3px #0085ff;
     }
+
     .main-section2 {
         width: 300px;
         position: relative;
@@ -713,6 +825,7 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .main-p2 {
         width: 300px;
         position: relative;
@@ -724,6 +837,7 @@ figcaption:hover{
         font-family: Roboto;
         text-decoration: none;
     }
+
     .main-section3-h2 {
         width: 300px;
         position: relative;
@@ -733,6 +847,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .main-section3-dl {
         width: 300px;
         position: relative;
@@ -742,6 +857,7 @@ figcaption:hover{
         color: #e5e5e5;
         font-family: Roboto;
     }
+
     .bar {
         position: relative;
         height: 12px;
@@ -752,44 +868,59 @@ figcaption:hover{
         margin-top: 8px;
         animation: fill 3s infinite alternate, colors 3s infinite alternate;
     }
+
     @keyframes fill {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 80px;
         }
     }
     @keyframes fill-1 {
-        66%  { width: 20px;}
+        66% {
+            width: 20px;
+        }
         100% {
             width: 130px;
         }
     }
     @keyframes fill-2 {
-        66%  { width: 70px;}
+        66% {
+            width: 70px;
+        }
         100% {
             width: 180px;
         }
     }
     @keyframes fill-3 {
-        66%  { width: 24px;}
+        66% {
+            width: 24px;
+        }
         100% {
             width: 200px;
         }
     }
     @keyframes fill-4 {
-        66%  { width: 34px;}
+        66% {
+            width: 34px;
+        }
         100% {
             width: 110px;
         }
     }
     @keyframes fill-5 {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 215px;
         }
     }
     @keyframes fill-6 {
-        66%  { width: 22px;}
+        66% {
+            width: 22px;
+        }
         100% {
             width: 260px;
         }
@@ -800,6 +931,7 @@ figcaption:hover{
         position: relative;
         top: -110px;
     }
+
     .footer3-h2 {
         alignment: center;
         color: #e5e5e5;
@@ -808,46 +940,54 @@ figcaption:hover{
         display: flex;
         margin-left: 60px;
     }
+
     .footer3-image1 {
         position: relative;
         right: 50px;
         width: 55px;
     }
+
     .footer3-image2 {
         position: relative;
         right: 5px;
         width: 55px;
     }
+
     .footer3-image3 {
         position: relative;
         right: -50px;
         top: -5px;
         width: 50px;
     }
+
     .footer3-image4 {
         position: relative;
         right: 223px;
         width: 55px;
         top: 85px;
     }
+
     .footer3-image5 {
         position: relative;
         left: 25px;
         width: 50px;
         top: 20px;
     }
+
     .footer3-image6 {
         position: relative;
         left: 85px;
         width: 45px;
         top: 20px;
     }
+
     .footer3-image7 {
         position: relative;
         left: -85px;
         width: 55px;
         top: 100px;
     }
+
     .header4-nav-h2 {
         width: 300px;
         position: absolute;
@@ -857,6 +997,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 300px;
@@ -864,6 +1005,7 @@ figcaption:hover{
         top: 1955px;
         width: 500px;
     }
+
     .main-section4-figure {
         color: #e5e5e5;
         font-size: 16px;
@@ -872,6 +1014,7 @@ figcaption:hover{
         position: absolute;
         top: 290px;
     }
+
     .main-section4-figure-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -880,23 +1023,27 @@ figcaption:hover{
         top: 465px;
         left: 30px;
     }
+
     .figure2 {
         position: absolute;
         top: 2601px;
         right: -34px;
         width: 296px;
     }
+
     .imgScl {
         width: 135px;
         position: absolute;
         left: 46px;
     }
+
     .imgICBT {
         width: 175px;
         position: absolute;
         left: 52px;
         top: -98px;
     }
+
     .main-section4-figure2 {
         color: #e5e5e5;
         font-size: 16px;
@@ -905,6 +1052,7 @@ figcaption:hover{
         left: 100px;
         top: -145px;
     }
+
     .main-section4-figure2-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -913,6 +1061,7 @@ figcaption:hover{
         top: 35px;
         left: 60px;
     }
+
     .main-section4-figure3 {
         color: #e5e5e5;
         font-size: 16px;
@@ -921,12 +1070,14 @@ figcaption:hover{
         top: -252px;
         left: 45px;
     }
+
     .imgIJSE {
         width: 195px;
         position: absolute;
         top: -170px;
         left: -25px;
     }
+
     .main-section4-figure3-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -935,17 +1086,20 @@ figcaption:hover{
         top: -45px;
         left: 15px;
     }
+
     .figure4 {
         position: absolute;
         top: 3044px;
         left: 50px;
         width: 90px;
     }
+
     .figure5 {
         position: absolute;
         top: 3070px;
         left: 155px;
     }
+
     .header5-nav-h2 {
         position: relative;
         top: 840px;
@@ -955,6 +1109,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .main-section5-h4 {
         /* position: relative; */
         /* position: absolute; */
@@ -964,22 +1119,26 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .link1 {
         text-decoration: none;
         color: white;
         position: relative;
         margin-left: -55px;
     }
+
     .span5 {
         margin-left: -235px;
         position: relative;
         top: 45px;
     }
+
     .span55 {
         margin-left: -200px;
         position: relative;
         top: 90px;
     }
+
     .span5-image1 {
         position: absolute;
         padding-top: 100px;
@@ -988,6 +1147,7 @@ figcaption:hover{
         width: 250px;
         height: 140px;
     }
+
     .span5-image2 {
         padding-left: 36px;
         padding-top: 255px;
@@ -995,6 +1155,7 @@ figcaption:hover{
         width: 250px;
         height: 165px;
     }
+
     .span5-image3 {
         position: absolute;
         padding-top: 435px;
@@ -1003,6 +1164,7 @@ figcaption:hover{
         width: 250px;
         height: 140px;
     }
+
     .header6-nav-h2 {
         width: 300px;
         position: relative;
@@ -1012,6 +1174,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .sticker {
         width: 200px;
         height: 200px;
@@ -1022,6 +1185,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker1 {
         width: 200px;
         height: 200px;
@@ -1032,6 +1196,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker2 {
         width: 200px;
         height: 200px;
@@ -1042,6 +1207,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .msg {
         color: whitesmoke;
         text-align: center;
@@ -1054,6 +1220,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg1 {
         color: whitesmoke;
         text-align: center;
@@ -1066,6 +1233,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg2 {
         color: whitesmoke;
         text-align: center;
@@ -1078,6 +1246,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .header7-nav-h2 {
         align-content: center;
         font-size: 25px;
@@ -1086,12 +1255,14 @@ figcaption:hover{
         left: 120px;
         top: 4620px;
     }
+
     .main-section7-figure1 {
         position: absolute;
         top: 4680px;
         left: 130px;
         width: 60px;
     }
+
     .main7-section {
         position: absolute;
         top: 4750px;
@@ -1099,12 +1270,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 25px;
     }
+
     .main-section7-figure2 {
         position: absolute;
         top: 4800px;
         left: 135px;
         width: 60px;
     }
+
     .main-section7-figure {
         position: absolute;
         left: 25px;
@@ -1112,12 +1285,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 20px;
     }
+
     .main-section7-figure3 {
         position: absolute;
         top: 4910px;
         left: 130px;
         width: 75px;
     }
+
     .main-section7-figure-figcaption {
         position: absolute;
         color: #e5e5e5;
@@ -1125,6 +1300,7 @@ figcaption:hover{
         top: 5005px;
         left: 135px;
     }
+
     .footer7-h3 {
         font-size: 25px;
         color: #e5e5e5;
@@ -1132,44 +1308,52 @@ figcaption:hover{
         top: 5150px;
         left: 50px;
     }
+
     .footer7-image1 {
         position: absolute;
         right: 245px;
         top: 5235px;
     }
+
     .footer7-image2 {
         position: absolute;
         right: 135px;
         top: 5240px;
     }
+
     .footer7-image3 {
         position: absolute;
         right: 25px;
         top: 5240px;
     }
+
     .footer7-image4 {
         position: absolute;
         right: 245px;
         top: 5330px;
     }
+
     .footer7-image5 {
         position: absolute;
         right: 135px;
         top: 5335px;
     }
+
     .footer7-image6 {
         position: absolute;
         right: 25px;
         top: 5335px;
     }
 }
-@media all and (min-width: 375px) and (max-width: 425px){
+
+@media all and (min-width: 375px) and (max-width: 425px) {
     .img {
         position: relative;
         width: 525px;
         top: 0px;
         filter: brightness(50%);
     }
+
     .header-nav-h4 {
         position: relative;
         text-decoration: none;
@@ -1184,12 +1368,14 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .header-nav-h4-u-span {
         text-decoration: none;
         color: #e5e5e5;
         padding-left: -82px;
         padding-left: 12px;
     }
+
     .main-p {
         position: absolute;
         bottom: -102px;
@@ -1203,11 +1389,13 @@ figcaption:hover{
         animation-iteration-count: 1;
         animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
     }
+
     .main-p-span {
         color: #0085FF;
         font-size: 35px;
         font-family: Roboto;
     }
+
     .header2-nav-h2 {
         width: 300px;
         position: relative;
@@ -1217,6 +1405,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .section2 {
         width: 125px;
         position: relative;
@@ -1225,6 +1414,7 @@ figcaption:hover{
         color: #0085FF;
         box-shadow: 14px 10px 10px -3px #0085ff;
     }
+
     .main-section2 {
         width: 300px;
         position: relative;
@@ -1238,6 +1428,7 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .main-p2 {
         width: 300px;
         position: relative;
@@ -1249,6 +1440,7 @@ figcaption:hover{
         font-family: Roboto;
         text-decoration: none;
     }
+
     .main-section3-h2 {
         width: 300px;
         position: relative;
@@ -1258,6 +1450,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .main-section3-dl {
         width: 300px;
         position: relative;
@@ -1267,6 +1460,7 @@ figcaption:hover{
         color: #e5e5e5;
         font-family: Roboto;
     }
+
     .bar {
         position: relative;
         height: 12px;
@@ -1277,44 +1471,59 @@ figcaption:hover{
         margin-top: 8px;
         animation: fill 3s infinite alternate, colors 3s infinite alternate;
     }
+
     @keyframes fill {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 80px;
         }
     }
     @keyframes fill-1 {
-        66%  { width: 20px;}
+        66% {
+            width: 20px;
+        }
         100% {
             width: 130px;
         }
     }
     @keyframes fill-2 {
-        66%  { width: 70px;}
+        66% {
+            width: 70px;
+        }
         100% {
             width: 180px;
         }
     }
     @keyframes fill-3 {
-        66%  { width: 24px;}
+        66% {
+            width: 24px;
+        }
         100% {
             width: 200px;
         }
     }
     @keyframes fill-4 {
-        66%  { width: 34px;}
+        66% {
+            width: 34px;
+        }
         100% {
             width: 110px;
         }
     }
     @keyframes fill-5 {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 215px;
         }
     }
     @keyframes fill-6 {
-        66%  { width: 22px;}
+        66% {
+            width: 22px;
+        }
         100% {
             width: 260px;
         }
@@ -1325,6 +1534,7 @@ figcaption:hover{
         position: relative;
         top: -110px;
     }
+
     .footer3-h2 {
         alignment: center;
         color: #e5e5e5;
@@ -1333,46 +1543,54 @@ figcaption:hover{
         display: flex;
         margin-left: 60px;
     }
+
     .footer3-image1 {
         position: relative;
         right: 50px;
         width: 55px;
     }
+
     .footer3-image2 {
         position: relative;
         right: 5px;
         width: 55px;
     }
+
     .footer3-image3 {
         position: relative;
         right: -50px;
         top: -5px;
         width: 50px;
     }
+
     .footer3-image4 {
         position: relative;
         right: 223px;
         width: 55px;
         top: 85px;
     }
+
     .footer3-image5 {
         position: relative;
         left: -175px;
         width: 50px;
         top: 85px;
     }
+
     .footer3-image6 {
         position: relative;
         left: 85px;
         width: 45px;
         top: 20px;
     }
+
     .footer3-image7 {
         position: relative;
         left: -85px;
         width: 55px;
         top: 100px;
     }
+
     .header4-nav-h2 {
         width: 300px;
         position: absolute;
@@ -1382,6 +1600,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 300px;
@@ -1389,6 +1608,7 @@ figcaption:hover{
         top: 1955px;
         width: 500px;
     }
+
     .main-section4-figure {
         color: #e5e5e5;
         font-size: 16px;
@@ -1397,6 +1617,7 @@ figcaption:hover{
         position: absolute;
         top: 290px;
     }
+
     .main-section4-figure-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -1405,23 +1626,27 @@ figcaption:hover{
         top: 465px;
         left: 30px;
     }
+
     .figure2 {
         position: absolute;
         top: 2601px;
         right: 25px;
         width: 296px;
     }
+
     .imgScl {
         width: 135px;
         position: absolute;
         left: 46px;
     }
+
     .imgICBT {
         width: 175px;
         position: absolute;
         left: 52px;
         top: -98px;
     }
+
     .main-section4-figure2 {
         color: #e5e5e5;
         font-size: 16px;
@@ -1430,6 +1655,7 @@ figcaption:hover{
         left: 100px;
         top: -145px;
     }
+
     .main-section4-figure2-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -1438,11 +1664,13 @@ figcaption:hover{
         top: 35px;
         left: 60px;
     }
+
     .figure3 {
         position: absolute;
         top: 3000px;
         right: 255px;
     }
+
     .main-section4-figure3 {
         color: #e5e5e5;
         font-size: 16px;
@@ -1451,12 +1679,14 @@ figcaption:hover{
         top: -252px;
         left: 45px;
     }
+
     .imgIJSE {
         width: 195px;
         position: absolute;
         top: -170px;
         left: -25px;
     }
+
     .main-section4-figure3-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -1465,17 +1695,20 @@ figcaption:hover{
         top: -45px;
         left: 15px;
     }
+
     .figure4 {
         position: absolute;
         top: 3044px;
         left: 50px;
         width: 90px;
     }
+
     .figure5 {
         position: absolute;
         top: 3070px;
         left: 155px;
     }
+
     .header5-nav-h2 {
         position: relative;
         top: 840px;
@@ -1485,6 +1718,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .main-section5-h4 {
         /* position: relative; */
         /* position: absolute; */
@@ -1494,22 +1728,26 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .link1 {
         text-decoration: none;
         color: white;
         position: relative;
         margin-left: -55px;
     }
+
     .span5 {
         margin-left: -235px;
         position: relative;
         top: 45px;
     }
+
     .span55 {
         margin-left: -200px;
         position: relative;
         top: 90px;
     }
+
     .span5-image1 {
         position: absolute;
         padding-top: 100px;
@@ -1518,6 +1756,7 @@ figcaption:hover{
         width: 250px;
         height: 140px;
     }
+
     .span5-image2 {
         padding-left: 36px;
         padding-top: 255px;
@@ -1525,6 +1764,7 @@ figcaption:hover{
         width: 250px;
         height: 165px;
     }
+
     .span5-image3 {
         position: absolute;
         padding-top: 435px;
@@ -1533,6 +1773,7 @@ figcaption:hover{
         width: 250px;
         height: 140px;
     }
+
     .header6-nav-h2 {
         width: 300px;
         position: relative;
@@ -1542,6 +1783,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .sticker {
         width: 200px;
         height: 200px;
@@ -1552,6 +1794,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker1 {
         width: 200px;
         height: 200px;
@@ -1562,6 +1805,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker2 {
         width: 200px;
         height: 200px;
@@ -1572,6 +1816,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .msg {
         color: whitesmoke;
         text-align: center;
@@ -1584,6 +1829,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg1 {
         color: whitesmoke;
         text-align: center;
@@ -1596,6 +1842,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg2 {
         color: whitesmoke;
         text-align: center;
@@ -1608,6 +1855,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .header7-nav-h2 {
         align-content: center;
         font-size: 25px;
@@ -1616,12 +1864,14 @@ figcaption:hover{
         left: 120px;
         top: 4620px;
     }
+
     .main-section7-figure1 {
         position: absolute;
         top: 4680px;
         left: 130px;
         width: 60px;
     }
+
     .main7-section {
         position: absolute;
         top: 4750px;
@@ -1629,12 +1879,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 25px;
     }
+
     .main-section7-figure2 {
         position: absolute;
         top: 4800px;
         left: 135px;
         width: 60px;
     }
+
     .main-section7-figure {
         position: absolute;
         left: 25px;
@@ -1642,12 +1894,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 20px;
     }
+
     .main-section7-figure3 {
         position: absolute;
         top: 4910px;
         left: 130px;
         width: 75px;
     }
+
     .main-section7-figure-figcaption {
         position: absolute;
         color: #e5e5e5;
@@ -1655,6 +1909,7 @@ figcaption:hover{
         top: 5005px;
         left: 135px;
     }
+
     .footer7-h3 {
         font-size: 25px;
         color: #e5e5e5;
@@ -1662,44 +1917,52 @@ figcaption:hover{
         top: 5150px;
         left: 50px;
     }
+
     .footer7-image1 {
         position: absolute;
         right: 310px;
         top: 5235px;
     }
+
     .footer7-image2 {
         position: absolute;
         right: 195px;
         top: 5240px;
     }
+
     .footer7-image3 {
         position: absolute;
         right: 75px;
         top: 5240px;
     }
+
     .footer7-image4 {
         position: absolute;
         right: 310px;
         top: 5330px;
     }
+
     .footer7-image5 {
         position: absolute;
         right: 195px;
         top: 5335px;
     }
+
     .footer7-image6 {
         position: absolute;
         right: 75px;
         top: 5335px;
     }
 }
-@media all and (min-width: 425px) and (max-width: 768px){
+
+@media all and (min-width: 425px) and (max-width: 768px) {
     .img {
         position: relative;
         width: 525px;
         top: 0px;
         filter: brightness(50%);
     }
+
     .header-nav-h4 {
         position: relative;
         text-decoration: none;
@@ -1714,12 +1977,14 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .header-nav-h4-u-span {
         text-decoration: none;
         color: #e5e5e5;
         padding-left: -82px;
         padding-left: 12px;
     }
+
     .main-p {
         position: absolute;
         bottom: -102px;
@@ -1733,11 +1998,13 @@ figcaption:hover{
         animation-iteration-count: 1;
         animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
     }
+
     .main-p-span {
         color: #0085FF;
         font-size: 35px;
         font-family: Roboto;
     }
+
     .header2-nav-h2 {
         width: 300px;
         position: relative;
@@ -1747,6 +2014,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .section2 {
         width: 125px;
         position: relative;
@@ -1755,6 +2023,7 @@ figcaption:hover{
         color: #0085FF;
         box-shadow: 14px 10px 10px -3px #0085ff;
     }
+
     .main-section2 {
         width: 300px;
         position: relative;
@@ -1768,6 +2037,7 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .main-p2 {
         width: 300px;
         position: relative;
@@ -1779,6 +2049,7 @@ figcaption:hover{
         font-family: Roboto;
         text-decoration: none;
     }
+
     .main-section3-h2 {
         width: 300px;
         position: relative;
@@ -1788,6 +2059,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .main-section3-dl {
         width: 300px;
         position: relative;
@@ -1797,6 +2069,7 @@ figcaption:hover{
         color: #e5e5e5;
         font-family: Roboto;
     }
+
     .bar {
         position: relative;
         height: 12px;
@@ -1807,44 +2080,59 @@ figcaption:hover{
         margin-top: 8px;
         animation: fill 3s infinite alternate, colors 3s infinite alternate;
     }
+
     @keyframes fill {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 80px;
         }
     }
     @keyframes fill-1 {
-        66%  { width: 20px;}
+        66% {
+            width: 20px;
+        }
         100% {
             width: 130px;
         }
     }
     @keyframes fill-2 {
-        66%  { width: 70px;}
+        66% {
+            width: 70px;
+        }
         100% {
             width: 180px;
         }
     }
     @keyframes fill-3 {
-        66%  { width: 24px;}
+        66% {
+            width: 24px;
+        }
         100% {
             width: 200px;
         }
     }
     @keyframes fill-4 {
-        66%  { width: 34px;}
+        66% {
+            width: 34px;
+        }
         100% {
             width: 110px;
         }
     }
     @keyframes fill-5 {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 215px;
         }
     }
     @keyframes fill-6 {
-        66%  { width: 22px;}
+        66% {
+            width: 22px;
+        }
         100% {
             width: 260px;
         }
@@ -1855,6 +2143,7 @@ figcaption:hover{
         position: relative;
         top: -110px;
     }
+
     .footer3-h2 {
         alignment: center;
         color: #e5e5e5;
@@ -1863,46 +2152,54 @@ figcaption:hover{
         display: flex;
         margin-left: 60px;
     }
+
     .footer3-image1 {
         position: relative;
         right: 50px;
         width: 55px;
     }
+
     .footer3-image2 {
         position: relative;
         right: 5px;
         width: 55px;
     }
+
     .footer3-image3 {
         position: relative;
         right: -50px;
         top: -5px;
         width: 50px;
     }
+
     .footer3-image4 {
         position: relative;
         right: 223px;
         width: 55px;
         top: 85px;
     }
+
     .footer3-image5 {
         position: relative;
         left: -175px;
         width: 50px;
         top: 85px;
     }
+
     .footer3-image6 {
         position: relative;
         left: -110px;
         width: 45px;
         top: 85px;
     }
+
     .footer3-image7 {
         position: relative;
         left: -85px;
         width: 55px;
         top: 100px;
     }
+
     .header4-nav-h2 {
         width: 300px;
         position: absolute;
@@ -1912,6 +2209,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 300px;
@@ -1919,6 +2217,7 @@ figcaption:hover{
         top: 1955px;
         width: 500px;
     }
+
     .main-section4-figure {
         color: #e5e5e5;
         font-size: 16px;
@@ -1927,6 +2226,7 @@ figcaption:hover{
         position: absolute;
         top: 290px;
     }
+
     .main-section4-figure-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -1935,23 +2235,27 @@ figcaption:hover{
         top: 465px;
         left: 30px;
     }
+
     .figure2 {
         position: absolute;
         top: 2601px;
         right: 75px;
         width: 296px;
     }
+
     .imgScl {
         width: 135px;
         position: absolute;
         left: 46px;
     }
+
     .imgICBT {
         width: 175px;
         position: absolute;
         left: 52px;
         top: -98px;
     }
+
     .main-section4-figure2 {
         color: #e5e5e5;
         font-size: 16px;
@@ -1960,6 +2264,7 @@ figcaption:hover{
         left: 100px;
         top: -145px;
     }
+
     .main-section4-figure2-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -1968,11 +2273,13 @@ figcaption:hover{
         top: 35px;
         left: 60px;
     }
+
     .figure3 {
         position: absolute;
         top: 3000px;
         right: 295px;
     }
+
     .main-section4-figure3 {
         color: #e5e5e5;
         font-size: 16px;
@@ -1981,12 +2288,14 @@ figcaption:hover{
         top: -252px;
         left: 45px;
     }
+
     .imgIJSE {
         width: 195px;
         position: absolute;
         top: -170px;
         left: -25px;
     }
+
     .main-section4-figure3-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -1995,17 +2304,20 @@ figcaption:hover{
         top: -45px;
         left: 15px;
     }
+
     .figure4 {
         position: absolute;
         top: 3044px;
         left: 50px;
         width: 90px;
     }
+
     .figure5 {
         position: absolute;
         top: 3070px;
         left: 155px;
     }
+
     .header5-nav-h2 {
         position: relative;
         top: 840px;
@@ -2015,6 +2327,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .main-section5-h4 {
         /* position: relative; */
         /* position: absolute; */
@@ -2024,22 +2337,26 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .link1 {
         text-decoration: none;
         color: white;
         position: relative;
         margin-left: -55px;
     }
+
     .span5 {
         margin-left: -235px;
         position: relative;
         top: 45px;
     }
+
     .span55 {
         margin-left: -200px;
         position: relative;
         top: 90px;
     }
+
     .span5-image1 {
         position: absolute;
         padding-top: 100px;
@@ -2048,6 +2365,7 @@ figcaption:hover{
         width: 250px;
         height: 140px;
     }
+
     .span5-image2 {
         padding-left: 36px;
         padding-top: 255px;
@@ -2055,6 +2373,7 @@ figcaption:hover{
         width: 250px;
         height: 165px;
     }
+
     .span5-image3 {
         position: absolute;
         padding-top: 435px;
@@ -2063,6 +2382,7 @@ figcaption:hover{
         width: 250px;
         height: 140px;
     }
+
     .header6-nav-h2 {
         width: 300px;
         position: relative;
@@ -2072,6 +2392,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .sticker {
         width: 200px;
         height: 200px;
@@ -2082,6 +2403,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker1 {
         width: 200px;
         height: 200px;
@@ -2092,6 +2414,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker2 {
         width: 200px;
         height: 200px;
@@ -2102,6 +2425,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .msg {
         color: whitesmoke;
         text-align: center;
@@ -2114,6 +2438,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg1 {
         color: whitesmoke;
         text-align: center;
@@ -2126,6 +2451,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg2 {
         color: whitesmoke;
         text-align: center;
@@ -2138,6 +2464,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .header7-nav-h2 {
         align-content: center;
         font-size: 25px;
@@ -2146,12 +2473,14 @@ figcaption:hover{
         left: 120px;
         top: 4620px;
     }
+
     .main-section7-figure1 {
         position: absolute;
         top: 4680px;
         left: 130px;
         width: 60px;
     }
+
     .main7-section {
         position: absolute;
         top: 4750px;
@@ -2159,12 +2488,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 25px;
     }
+
     .main-section7-figure2 {
         position: absolute;
         top: 4800px;
         left: 135px;
         width: 60px;
     }
+
     .main-section7-figure {
         position: absolute;
         left: 25px;
@@ -2172,12 +2503,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 20px;
     }
+
     .main-section7-figure3 {
         position: absolute;
         top: 4910px;
         left: 130px;
         width: 75px;
     }
+
     .main-section7-figure-figcaption {
         position: absolute;
         color: #e5e5e5;
@@ -2185,6 +2518,7 @@ figcaption:hover{
         top: 5005px;
         left: 135px;
     }
+
     .footer7-h3 {
         font-size: 25px;
         color: #e5e5e5;
@@ -2192,44 +2526,52 @@ figcaption:hover{
         top: 5150px;
         left: 50px;
     }
+
     .footer7-image1 {
         position: absolute;
         right: 350px;
         top: 5235px;
     }
+
     .footer7-image2 {
         position: absolute;
         right: 240px;
         top: 5240px;
     }
+
     .footer7-image3 {
         position: absolute;
         right: 125px;
         top: 5240px;
     }
+
     .footer7-image4 {
         position: absolute;
         right: 350px;
         top: 5330px;
     }
+
     .footer7-image5 {
         position: absolute;
         right: 240px;
         top: 5335px;
     }
+
     .footer7-image6 {
         position: absolute;
         right: 125px;
         top: 5335px;
     }
 }
-@media all and (min-width: 768px) and (max-width: 1024px){
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
     .img {
         position: relative;
         width: 435px;
         top: 0px;
         filter: brightness(50%);
     }
+
     .header-nav-h4 {
         position: relative;
         text-decoration: none;
@@ -2244,12 +2586,14 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .header-nav-h4-u-span {
         text-decoration: none;
         color: #e5e5e5;
         padding-left: -82px;
         padding-left: 12px;
     }
+
     .main-p {
         position: absolute;
         bottom: -102px;
@@ -2263,11 +2607,13 @@ figcaption:hover{
         animation-iteration-count: 1;
         animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
     }
+
     .main-p-span {
         color: #0085FF;
         font-size: 35px;
         font-family: Roboto;
     }
+
     .header2-nav-h2 {
         width: 300px;
         position: relative;
@@ -2277,6 +2623,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .section2 {
         width: 130px;
         position: relative;
@@ -2285,6 +2632,7 @@ figcaption:hover{
         color: #0085FF;
         box-shadow: 14px 10px 10px -3px #0085ff;
     }
+
     .main-section2 {
         width: 300px;
         position: relative;
@@ -2298,6 +2646,7 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .main-p2 {
         width: 300px;
         position: relative;
@@ -2309,6 +2658,7 @@ figcaption:hover{
         font-family: Roboto;
         text-decoration: none;
     }
+
     .main-section3-h2 {
         width: 300px;
         position: relative;
@@ -2318,6 +2668,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .main-section3-dl {
         width: 300px;
         position: relative;
@@ -2327,6 +2678,7 @@ figcaption:hover{
         color: #e5e5e5;
         font-family: Roboto;
     }
+
     .bar {
         position: relative;
         height: 12px;
@@ -2337,44 +2689,59 @@ figcaption:hover{
         margin-top: 8px;
         animation: fill 3s infinite alternate, colors 3s infinite alternate;
     }
+
     @keyframes fill {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 80px;
         }
     }
     @keyframes fill-1 {
-        66%  { width: 20px;}
+        66% {
+            width: 20px;
+        }
         100% {
             width: 130px;
         }
     }
     @keyframes fill-2 {
-        66%  { width: 70px;}
+        66% {
+            width: 70px;
+        }
         100% {
             width: 180px;
         }
     }
     @keyframes fill-3 {
-        66%  { width: 24px;}
+        66% {
+            width: 24px;
+        }
         100% {
             width: 200px;
         }
     }
     @keyframes fill-4 {
-        66%  { width: 34px;}
+        66% {
+            width: 34px;
+        }
         100% {
             width: 110px;
         }
     }
     @keyframes fill-5 {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 215px;
         }
     }
     @keyframes fill-6 {
-        66%  { width: 22px;}
+        66% {
+            width: 22px;
+        }
         100% {
             width: 260px;
         }
@@ -2385,6 +2752,7 @@ figcaption:hover{
         position: relative;
         top: -110px;
     }
+
     .footer3-h2 {
         alignment: center;
         color: #e5e5e5;
@@ -2393,46 +2761,54 @@ figcaption:hover{
         display: flex;
         margin-left: 130px;
     }
+
     .footer3-image1 {
         position: relative;
         right: 195px;
         width: 55px;
     }
+
     .footer3-image2 {
         position: relative;
         right: 155px;
         width: 55px;
     }
+
     .footer3-image3 {
         position: relative;
         right: 100px;
         top: -5px;
         width: 50px;
     }
+
     .footer3-image4 {
         position: relative;
         right: 50px;
         width: 55px;
         top: 0px;
     }
+
     .footer3-image5 {
         position: relative;
         left: -370px;
         width: 50px;
         top: 85px;
     }
+
     .footer3-image6 {
         position: relative;
         left: -315px;
         width: 45px;
         top: 85px;
     }
+
     .footer3-image7 {
         position: relative;
         left: -265px;
         width: 55px;
         top: 90px;
     }
+
     .header4-nav-h2 {
         width: 300px;
         position: absolute;
@@ -2442,6 +2818,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 300px;
@@ -2449,6 +2826,7 @@ figcaption:hover{
         top: 1955px;
         width: 500px;
     }
+
     .main-section4-figure {
         color: #e5e5e5;
         font-size: 16px;
@@ -2457,6 +2835,7 @@ figcaption:hover{
         position: absolute;
         top: 290px;
     }
+
     .main-section4-figure-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -2465,23 +2844,27 @@ figcaption:hover{
         top: 465px;
         left: 30px;
     }
+
     .figure2 {
         position: absolute;
         top: 2601px;
         right: 360px;
         width: 296px;
     }
+
     .imgScl {
         width: 135px;
         position: absolute;
         left: 46px;
     }
+
     .imgICBT {
         width: 175px;
         position: absolute;
         left: 52px;
         top: -98px;
     }
+
     .main-section4-figure2 {
         color: #e5e5e5;
         font-size: 16px;
@@ -2490,6 +2873,7 @@ figcaption:hover{
         left: 100px;
         top: -145px;
     }
+
     .main-section4-figure2-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -2498,11 +2882,13 @@ figcaption:hover{
         top: 35px;
         left: 60px;
     }
+
     .figure3 {
         position: absolute;
         top: 3000px;
         right: 590px;
     }
+
     .main-section4-figure3 {
         color: #e5e5e5;
         font-size: 16px;
@@ -2511,12 +2897,14 @@ figcaption:hover{
         top: -252px;
         left: 45px;
     }
+
     .imgIJSE {
         width: 195px;
         position: absolute;
         top: -170px;
         left: -25px;
     }
+
     .main-section4-figure3-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -2525,17 +2913,20 @@ figcaption:hover{
         top: -45px;
         left: 15px;
     }
+
     .figure4 {
         position: absolute;
         top: 3044px;
         left: 101px;
         width: 90px;
     }
+
     .figure5 {
         position: absolute;
         top: 3070px;
         left: 200px;
     }
+
     .header5-nav-h2 {
         position: relative;
         top: 840px;
@@ -2545,6 +2936,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .main-section5-h4 {
         /* position: relative; */
         /* position: absolute; */
@@ -2554,22 +2946,26 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .link1 {
         text-decoration: none;
         color: white;
         position: relative;
         margin-left: 10px;
     }
+
     .span5 {
         margin-left: -235px;
         position: relative;
         top: 45px;
     }
+
     .span55 {
         margin-left: -200px;
         position: relative;
         top: 90px;
     }
+
     .span5-image1 {
         position: absolute;
         padding-top: 100px;
@@ -2578,6 +2974,7 @@ figcaption:hover{
         width: 250px;
         height: 140px;
     }
+
     .span5-image2 {
         padding-left: 105px;
         padding-top: 255px;
@@ -2585,6 +2982,7 @@ figcaption:hover{
         width: 250px;
         height: 165px;
     }
+
     .span5-image3 {
         position: absolute;
         padding-top: 435px;
@@ -2593,6 +2991,7 @@ figcaption:hover{
         width: 250px;
         height: 140px;
     }
+
     .header6-nav-h2 {
         width: 300px;
         position: relative;
@@ -2602,6 +3001,7 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .sticker {
         width: 200px;
         height: 200px;
@@ -2612,6 +3012,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker1 {
         width: 200px;
         height: 200px;
@@ -2622,6 +3023,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker2 {
         width: 200px;
         height: 200px;
@@ -2632,6 +3034,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .msg {
         color: whitesmoke;
         text-align: center;
@@ -2644,6 +3047,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg1 {
         color: whitesmoke;
         text-align: center;
@@ -2656,6 +3060,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg2 {
         color: whitesmoke;
         text-align: center;
@@ -2668,6 +3073,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .header7-nav-h2 {
         align-content: center;
         font-size: 25px;
@@ -2676,12 +3082,14 @@ figcaption:hover{
         left: 175px;
         top: 4620px;
     }
+
     .main-section7-figure1 {
         position: absolute;
         top: 4680px;
         left: 185px;
         width: 60px;
     }
+
     .main7-section {
         position: absolute;
         top: 4750px;
@@ -2689,12 +3097,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 25px;
     }
+
     .main-section7-figure2 {
         position: absolute;
         top: 4800px;
         left: 190px;
         width: 60px;
     }
+
     .main-section7-figure {
         position: absolute;
         left: 85px;
@@ -2702,12 +3112,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 20px;
     }
+
     .main-section7-figure3 {
         position: absolute;
         top: 4910px;
         left: 185px;
         width: 75px;
     }
+
     .main-section7-figure-figcaption {
         position: absolute;
         color: #e5e5e5;
@@ -2715,6 +3127,7 @@ figcaption:hover{
         top: 5005px;
         left: 190px;
     }
+
     .footer7-h3 {
         font-size: 25px;
         color: #e5e5e5;
@@ -2722,44 +3135,52 @@ figcaption:hover{
         top: 5150px;
         left: 115px;
     }
+
     .footer7-image1 {
         position: absolute;
         right: 695px;
         top: 5235px;
     }
+
     .footer7-image2 {
         position: absolute;
         right: 590px;
         top: 5235px;
     }
+
     .footer7-image3 {
         position: absolute;
         right: 475px;
         top: 5235px;
     }
+
     .footer7-image4 {
         position: absolute;
         right: 355px;
         top: 5232px;
     }
+
     .footer7-image5 {
         position: absolute;
         right: 590px;
         top: 5325px;
     }
+
     .footer7-image6 {
         position: absolute;
         right: 475px;
         top: 5325px;
     }
 }
-@media all and (min-width: 1024px) and (max-width: 1440px){
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
     .img {
         position: relative;
         width: 678px;
         top: 0px;
         filter: brightness(50%);
     }
+
     .header-nav-h4 {
         position: relative;
         text-decoration: none;
@@ -2774,12 +3195,14 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .header-nav-h4-u-span {
         text-decoration: none;
         color: #e5e5e5;
         padding-left: -82px;
         padding-left: 12px;
     }
+
     .main-p {
         position: absolute;
         bottom: -10px;
@@ -2793,11 +3216,13 @@ figcaption:hover{
         animation-iteration-count: 1;
         animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
     }
+
     .main-p-span {
         color: #0085FF;
         font-size: 35px;
         font-family: Roboto;
     }
+
     .header2-nav-h2 {
         width: 300px;
         position: relative;
@@ -2807,6 +3232,7 @@ figcaption:hover{
         font-size: 30px;
         font-family: Roboto;
     }
+
     .section2 {
         width: 135px;
         position: relative;
@@ -2815,6 +3241,7 @@ figcaption:hover{
         color: #0085FF;
         box-shadow: 14px 10px 10px -3px #0085ff;
     }
+
     .main-section2 {
         width: 300px;
         position: relative;
@@ -2828,6 +3255,7 @@ figcaption:hover{
         animation-direction: alternate;
         animation-iteration-count: 1;
     }
+
     .main-p2 {
         width: 300px;
         position: relative;
@@ -2839,6 +3267,7 @@ figcaption:hover{
         font-family: Roboto;
         text-decoration: none;
     }
+
     .main-section3-h2 {
         width: 300px;
         position: relative;
@@ -2848,6 +3277,7 @@ figcaption:hover{
         font-size: 30px;
         font-family: Roboto;
     }
+
     .main-section3-dl {
         width: 300px;
         position: relative;
@@ -2857,6 +3287,7 @@ figcaption:hover{
         color: #e5e5e5;
         font-family: Roboto;
     }
+
     .bar {
         position: relative;
         height: 12px;
@@ -2867,44 +3298,59 @@ figcaption:hover{
         margin-top: 8px;
         animation: fill 3s infinite alternate, colors 3s infinite alternate;
     }
+
     @keyframes fill {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 80px;
         }
     }
     @keyframes fill-1 {
-        66%  { width: 20px;}
+        66% {
+            width: 20px;
+        }
         100% {
             width: 130px;
         }
     }
     @keyframes fill-2 {
-        66%  { width: 70px;}
+        66% {
+            width: 70px;
+        }
         100% {
             width: 180px;
         }
     }
     @keyframes fill-3 {
-        66%  { width: 24px;}
+        66% {
+            width: 24px;
+        }
         100% {
             width: 200px;
         }
     }
     @keyframes fill-4 {
-        66%  { width: 34px;}
+        66% {
+            width: 34px;
+        }
         100% {
             width: 110px;
         }
     }
     @keyframes fill-5 {
-        66%  { width: 10px;}
+        66% {
+            width: 10px;
+        }
         100% {
             width: 215px;
         }
     }
     @keyframes fill-6 {
-        66%  { width: 22px;}
+        66% {
+            width: 22px;
+        }
         100% {
             width: 260px;
         }
@@ -2915,6 +3361,7 @@ figcaption:hover{
         position: relative;
         top: -110px;
     }
+
     .footer3-h2 {
         alignment: center;
         color: #e5e5e5;
@@ -2923,46 +3370,54 @@ figcaption:hover{
         display: flex;
         margin-left: 235px;
     }
+
     .footer3-image1 {
         position: relative;
         right: 315px;
         width: 55px;
     }
+
     .footer3-image2 {
         position: relative;
         right: 285px;
         width: 55px;
     }
+
     .footer3-image3 {
         position: relative;
         right: 245px;
         top: -5px;
         width: 50px;
     }
+
     .footer3-image4 {
         position: relative;
         right: 210px;
         width: 55px;
         top: 0px;
     }
+
     .footer3-image5 {
         position: relative;
         left: -175px;
         width: 50px;
         top: -5px;
     }
+
     .footer3-image6 {
         position: relative;
         left: -130px;
         width: 45px;
         top: -5px;
     }
+
     .footer3-image7 {
         position: relative;
         left: -90px;
         width: 55px;
         top: 0px;
     }
+
     .header4-nav-h2 {
         width: 300px;
         position: absolute;
@@ -2972,6 +3427,7 @@ figcaption:hover{
         font-size: 30px;
         font-family: Roboto;
     }
+
     .figure1 {
         position: absolute;
         padding-top: 300px;
@@ -2979,6 +3435,7 @@ figcaption:hover{
         top: 2100px;
         width: 500px;
     }
+
     .main-section4-figure {
         color: #e5e5e5;
         font-size: 16px;
@@ -2987,6 +3444,7 @@ figcaption:hover{
         position: absolute;
         top: 290px;
     }
+
     .main-section4-figure-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -2995,23 +3453,27 @@ figcaption:hover{
         top: 465px;
         left: 30px;
     }
+
     .figure2 {
         position: absolute;
         top: 2520px;
         right: 510px;
         width: 296px;
     }
+
     .imgScl {
         width: 135px;
         position: absolute;
         left: 46px;
     }
+
     .imgICBT {
         width: 175px;
         position: absolute;
         left: 52px;
         top: -98px;
     }
+
     .main-section4-figure2 {
         color: #e5e5e5;
         font-size: 16px;
@@ -3020,6 +3482,7 @@ figcaption:hover{
         left: 100px;
         top: -145px;
     }
+
     .main-section4-figure2-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -3028,11 +3491,13 @@ figcaption:hover{
         top: 35px;
         left: 60px;
     }
+
     .figure3 {
         position: absolute;
         top: 2595px;
         right: 405px;
     }
+
     .main-section4-figure3 {
         color: #e5e5e5;
         font-size: 16px;
@@ -3041,12 +3506,14 @@ figcaption:hover{
         top: -200px;
         left: 25px;
     }
+
     .imgIJSE {
         width: 195px;
         position: absolute;
         top: -170px;
         left: -25px;
     }
+
     .main-section4-figure3-figcaption {
         color: #e5e5e5;
         font-size: 16px;
@@ -3055,17 +3522,20 @@ figcaption:hover{
         top: -45px;
         left: 15px;
     }
+
     .figure4 {
         position: absolute;
         top: 2665px;
         left: 270px;
         width: 90px;
     }
+
     .figure5 {
         position: absolute;
         top: 2685px;
         left: 380px;
     }
+
     .header5-nav-h2 {
         position: relative;
         top: 365px;
@@ -3075,6 +3545,7 @@ figcaption:hover{
         font-size: 30px;
         font-family: Roboto;
     }
+
     .main-section5-h4 {
         /* position: relative; */
         /* position: absolute; */
@@ -3084,22 +3555,26 @@ figcaption:hover{
         font-size: 25px;
         font-family: Roboto;
     }
+
     .link1 {
         text-decoration: none;
         color: white;
         position: relative;
         margin-left: 10px;
     }
+
     .span5 {
         margin-left: -235px;
         position: relative;
         top: 45px;
     }
+
     .span55 {
         margin-left: -200px;
         position: relative;
         top: 90px;
     }
+
     .span5-image1 {
         position: absolute;
         padding-top: 135px;
@@ -3108,6 +3583,7 @@ figcaption:hover{
         width: 250px;
         height: 190px;
     }
+
     .span5-image2 {
         padding-left: 195px;
         padding-top: 100px;
@@ -3115,6 +3591,7 @@ figcaption:hover{
         width: 250px;
         height: 260px;
     }
+
     .span5-image3 {
         position: absolute;
         padding-top: 135px;
@@ -3123,6 +3600,7 @@ figcaption:hover{
         width: 250px;
         height: 190px;
     }
+
     .header6-nav-h2 {
         width: 300px;
         position: relative;
@@ -3132,6 +3610,7 @@ figcaption:hover{
         font-size: 30px;
         font-family: Roboto;
     }
+
     .sticker {
         width: 200px;
         height: 200px;
@@ -3142,6 +3621,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker1 {
         width: 200px;
         height: 200px;
@@ -3152,6 +3632,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .sticker2 {
         width: 200px;
         height: 200px;
@@ -3162,6 +3643,7 @@ figcaption:hover{
         animation: spin 10s linear infinite;
         animation-play-state: paused;
     }
+
     .msg {
         color: whitesmoke;
         text-align: center;
@@ -3174,6 +3656,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg1 {
         color: whitesmoke;
         text-align: center;
@@ -3186,6 +3669,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .msg2 {
         color: whitesmoke;
         text-align: center;
@@ -3198,6 +3682,7 @@ figcaption:hover{
         margin: 55px 0 0 2px;
         text-decoration: none;
     }
+
     .header7-nav-h2 {
         align-content: center;
         font-size: 30px;
@@ -3206,12 +3691,14 @@ figcaption:hover{
         left: 270px;
         top: 3735px;
     }
+
     .main-section7-figure1 {
         position: absolute;
         top: 3805px;
         left: 45px;
         width: 60px;
     }
+
     .main7-section {
         position: absolute;
         top: 3875px;
@@ -3219,12 +3706,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 25px;
     }
+
     .main-section7-figure2 {
         position: absolute;
         top: 3810px;
         left: 285px;
         width: 60px;
     }
+
     .main-section7-figure {
         position: absolute;
         left: 170px;
@@ -3232,12 +3721,14 @@ figcaption:hover{
         color: #e5e5e5;
         font-size: 22px;
     }
+
     .main-section7-figure3 {
         position: absolute;
         top: 3805px;
         left: 535px;
         width: 75px;
     }
+
     .main-section7-figure-figcaption {
         position: absolute;
         color: #e5e5e5;
@@ -3245,6 +3736,7 @@ figcaption:hover{
         top: 3885px;
         left: 515px;
     }
+
     .footer7-h3 {
         font-size: 25px;
         color: #e5e5e5;
@@ -3252,31 +3744,37 @@ figcaption:hover{
         top: 4000px;
         left: 215px;
     }
+
     .footer7-image1 {
         position: absolute;
         right: 950px;
         top: 4080px;
     }
+
     .footer7-image2 {
         position: absolute;
         right: 845px;
         top: 4080px;
     }
+
     .footer7-image3 {
         position: absolute;
         right: 735px;
         top: 4080px;
     }
+
     .footer7-image4 {
         position: absolute;
         right: 625px;
         top: 4080px;
     }
+
     .footer7-image5 {
         position: absolute;
         right: 505px;
         top: 4080px;
     }
+
     .footer7-image6 {
         position: absolute;
         right: 390px;
