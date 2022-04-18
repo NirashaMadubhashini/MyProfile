@@ -13,7 +13,12 @@
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update SPA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gif/facebookgif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gif/ff.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gif/githubgif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gif/instagif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gif/telegramgif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/gif/ww.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +50,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projects of IJSE/JavaScript-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/pictures" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
+      <recent name="D:\WorkArea\MyProfile\assets\gif" />
       <recent name="D:\WorkArea\MyProfile\assets\images" />
       <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA" />
       <recent name="D:\WorkArea\MyProfile\myprojects\JS\Que" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\model" />
-      <recent name="D:\WorkArea\MyProfile\myprojects\JS\SPA\assets\style" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\assets\gif" />
@@ -172,6 +177,13 @@
       <workItem from="1648021151259" duration="1103000" />
       <workItem from="1648176526647" duration="824000" />
       <workItem from="1648472788780" duration="2252000" />
+      <workItem from="1648615595305" duration="4637000" />
+      <workItem from="1648711453385" duration="2917000" />
+      <workItem from="1648808044210" duration="1910000" />
+      <workItem from="1648912947652" duration="1283000" />
+      <workItem from="1648970480973" duration="1786000" />
+      <workItem from="1649313795680" duration="2583000" />
+      <workItem from="1650251311767" duration="395000" />
     </task>
     <task id="LOCAL-00175" summary="update POS">
       <created>1645180711539</created>
@@ -567,10 +579,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1647889587499" />
-    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1648176600172">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1648641115995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1648176600172" />
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1648641115995" />
     <state x="607" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1646638962544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
