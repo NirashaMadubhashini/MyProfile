@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update SPA">
+    <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CssStyleSheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,28 +177,7 @@
       <workItem from="1648970480973" duration="1786000" />
       <workItem from="1649313795680" duration="2583000" />
       <workItem from="1650251311767" duration="1624000" />
-      <workItem from="1651741785265" duration="601000" />
-    </task>
-    <task id="LOCAL-00175" summary="update POS">
-      <created>1645180711539</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1645180711540</updated>
-    </task>
-    <task id="LOCAL-00176" summary="update SPA">
-      <created>1645181099646</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1645181099646</updated>
-    </task>
-    <task id="LOCAL-00177" summary="update">
-      <created>1645183321776</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1645183321776</updated>
+      <workItem from="1651741785265" duration="1221000" />
     </task>
     <task id="LOCAL-00178" summary="update">
       <created>1645183396521</created>
@@ -524,7 +501,28 @@
       <option name="project" value="LOCAL" />
       <updated>1647331345653</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="update index.css">
+      <created>1651742563550</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1651742563550</updated>
+    </task>
+    <task id="LOCAL-00225" summary="update index.html">
+      <created>1651742574072</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1651742574072</updated>
+    </task>
+    <task id="LOCAL-00226" summary="update">
+      <created>1651742581619</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1651742581619</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +541,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="responsive @media 768px" />
     <MESSAGE value="responsive @media 1024px" />
     <MESSAGE value="update myProjects" />
     <MESSAGE value="update workspace.xml" />
@@ -553,8 +550,6 @@
     <MESSAGE value="update index.html in pos" />
     <MESSAGE value="update Customer.html in pos" />
     <MESSAGE value="update Dashbord.css in pos" />
-    <MESSAGE value="update index.html" />
-    <MESSAGE value="update" />
     <MESSAGE value="update responsive.css in spa" />
     <MESSAGE value="update Placeorder.css in spa" />
     <MESSAGE value="update Dashbord.css in spa" />
@@ -568,7 +563,10 @@
     <MESSAGE value="update index.html in spa" />
     <MESSAGE value="add que assignment" />
     <MESSAGE value="update SPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="update SPA" />
+    <MESSAGE value="update index.css" />
+    <MESSAGE value="update index.html" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1647889587499">
