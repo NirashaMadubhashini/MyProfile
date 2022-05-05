@@ -90,24 +90,37 @@ a:hover {
 .pan {
     position: absolute;
     bottom: 400px;
-    padding-left: 880px;
+    padding-left: 800px;
     color: #e5e5e5;
-    font-size: 40px;
+    font-size: 42px;
     font-family: 'Roboto';
 }
 .pan1 {
     position: absolute;
     bottom: 350px;
-    padding-left: 880px;
+    padding-left: 800px;
     color: #e5e5e5;
-    font-size: 40px;
+    font-size: 42px;
     font-family: 'Roboto';
 }
 .pan2 {
     position: absolute;
     bottom: 290px;
-    padding-left: 880px;
+    padding-left: 800px;
     color: #e5e5e5;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+.pan3 {
+    position: absolute;
+    bottom: 230px;
+    padding-left: 800px;
+    color: #e5e5e5;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+}
+.pan4 {
+    color: #0085FF;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
 }
