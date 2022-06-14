@@ -682,24 +682,24 @@ dd:hover {
 .main-section7-figure1 {
     position: absolute;
     top: 5150px;
-    left: 150px;
+    left: 1230px;
 }
 .main7-section {
     position: absolute;
-    top: 5250px;
-    left: 150px;
+    top:  5250px;
+    left: 1200px;
     color: #e5e5e5;
     font-size: 30px;
 }
 .main-section7-figure2 {
     position: absolute;
-    top: 5150px;
-    left: 750px;
+    top: 5400px;
+    left: 1230px;
 }
 .main-section7-figure {
     position: absolute;
-    left: 600px;
-    top: 5250px;
+    left: 1050px;
+    top: 5500px;
     color: #e5e5e5;
     font-size: 30px;
 
@@ -707,16 +707,17 @@ dd:hover {
 }
 .main-section7-figure3 {
     position: absolute;
-    top: 5150px;
+    top: 5650px;
     left: 1230px;
 }
 .main-section7-figure-figcaption {
     position: absolute;
     color: #e5e5e5;
     font-size: 30px;
-    top: 5250px;
-    left: 1220px;
+    top: 5750px;
+    left:1230px;
 }
+
 .footer7-h3 {
     font-size: 50px;
     color: #e5e5e5;
@@ -729,34 +730,102 @@ dd:hover {
 }
 .footer7-image1 {
     position: absolute;
-    right: 1250px;
-    top: 5650px;
+    right: 1450px;
+    top:650px;
+    /*top:650px;*/
+    /*right: 450px;*/
 }
 .footer7-image2 {
     position: absolute;
-    right: 1050px;
-    top: 5650px;
+    right: 1450px;
+    top: 600px;
+    /*top:650px;*/
+    /*right: 400px;*/
 }
 .footer7-image3 {
     position: absolute;
-    right: 850px;
-    top: 5650px;
+    right: 1450px;
+    top: 550px;
+    /*top:650px;*/
+    /*right: 350px;*/
 }
 .footer7-image4 {
     position: absolute;
-    right: 650px;
-    top: 5650px;
+    right: 1450px;
+    top:500px;
+    /*top:650px;*/
+    /*right: 300px;*/
 }
 .footer7-image5 {
     position: absolute;
-    right: 450px;
-    top: 5650px;
+    right: 1450px;
+    top: 450px;
+    /*top:650px;*/
+    /*right: 250px;*/
 }
 .footer7-image6 {
     position: absolute;
-    right: 250px;
-    top: 5650px;
+    right: 1450px;
+    top: 400px;
+    /*top:650px;*/
+    /*right: 200px;*/
 }
+
+
+
+.form_content {
+    position: absolute;
+    top: 5100px;
+    right:800px;
+    width: 600px;
+    height: 500px;
+}
+
+
+.contact_me_form > p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: #fdfdfe;
+    padding-top: 8px;
+}
+
+.contact_me_form > input {
+    font-size: 21px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid;
+    border-color:#0085FF;
+    color: white;
+    padding: 5px;
+}
+
+.contact_me_form > textarea {
+    font-size: 21px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid;
+    border-color: #0085FF;
+    color: white;
+}
+
+.sendBtn {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    background: transparent;
+    margin-top: 8px;
+    color: white;
+    padding: 7px;
+    border-color: #0085FF;
+    border-radius: 12px;
+}
+
+.sendBtn:hover {
+    cursor: pointer;
+    color: #00D2D3;
+    border-color: #00D2D3;
+}
+
 
 
 
