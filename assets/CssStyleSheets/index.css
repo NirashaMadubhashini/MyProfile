@@ -2,9 +2,10 @@
     color: black;
 }
 .body {
-    background-color: #1D1D1D;
+    background-color: #313135;
     /*background-color:#333333;*/
-    background-image: url("../pictures/dark8.jpg");
+    /*background-image: url("../pictures/bac3.jpg");*/
+    background-image: url("../images/wall5.jpg");
     background-size: cover;
 }
 .img {
@@ -730,45 +731,45 @@ dd:hover {
 }
 .footer7-image1 {
     position: absolute;
-    right: 1450px;
-    top:650px;
+    /*right: 1450px;*/
     /*top:650px;*/
-    /*right: 450px;*/
+    top:650px;
+    right: 1250px;
 }
 .footer7-image2 {
     position: absolute;
-    right: 1450px;
-    top: 600px;
-    /*top:650px;*/
-    /*right: 400px;*/
+    /*right: 1450px;*/
+    /*top: 600px;*/
+    top:650px;
+    right: 1200px;
 }
 .footer7-image3 {
     position: absolute;
-    right: 1450px;
-    top: 550px;
-    /*top:650px;*/
-    /*right: 350px;*/
+    /*right: 1450px;*/
+    /*top: 550px;*/
+    top:650px;
+    right: 1150px;
 }
 .footer7-image4 {
     position: absolute;
-    right: 1450px;
-    top:500px;
-    /*top:650px;*/
-    /*right: 300px;*/
+    /*right: 1450px;*/
+    /*top:500px;*/
+    top:650px;
+    right: 1100px;
 }
 .footer7-image5 {
     position: absolute;
-    right: 1450px;
-    top: 450px;
-    /*top:650px;*/
-    /*right: 250px;*/
+    /*right: 1450px;*/
+    /*top: 450px;*/
+    top:650px;
+    right: 1050px;
 }
 .footer7-image6 {
     position: absolute;
-    right: 1450px;
-    top: 400px;
-    /*top:650px;*/
-    /*right: 200px;*/
+    /*right: 1450px;*/
+    /*top: 400px;*/
+    top:650px;
+    right:1000px;
 }
 
 
