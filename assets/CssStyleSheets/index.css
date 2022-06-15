@@ -2,9 +2,9 @@
     color: black;
 }
 .body {
-    background-color: #313135;
-    /*background-color:#333333;*/
-    background-image: url("../pictures/bac3.jpg");
+    /*background-color: #313135;*/
+    background-color:#000514;
+    /*background-image: url("../pictures/bac3.jpg");*/
     /*background-image: url("../images/wall5.jpg");*/
     background-size: cover;
 }
@@ -39,6 +39,7 @@
 }
 .topnav a.active {
     background-color: #0085FF;
+    /*background-color: #000313;*/
     color: white;
 }
 .header-nav-h4 {
@@ -716,7 +717,7 @@ dd:hover {
     color: #e5e5e5;
     font-size: 30px;
     top: 5750px;
-    left:1230px;
+    left:1100px;
 }
 
 .footer7-h3 {
