@@ -4,8 +4,8 @@
 .body {
     background-color: #313135;
     /*background-color:#333333;*/
-    /*background-image: url("../pictures/bac3.jpg");*/
-    background-image: url("../images/wall5.jpg");
+    background-image: url("../pictures/bac3.jpg");
+    /*background-image: url("../images/wall5.jpg");*/
     background-size: cover;
 }
 .img {
