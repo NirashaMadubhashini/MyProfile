@@ -1155,9 +1155,9 @@ button::before {
     font-weight: bold;
     font-size: 22px;
     background: transparent;
-    margin-top: 8px;
+    margin-top: 15px;
     color: white;
-    padding: 7px;
+    padding-top: 1px;
     border-color: #0085FF;
     border-radius: 12px;
 }
