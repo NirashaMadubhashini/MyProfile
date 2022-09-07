@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="966a7a1f-2d7b-4d86-a057-398a3fd7c945" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +50,19 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkArea\MyProfile\assets\files" />
-      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
-      <recent name="D:\WorkArea\MyProfile\assets\images" />
-      <recent name="D:\WorkArea\MyProfile\assets\resources" />
-      <recent name="D:\WorkArea\MyProfile\assets\gif" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkArea\MyProfile\assets\gif" />
       <recent name="D:\WorkArea\MyProfile\assets\images" />
       <recent name="D:\WorkArea\MyProfile" />
       <recent name="D:\WorkArea\MyProfile\assets\pictures" />
       <recent name="D:\WorkArea\MyProfile\myprojects\JS" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkArea\MyProfile\assets\projects" />
+      <recent name="D:\WorkArea\MyProfile\assets\files" />
+      <recent name="D:\WorkArea\MyProfile\assets\pictures" />
+      <recent name="D:\WorkArea\MyProfile\assets\images" />
+      <recent name="D:\WorkArea\MyProfile\assets\resources" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -193,14 +193,7 @@
       <workItem from="1655576402140" duration="1959000" />
       <workItem from="1658575017728" duration="694000" />
       <workItem from="1662543947744" duration="11000" />
-      <workItem from="1662573514721" duration="1032000" />
-    </task>
-    <task id="LOCAL-00180" summary="update assignment">
-      <created>1645342615118</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1645342615119</updated>
+      <workItem from="1662573514721" duration="1353000" />
     </task>
     <task id="LOCAL-00181" summary="update standAlone.css">
       <created>1645557077193</created>
@@ -538,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662574344953</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="update">
+      <created>1662574623132</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1662574623132</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

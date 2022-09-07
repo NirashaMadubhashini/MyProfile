@@ -15,7 +15,6 @@ github = https://github.com/NirashaMadubhashini
 
 githubPages = https://nirashamadubhashini.github.io/MyProfile/
 
-## home page
 <b>#Home<br></b>
 ![Home](assets/projects/index.png)<br>
 <b>#AboutMe<br></b>
